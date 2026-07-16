@@ -4,9 +4,7 @@
 
 Этот Workflow является частью общего жизненного цикла статьи.
 
-См.:
-
-Workflows/Article_Lifecycle.md
+См.: Workflows/Article_Lifecycle.md
 
 Этот документ описывает жизнь статьи после её окончательной публикации в блоге In Profundo.
 
