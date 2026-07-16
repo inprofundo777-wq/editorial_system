@@ -27,6 +27,7 @@ README.md
 07_Development/
 
 08_Archive/
+
 Раскроем подробнее
 01 Constitution
 
@@ -45,6 +46,7 @@ Core Principles.md
 Редко меняются.
 
 02 Architecture
+
 Editorial System.md
 
 Roles.md
