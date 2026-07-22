@@ -29,7 +29,7 @@ Backlog не содержит утверждённых решений.
 
 # Current Backlog
 
-## BL-001
+## BL-001 → Promoted to Development — DEV-001
 
 **Title**
 
