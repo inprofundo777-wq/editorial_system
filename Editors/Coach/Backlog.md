@@ -45,7 +45,7 @@ Observation
 
 ---
 
-## BL-002
+## BL-002 → Promoted to Development — DEV-002
 
 **Title**
 
@@ -61,7 +61,7 @@ Observation
 
 ---
 
-## BL-003
+## BL-003 → Promoted to Development — DEV-003
 
 **Title**
 
@@ -81,7 +81,7 @@ Observation
 
 ---
 
-## BL-004
+## BL-004 → Promoted to Development — DEV-004
 
 **Title**
 
@@ -97,7 +97,7 @@ Observation
 
 ---
 
-## BL-005
+## BL-005 → Keep in Backlog
 
 **Title**
 
@@ -113,7 +113,7 @@ Idea
 
 ---
 
-## BL-006
+## BL-006 → Keep in Backlog
 
 **Title**
 
