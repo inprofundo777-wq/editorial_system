@@ -183,6 +183,10 @@ Backlog не используется для хранения:
 
 Разрешена ограниченная практическая проверка без изменения постоянной архитектуры.
 
+## Implemented
+
+Изменение полностью интегрировано в постоянную документацию и прошло Validation.
+
 ## Rejected
 
 Запись рассмотрена и отклонена.
@@ -225,7 +229,7 @@ Low | Medium | High
 Что ещё необходимо выяснить.
 
 **Status**  
-Observation | Under Review | Keep in Backlog | Promoted to Development | Experiment Approved | Rejected | Archived
+Observation | Under Review | Keep in Backlog | Promoted to Development | Experiment Approved | Implemented | Rejected | Archived
 
 **Related Documents**  
 Связанные документы, роли или записи.
