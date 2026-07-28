@@ -1,9 +1,16 @@
 # Editorial Coach Prompt
 
-> **Document:** Prompt.md  
-> **Role:** Editorial Coach  
-> **Status:** Draft v0.2  
-> **Editorial System:** In Profundo
+# Паспорт
+
+| Поле | Значение |
+|---|---|
+| Документ | Editorial Coach Prompt |
+| Роль | Editorial Coach |
+| Статус | Active |
+| Версия | 0.3 |
+| Тип | Операционный документ роли |
+| Нормативная сила | Подчинён Constitution; определяет модель мышления и постоянные рабочие принципы Coach |
+| Владелец | In Profundo Editorial System |
 
 ---
 
