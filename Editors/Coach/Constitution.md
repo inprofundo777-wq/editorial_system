@@ -108,6 +108,8 @@ Practice
     ↓
 Observation
     ↓
+Pattern
+    ↓
 Backlog
     ↓
 Backlog Review
