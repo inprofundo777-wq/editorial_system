@@ -85,7 +85,7 @@ Editorial Coach
 
 ## `Development.md`
 
-Содержит утверждённые изменения роли, которые ожидают полной интеграции.
+Содержит утверждённые изменения роли от момента передачи из Backlog до завершения Documentation Update и Validation.
 
 ## `SEO_Notes.md`
 
