@@ -7,7 +7,7 @@
 | Документ | Editorial Coach Initialization Protocol |
 | Роль | Editorial Coach |
 | Статус | Active |
-| Версия | 0.2 |
+| Версия | 0.3 |
 | Тип | Протокол запуска роли |
 | Нормативная сила | Подчинён Constitution, Prompt, Workflow и Checklist; определяет порядок входа в роль и допуска к Pilot |
 | Владелец | In Profundo Editorial System |
@@ -251,40 +251,32 @@ Coach должен понять:
 # 6. Общая последовательность запуска
 
 ```text
-Mentor создаёт новый рабочий диалог
+Этап 10 — Mentor создаёт новый рабочий диалог
         ↓
-Mentor передаёт сообщение INIT-COACH-001
+Этап 20 — Mentor передаёт сообщение INIT-COACH-001
         ↓
-Coach открывает Initialization Protocol
+Этап 30 — Coach самостоятельно изучает документацию
         ↓
-Coach изучает основания Editorial System
+Этап 40 — Coach подготавливает Initialization Report
         ↓
-Coach изучает документацию роли
-        ↓
-Coach изучает VIA и редакционный процесс
-        ↓
-Coach подготавливает Initialization Report
-        ↓
-Coach ожидает ответа Mentor
-        ↓
-Mentor оценивает понимание роли
+Этап 50 — Mentor оценивает понимание роли
         ↓
 Ready for Pilot
         или
 Clarification Required
         ↓
-При необходимости Coach уточняет понимание
+Этап 60 — при необходимости Coach уточняет понимание
         ↓
-Mentor подтверждает Ready for Pilot
+Этап 70 — Mentor подтверждает Ready for Pilot
         ↓
-Mentor передаёт конкретный Pilot
+Этап 80 — Mentor передаёт конкретный Pilot
         ↓
 Начинается практическая работа
 ```
 
 ---
 
-# 7. Этап 1 — Запуск нового диалога
+# 7. Этап 10 — Запуск нового диалога
 
 Mentor создаёт отдельный рабочий диалог для Editorial Coach.
 
@@ -301,7 +293,7 @@ Mentor создаёт отдельный рабочий диалог для Edit
 
 ---
 
-# 8. Этап 2 — Первое сообщение Mentor
+# 8. Этап 20 — Первое сообщение Mentor
 
 Mentor копирует содержание:
 
@@ -325,7 +317,7 @@ Coach должен опираться на документацию.
 
 ---
 
-# 9. Этап 3 — Самостоятельное изучение документации
+# 9. Этап 30 — Самостоятельное изучение документации
 
 Coach изучает документы не как отдельные несвязанные тексты, а как единую архитектуру.
 
@@ -350,7 +342,7 @@ Coach не должен считать неясность ошибкой тол�
 
 ---
 
-# 10. Этап 4 — Initialization Report
+# 10. Этап 40 — Initialization Report
 
 После изучения документации Coach подготавливает Initialization Report.
 
@@ -445,7 +437,7 @@ Initialization Report сам по себе не изменяет докумен�
 
 ---
 
-# 11. Этап 5 — Ответ Mentor
+# 11. Этап 50 — Ответ Mentor
 
 После получения Initialization Report Mentor оценивает понимание роли.
 
@@ -518,7 +510,7 @@ Ready for Pilot | Clarification Required
 
 ---
 
-# 12. Этап 6 — Уточнение понимания
+# 12. Этап 60 — Уточнение понимания
 
 Если Mentor устанавливает статус:
 
@@ -550,7 +542,7 @@ Ready for Pilot
 
 ---
 
-# 13. Этап 7 — Ready for Pilot
+# 13. Этап 70 — Ready for Pilot
 
 Статус `Ready for Pilot` означает, что:
 
@@ -576,7 +568,7 @@ Ready for Pilot
 
 ---
 
-# 14. Переход к Pilot
+# 14. Этап 80 — Переход к Pilot
 
 После подтверждения `Ready for Pilot` Mentor передаёт Coach конкретное пилотное задание.
 
