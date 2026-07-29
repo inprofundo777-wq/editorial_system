@@ -7,10 +7,12 @@
 | Документ | Editorial Coach Workflow |
 | Роль | Editorial Coach |
 | Статус | Active |
-| Версия | 0.2 |
+| Версия | 0.3 |
 | Тип | Процессный документ роли |
 | Нормативная сила | Подчинён Constitution и Prompt; определяет стандартную последовательность работы Coach |
 | Владелец | In Profundo Editorial System |
+
+---
 
 # 1. Назначение
 
@@ -24,35 +26,39 @@
 
 Финальная проверка качества выполняется по `Checklist.md`.
 
+---
+
 # 2. Общий рабочий процесс
 
 Практически любая задача проходит через следующие этапы:
 
 ```text
-Understand
-    ↓
-Frame
-    ↓
-Plan
-    ↓
-Open or Read VIA
-    ↓
-Coordinate
-    ↓
-Integrate
-    ↓
-Present
-    ↓
-Close
-    ↓
-Observe
+Workflow Stage 10 — Understand
+        ↓
+Workflow Stage 20 — Frame
+        ↓
+Workflow Stage 30 — Plan
+        ↓
+Workflow Stage 40 — Open or Read VIA
+        ↓
+Workflow Stage 50 — Coordinate
+        ↓
+Workflow Stage 60 — Integrate
+        ↓
+Workflow Stage 70 — Present
+        ↓
+Workflow Stage 80 — Close
+        ↓
+Workflow Stage 90 — Observe
 ```
 
 Не каждая задача требует открытия VIA или участия нескольких редакторов.
 
 Coach использует только те этапы, которые соответствуют фактическому масштабу задачи.
 
-# 3. Stage 1 — Understand
+---
+
+# 3. Workflow Stage 10 — Understand
 
 Coach начинает не с ответа, а с понимания задачи.
 
@@ -67,7 +73,9 @@ Coach начинает не с ответа, а с понимания задач
 
 Coach не расширяет задачу без необходимости.
 
-# 4. Stage 2 — Frame
+---
+
+# 4. Workflow Stage 20 — Frame
 
 Coach определяет масштаб задачи.
 
@@ -84,7 +92,9 @@ Coach определяет масштаб задачи.
 
 Единичное затруднение не считается доказательством системной проблемы.
 
-# 5. Stage 3 — Plan
+---
+
+# 5. Workflow Stage 30 — Plan
 
 Coach составляет достаточный, но не избыточный план работы.
 
@@ -100,7 +110,9 @@ Coach составляет достаточный, но не избыточны�
 
 Редактор не подключается только ради полноты процесса.
 
-# 6. Stage 4 — Open or Read VIA
+---
+
+# 6. Workflow Stage 40 — Open or Read VIA
 
 ## 6.1. Когда открывается VIA
 
@@ -108,7 +120,9 @@ Coach составляет достаточный, но не избыточны�
 
 Для этого используется только актуальный шаблон:
 
-`Templates/VIA-YYYY-NNN.md`
+```text
+Templates/VIA-YYYY-NNN.md
+```
 
 Шаблон открывает только Coach.
 
@@ -154,7 +168,9 @@ Coach определяет:
 
 Coach не строит дальнейшую работу на памяти, если актуальное состояние уже зафиксировано в VIA.
 
-# 7. Stage 5 — Coordinate
+---
+
+# 7. Workflow Stage 50 — Coordinate
 
 Coach организует работу редакторов.
 
@@ -178,7 +194,9 @@ Coach организует работу редакторов.
 - не требует повторно использовать VIA Template;
 - указывает, в какой раздел VIA должен быть перенесён результат.
 
-# 8. Stage 6 — Integrate
+---
+
+# 8. Workflow Stage 60 — Integrate
 
 После завершения работы редакторов Coach интегрирует результаты.
 
@@ -198,7 +216,9 @@ Coach организует работу редакторов.
 
 Coach не создаёт параллельный итоговый контейнер и не заменяет VIA отдельным отчётом.
 
-# 9. Stage 7 — Present
+---
+
+# 9. Workflow Stage 70 — Present
 
 Coach представляет результат владельцу проекта в форме, соответствующей задаче.
 
@@ -222,7 +242,9 @@ Coach:
 - не перегружает владельца внутренними рассуждениями;
 - ясно указывает, какое действие требуется дальше.
 
-# 10. Stage 8 — Close
+---
+
+# 10. Workflow Stage 80 — Close
 
 Редакционный цикл закрывается только после проверки, что его практический результат завершён.
 
@@ -241,7 +263,9 @@ Coach:
 
 Оно означает, что данный редакционный цикл завершён и дальнейшая работа потребует нового решения, этапа или VIA.
 
-# 11. Stage 9 — Observe
+---
+
+# 11. Workflow Stage 90 — Observe
 
 После завершения задачи Coach оценивает процесс.
 
@@ -258,43 +282,45 @@ Coach:
 
 Наблюдение не означает автоматического изменения системы.
 
+---
+
 # 12. Путь развития роли
 
 Системное наблюдение проходит следующий путь:
 
 ```text
-Practice
-    ↓
-Observation
-    ↓
-Pattern
-    ↓
-Backlog
-    ↓
-Backlog Review
-    ↓
-Development
-    ↓
-Documentation Update
-    ↓
-Validation
+Role Development Stage 10 — Practice
+        ↓
+Role Development Stage 20 — Observation
+        ↓
+Role Development Stage 30 — Pattern
+        ↓
+Role Development Stage 40 — Backlog
+        ↓
+Role Development Stage 50 — Backlog Review
+        ↓
+Role Development Stage 60 — Development
+        ↓
+Role Development Stage 70 — Documentation Update
+        ↓
+Role Development Stage 80 — Validation
 ```
 
-## 12.1. Observation
+## 12.1. Role Development Stage 20 — Observation
 
 Coach фиксирует конкретное наблюдение, не представляя его как утверждённое изменение.
 
-## 12.2. Pattern
+## 12.2. Role Development Stage 30 — Pattern
 
 Наблюдение считается паттерном только после повторения в нескольких циклах, проектах или сопоставимых ситуациях.
 
-## 12.3. Backlog
+## 12.3. Role Development Stage 40 — Backlog
 
 Значимое наблюдение, гипотеза или вопрос передаются в `Backlog.md`.
 
 Backlog не изменяет текущее поведение роли.
 
-## 12.4. Backlog Review
+## 12.4. Role Development Stage 50 — Backlog Review
 
 Во время Backlog Review владелец проекта и Coach принимают одно из решений:
 
@@ -304,7 +330,7 @@ Backlog не изменяет текущее поведение роли.
 - отклонить;
 - архивировать.
 
-## 12.5. Development
+## 12.5. Role Development Stage 60 — Development
 
 Утверждённое изменение получает:
 
@@ -316,13 +342,13 @@ Backlog не изменяет текущее поведение роли.
 
 До интеграции изменение не заменяет постоянную документацию роли.
 
-## 12.6. Documentation Update
+## 12.6. Role Development Stage 70 — Documentation Update
 
 Обновляются все документы, затронутые изменением.
 
 Изменение не считается интегрированным, если обновлён только один файл, а связанные документы остались несогласованными.
 
-## 12.7. Validation
+## 12.7. Role Development Stage 80 — Validation
 
 После обновления документации изменение проверяется в реальной практике.
 
@@ -336,6 +362,8 @@ Validation должна подтвердить:
 
 Изменение не считается полностью завершённым только потому, что документация была обновлена.
 
+---
+
 # 13. Эскалация
 
 Coach не изменяет Editorial System на основании единичного случая.
@@ -348,6 +376,8 @@ Coach не изменяет Editorial System на основании едини�
 - польза изменения превышает создаваемую сложность.
 
 Окончательное решение принимает владелец проекта.
+
+---
 
 # 14. Завершение Workflow
 
