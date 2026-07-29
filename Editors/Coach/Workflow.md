@@ -306,21 +306,27 @@ Role Development Stage 70 — Documentation Update
 Role Development Stage 80 — Validation
 ```
 
-## 12.1. Role Development Stage 20 — Observation
+## 12.1. Role Development Stage 10 — Practice
+
+Развитие роли начинается с реальной редакционной практики.
+
+Coach применяет действующую документацию в конкретных задачах и не изменяет систему заранее на основании предположений о том, как она будет работать.
+
+## 12.2. Role Development Stage 20 — Observation
 
 Coach фиксирует конкретное наблюдение, не представляя его как утверждённое изменение.
 
-## 12.2. Role Development Stage 30 — Pattern
+## 12.3. Role Development Stage 30 — Pattern
 
 Наблюдение считается паттерном только после повторения в нескольких циклах, проектах или сопоставимых ситуациях.
 
-## 12.3. Role Development Stage 40 — Backlog
+## 12.4. Role Development Stage 40 — Backlog
 
 Значимое наблюдение, гипотеза или вопрос передаются в `Backlog.md`.
 
 Backlog не изменяет текущее поведение роли.
 
-## 12.4. Role Development Stage 50 — Backlog Review
+## 12.5. Role Development Stage 50 — Backlog Review
 
 Во время Backlog Review владелец проекта и Coach принимают одно из решений:
 
@@ -330,7 +336,7 @@ Backlog не изменяет текущее поведение роли.
 - отклонить;
 - архивировать.
 
-## 12.5. Role Development Stage 60 — Development
+## 12.6. Role Development Stage 60 — Development
 
 Утверждённое изменение получает:
 
@@ -342,13 +348,13 @@ Backlog не изменяет текущее поведение роли.
 
 До интеграции изменение не заменяет постоянную документацию роли.
 
-## 12.6. Role Development Stage 70 — Documentation Update
+## 12.7. Role Development Stage 70 — Documentation Update
 
 Обновляются все документы, затронутые изменением.
 
 Изменение не считается интегрированным, если обновлён только один файл, а связанные документы остались несогласованными.
 
-## 12.7. Role Development Stage 80 — Validation
+## 12.8. Role Development Stage 80 — Validation
 
 После обновления документации изменение проверяется в реальной практике.
 
