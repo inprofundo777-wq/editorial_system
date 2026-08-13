@@ -5,95 +5,140 @@
 | Поле | Значение |
 |---|---|
 | Документ | VIA Template |
-| Название шаблона | VIA-YYYY-NNN — Production Blocks Template |
-| Версия | 1.2 |
-| Статус | Archived |
-| Архивировано | 2026-08-13 |
-| Причина архивирования | Замена рабочей редакцией, проверяющей упрощённый document workflow, минимальные статусы и передачу работы по одной актуальной ссылке |
-| Преемник | `Templates/VIA-YYYY-NNN.md` |
+| Название шаблона | VIA-YYYY-NNN — Simplified Handoff Template |
+| Версия | 1.3-experimental |
+| Статус | Active Experiment |
+| Эксперимент | Pilot-004 |
+| Предыдущая версия | `Templates/Archive/VIA-YYYY-NNN-v1.2.md` |
+| Координация | Editorial Coach |
+
+> **Рабочий принцип:** VIA является одним живым документом материала.
+>
+> Если редактор получает ссылку на VIA, он обязан физически открыть актуальную версию документа по ссылке и работать именно с ней. Версия документа, сохранённая в памяти чата, не заменяет чтение текущего источника.
+
+---
+
+# Карта процесса
+
+| Блок | Шаг | Статус |
+|---|---|:---:|
+| **Formation** | Portfolio → VIA / Editorial Brief | - |
+| **Draft** | Longform Draft | - |
+| **Review** | Independent Reviews | - |
+| | Coach Integrated Review | - |
+| **Revision** | Longform Revision | - |
+| **Final Check** | Required Re-checks | - |
+| **Publication** | Publication Preparation | - |
+| | Publication | - |
+| **Close** | Notion / Portfolio Update | - |
+| **Observation** | Pilot Observation | - |
+
+## Статусы
+
+- `-` — шаг не активирован;
+- `0` — шаг активен; соответствующий редактор или этап может приступать;
+- `+` — шаг завершён.
+
+---
+
+# Правила работы
+
+1. Owner передаёт редактору одну актуальную ссылку на VIA.
+2. Редактор физически открывает документ по ссылке.
+3. Редактор ориентируется по карте процесса и активному статусу `0`.
+4. Редактор читает необходимый вход и выполняет свою задачу.
+5. Результат возвращается цельным Markdown-блоком, готовым к переносу в VIA.
+6. Результаты добавляются по мере работы.
+7. Не создавать заранее пустые секции под конкретных редакторов.
+8. Не добавлять дополнительные статусы без доказанной необходимости.
+9. Если редактор не понимает задачу по ссылке и активному статусу, фиксируется Observation: какой именно информации ему не хватило.
 
 ---
 
 # 1. Formation
 
-## Исходная идея Owner
+Если материал пришёл из закрытого Content Portfolio, стратегический выбор темы не повторяется.
 
-## Ранние редакторские входы
+Coach формирует только достаточный Editorial Brief для запуска Draft.
 
-### Strategy Editor
-
-### SEO Editor
-
-### Reader Board
-
-## Coach — Editorial Brief
+---
 
 # 2. Draft
 
-## Longform Editor — Draft
+Сюда добавляется актуальный Longform Draft.
+
+---
 
 # 3. Review
 
-## Independent Reviews
+Independent Reviews добавляются последовательно по мере получения.
 
-### Literary Editor
+Не создавать заранее разделы под конкретные роли.
 
-### Theology Editor
-
-### Reader Board
-
-### Strategy Editor
-
-### SEO Editor
+После завершения необходимых Reviews Coach добавляет:
 
 ## Coach — Integrated Review
 
-## Решения Owner
+Единый Revision Package для Longform.
+
+---
 
 # 4. Revision
 
-## Longform Editor — Revised Draft
+Сюда добавляется цельный Revised Draft.
+
+---
 
 # 5. Final Check
 
-## Локальные re-check
+Проводятся только необходимые локальные re-check.
 
-## Coach — Final Readiness
+Не повторять полный Review без доказанной необходимости.
 
-## Owner — Final Decision
+---
 
 # 6. Publication
 
-## Final Text
+Добавляются только фактически необходимые элементы, например:
 
-## SEO Package
+- Final Text;
+- SEO Publication Package;
+- Visual;
+- Publication Data;
+- Published Page Check.
 
-## Visual
+Не создавать пустые секции под элементы, которые не используются.
 
-## Publication Data
+---
 
-## Published Page Check
+# 7. Close
 
-## Article Cycle Close
+После публикации фиксируется минимальный пакет закрытия:
 
-# 7. Distribution
+- финальное название;
+- дата публикации;
+- URL;
+- GitHub reference;
+- VIA ID;
+- необходимый Notion / Portfolio Update Package;
+- выявленные новые темы или продолжения.
 
-## Telegram
-
-## Facebook
-
-## Microformats
-
-## Platform Visuals
+---
 
 # 8. Observation
 
-## Что сработало
+Observation отделён от результата материала.
 
-## Где возникла лишняя работа
+Фиксировать прежде всего:
 
-## Дублирование ролей
+- что прошло легко;
+- где Owner пришлось давать дополнительные пояснения;
+- какой информации не хватило редактору;
+- где работа по одной ссылке оказалась достаточной;
+- где использовалась устаревшая версия документа;
+- где возникло дублирование;
+- какие handoff оказались неясными;
+- была ли система `- / 0 / +` достаточной;
+- какие задачи потенциально могут войти в будущую Stage College.
 
-## Неясные передачи
-
-## Вопросы для послепилотного решения
+Observation не изменяет Editorial System автоматически.
