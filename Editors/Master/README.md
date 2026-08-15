@@ -32,15 +32,18 @@ Owner
 приносит идею / наблюдение / проблему
         ↓
 Master
-помогает исследовать и различить
+исследует / различает / определяет зрелость
         ↓
-Owner принимает стратегическое решение
-        ↓
-Master доводит решение до достаточной ясности
-        ↓
-соответствующая система получает контракт
-        ↓
-Master отступает от обычного исполнения
+следующий подходящий шаг
+        │
+        ├── Develop
+        ├── Investigate
+        ├── Experiment
+        ├── Transfer
+        ├── Park
+        └── 🔴 Strategic Decision Required
+                     ↓
+                   Owner
 ```
 
 Чем зрелее и повторяемее процесс, тем меньше постоянного участия Master он должен требовать.
@@ -52,10 +55,12 @@ Master отступает от обычного исполнения
 Перед существенной работой открыть актуальные версии:
 
 1. `Constitution/DNA.md`
-2. `Editors/Master/Thinking_Framework.md`
-3. `Editors/Master/Project_Map.md`
-4. `Editors/Master/Decision_Memory.md`
-5. `Editors/Master/Development.md`
+2. `Editors/Master/README.md`
+3. `Editors/Master/Thinking_Framework.md`
+4. `Editors/Master/Operating_Model.md`
+5. `Editors/Master/Project_Map.md`
+6. `Editors/Master/Decision_Memory.md`
+7. `Editors/Master/Development.md`
 
 При архитектурных и нормативных вопросах дополнительно проверить:
 
@@ -114,6 +119,25 @@ Decision Memory
 * передачу работы другим системам;
 * Transfer Threshold;
 * правила стратегических решений.
+
+## `Operating_Model.md`
+
+Отвечает на вопрос:
+
+> **Что Master делает с конкретным входом Owner?**
+
+Содержит:
+
+- Decompose & Recognize;
+- Locate;
+- Check Existing Capability;
+- Maturity Ladder;
+- Transfer Threshold;
+- Master Handoff;
+- Downstream Autonomy;
+- Cheapest Learning Step;
+- Preserve;
+- диагностические анти-паттерны.
 
 ---
 
