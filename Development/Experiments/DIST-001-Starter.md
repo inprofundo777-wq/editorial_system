@@ -45,7 +45,8 @@ EXP-002
 | Блок | Шаг | Статус |
 |---|---|:---:|
 | **Source** | Published Article accepted as Source | + |
-| **Analysis** | First required Distribution analysis | 0 |
+| **Intake** | Coach Distribution Intake | 0 |
+| **Analysis** | Selected Source Analysis | - |
 | **Integration** | Coach Integration | - |
 | **Tasks** | Channel Tasks | - |
 | **Production** | Channel Outputs | - |
@@ -127,38 +128,50 @@ Closed Portfolio
 
 ## Output Contract активного шага
 
-Первый активный Editor должен вернуть:
+Активный участник текущего шага должен вернуть цельный Markdown-блок.
+
+Для первого шага `Coach Distribution Intake` использовать:
 
 ```markdown
-# [Название фактически выполненного шага]
+# Coach Distribution Intake
 
-## Роль результата
+## Source Assessment
 
-Кратко: какую Distribution-задачу решает результат.
+Кратко определить:
 
-## Анализ
+- какие самостоятельные смысловые входы уже содержит Source;
+- какие Distribution-задачи возникают из материала;
+- какой аналитический вопрос необходимо решить до формирования Channel Tasks.
 
-Только выводы, необходимые для последующего Distribution.
+## Selected Next Function
 
-## Рекомендованный следующий шаг
+```text
+Required function:
+Required Editor:
+Reason:
+Expected result:
+Roles not required at this step:
+```
 
-- какой Editor или функция нужны дальше;
-- почему этот шаг необходим;
-- какой результат от него ожидается.
+Не устанавливать Reader, SEO или Strategy обязательными без функционального основания.
+
+## Assignment
+
+Сформулировать короткое задание следующему Editor, достаточное для работы по этой же ссылке.
 
 ## Feedback Signals
 
 ### Editor-level
 
-- только если обнаружено.
+Только если обнаружено.
 
 ### Content-intelligence
 
-- только если обнаружено новое знание уровня корпуса.
+Только если Source обнаруживает новое знание уровня корпуса.
 
 ### System-level
 
-- только если обнаружен процессный или архитектурный сигнал.
+Только если возник процессный или архитектурный сигнал.
 ```
 
 Этот Output Contract является стартовым условием EXP-002, а не постоянным стандартом.
