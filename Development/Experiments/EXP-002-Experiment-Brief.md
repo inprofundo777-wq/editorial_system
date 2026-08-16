@@ -25,7 +25,8 @@ EXP-002 проверяет, можно ли собрать существующ�
 
 ```text
 Published Article
-→ Source Analysis
+→ Coach Distribution Intake
+→ Selected Source Analysis
 → Coach Integration
 → Channel Tasks
 → Channel Production
@@ -162,7 +163,7 @@ EXP-002 должен показать:
 
 ## H2 — One Link Handoff
 
-Editor может приступить к активному шагу по одной ссылке и статусу `0`.
+Активный участник может приступить к своему шагу по одной ссылке и статусу `0`, без отдельного восстановления контекста Owner.
 
 ## H3 — Coach Ownership
 
