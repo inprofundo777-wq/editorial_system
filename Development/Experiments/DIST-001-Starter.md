@@ -132,7 +132,7 @@ Closed Portfolio
 
 Для первого шага `Coach Distribution Intake` использовать:
 
-```markdown
+````markdown
 # Coach Distribution Intake
 
 ## Source Assessment
@@ -172,7 +172,7 @@ Roles not required at this step:
 ### System-level
 
 Только если возник процессный или архитектурный сигнал.
-```
+````
 
 Этот Output Contract является стартовым условием EXP-002, а не постоянным стандартом.
 
