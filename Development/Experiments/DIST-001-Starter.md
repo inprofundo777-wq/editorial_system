@@ -101,8 +101,8 @@ DIST-001 не должен превращать публикацию каждо�
 | | Facebook Weekly Package | + |
 | | Microformats Package | + |
 | **Publication** | Owner Polish + Publication | 0 |
-| **Observation** | Distribution Observation | - |
-| **Close** | Distribution Close | - |
+| **Observation** | Distribution Observation | 0 |
+| **Close** | Distribution Close | 0 |
 
 ### Статусы
 
