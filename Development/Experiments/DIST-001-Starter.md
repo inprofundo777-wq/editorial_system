@@ -2,7 +2,7 @@
 
 ## Статус
 
-**Experimental / Active**
+**Experimental / CLOSED**
 
 Первый рабочий цикл экспериментальной Distribution-модели In Profundo.
 
@@ -100,9 +100,9 @@ DIST-001 не должен превращать публикацию каждо�
 | **Production** | Telegram Weekly Package | + |
 | | Facebook Weekly Package | + |
 | | Microformats Package | + |
-| **Publication** | Owner Polish + Publication | 0 |
-| **Observation** | Distribution Observation | 0 |
-| **Close** | Distribution Close | 0 |
+| **Publication** | Owner Polish + Publication | + |
+| **Observation** | Distribution Observation | + |
+| **Close** | Distribution Close | + |
 
 ### Статусы
 
@@ -3381,3 +3381,681 @@ Editor Feedback
 
 Microformats Editor должен выбирать не самые короткие тезисы Source, а те различения, которые сохраняют богословскую и человеческую точность даже после отделения от статьи.
 
+# Distribution Observation
+
+## Observation Basis
+
+```text
+Source:
+Труд как место ученичества
+
+Observation date:
+18.08.2026
+
+Completed:
+Coach Distribution Intake
+Reader Distribution Analysis
+SEO Distribution Analysis
+Coach Distribution Brief
+Telegram Weekly Package
+Facebook Weekly Package
+Microformats Package
+
+Owner confirmation:
+Telegram and Facebook packages are prepared.
+Publication proceeds through the normal channel schedule.
+The cycle may move to Observation and Close.
+
+Long-term publication statistics:
+not required for DIST-001 Close
+```
+
+---
+
+## 1. Intelligence Observation
+
+### Reader и SEO дали полезный Analysis
+
+Обе функции помогли уйти от повторения одного общего тезиса:
+
+> работа тоже является частью духовной жизни.
+
+Reader обнаружил разные человеческие ситуации и особенно хорошо зафиксировал риски восприятия:
+
+- нравственное давление;
+- романтизацию труда;
+- оправдание переработки;
+- отрицание потребности в признании;
+- превращение работы в основание человеческой ценности.
+
+SEO добавил человеческий язык, которым читатель может назвать те же напряжения:
+
+```text
+Редакционный язык:
+профессиональная идентичность
+
+Человеческий язык:
+кто я, если потеряю работу?
+```
+
+```text
+Редакционный язык:
+труд как место ученичества
+
+Человеческий язык:
+что общего у моей работы с моей верой?
+```
+
+Этот перевод из внутреннего редакционного языка в язык узнавания оказался полезен для Production.
+
+### Обнаружено существенное дублирование
+
+Reader и SEO независимо пришли почти к одному набору приоритетов:
+
+1. работа, которая не стала призванием;
+2. работа как основание собственной ценности;
+3. непризнанный труд;
+4. ошибка без свидетелей;
+5. понедельник как часть жизни со Христом.
+
+Различие между функциями существовало, но оказалось уже различия в объёме результатов:
+
+```text
+Reader:
+ситуации + читательские риски
+
+SEO:
+язык вопроса + semantic variations
+```
+
+Значительная часть SEO Analysis повторно развернула уже найденные Reader Entries.
+
+### Вывод
+
+```text
+Reader value:
+CONFIRMED
+
+SEO Distribution value:
+CONFIRMED, BUT NEEDS COMPRESSION
+
+Full sequential Reader + SEO analysis:
+PARTIALLY JUSTIFIED
+```
+
+Для следующего цикла не следует автоматически удалять одну из функций по результатам одного Source.
+
+Но следует проверить более компактную модель:
+
+```text
+Reader:
+human situations + perception risks
+
+SEO:
+только новые language signals,
+search formulations
+и duplication risks,
+без повторного анализа тех же ситуаций
+```
+
+---
+
+## 2. Coach Integration Observation
+
+Coach смог объединить Source, Reader и SEO в один Distribution Brief.
+
+Brief:
+
+- удалил часть дублей;
+- выбрал пять приоритетных Entry Points;
+- установил общие границы;
+- сохранил разные функции каналов;
+- позволил Channel Editors приступить без отдельных заданий на каждый пост.
+
+Это поддерживает рабочую гипотезу Coach ownership.
+
+Однако результат не оказался компактным в смысле заявленного эксперимента.
+
+Coach Distribution Brief подробно повторил:
+
+- Reader tensions;
+- SEO formulations;
+- границы каждого Entry;
+- дополнительные объяснения для каждого канала.
+
+Он был функционально достаточным, но существенно длиннее минимального производственного задания.
+
+### Вывод
+
+```text
+Coach integration:
+SUPPORTED
+
+Compact Distribution Brief:
+NOT YET SUPPORTED
+
+Owner integration required:
+NO
+
+Compression opportunity:
+HIGH
+```
+
+Для DIST-002 следует проверить Brief, содержащий только:
+
+```text
+Distribution Goal
+3–5 Priority Entries
+Diversity Requirement
+Shared Boundaries
+one short assignment per channel
+```
+
+Без повторного пересказа всей аналитической истории.
+
+---
+
+## 3. Production Observation
+
+### Telegram
+
+Telegram Editor самостоятельно сформировал недельный пакет из одного Source и одного Distribution Brief.
+
+Пакет:
+
+- использовал разные типы публикаций;
+- не свёл всю неделю к продвижению статьи;
+- сохранил самостоятельность `Вечного Слова`;
+- распределил тему между наблюдением, различением, Писанием и более глубокими публикациями;
+- не потребовал отдельного согласования каждого текста.
+
+Telegram Feedback выявил повторяющийся editor-level вопрос:
+
+> Для разнообразия недостаточно помнить только использованные темы и места Писания; необходимо учитывать недавние композиционные ходы.
+
+Особенно требуют контроля:
+
+- повторяющиеся конструкции `не всякое X`;
+- серии параллельных противопоставлений;
+- несколько последовательных `иногда`;
+- одинаковые финальные вопросы;
+- повторное использование привычных библейских текстов.
+
+Маршрут:
+
+```text
+Editor-level
+→ Telegram Editor Development
+```
+
+Не создавать на основании этого новое обязательное правило Distribution Process.
+
+---
+
+### Facebook
+
+Facebook Editor самостоятельно сформировал недельный пакет и использовал разные функции публикаций:
+
+- узнавание;
+- конкретный case;
+- библейское различение;
+- bridge к статье;
+- молитвенный формат.
+
+Пять Entry Points действительно помогли избежать семи вариантов одного тезиса.
+
+Facebook Feedback подтвердил отдельный editor-level риск:
+
+> Если механически повторять схему `жизненная сцена → стих → вопрос`, разнообразие, созданное на уровне Distribution intelligence, снова теряется на уровне композиции.
+
+Маршрут:
+
+```text
+Editor-level
+→ Facebook Editor Development
+```
+
+---
+
+### Microformats
+
+Microformats Editor самостоятельно определил, какие формы действительно оправданы Source, а от каких лучше отказаться.
+
+Полезным оказался не только произведённый пакет, но и редакционный отбор:
+
+- карта различения;
+- словарь;
+- сравнительные карточки;
+- мини-эссе;
+- Shorts;
+- отказ от искусственных FAQ, PDF и серии цитат.
+
+Главный editor-level signal:
+
+> Если краткая формула становится точной только после длинного списка исключений, она, вероятно, ещё не созрела как Microformat.
+
+Особенно чувствительны краткие формулы о:
+
+- призвании;
+- верности;
+- границах;
+- признании;
+- переработке.
+
+Маршрут:
+
+```text
+Editor-level
+→ Microformats Editor Development
+```
+
+---
+
+## 4. Channel Autonomy
+
+Все три Production Editors смогли работать от одного Coach Distribution Brief.
+
+Не потребовались:
+
+- отдельные документы для каналов;
+- отдельные задания для каждого поста;
+- последовательное согласование каждого Output;
+- повторная интеграция со стороны Owner;
+- обязательное использование Telegram Package как Input для Facebook.
+
+```text
+Telegram autonomy:
+SUPPORTED
+
+Facebook autonomy:
+SUPPORTED
+
+Microformats autonomy:
+SUPPORTED
+
+Package-level production:
+SUPPORTED
+```
+
+Основная производственная единица действительно сместилась:
+
+```text
+от:
+отдельный пост
+
+к:
+недельный Channel Package
+```
+
+Это наиболее сильный положительный результат DIST-001.
+
+---
+
+## 5. One Link / One Live Document
+
+Все результаты были последовательно добавлены в один `DIST-001`.
+
+Одна ссылка позволила каждому участнику увидеть:
+
+- Source;
+- Process Map;
+- завершённые входы;
+- активный шаг;
+- Output Contract;
+- необходимые границы.
+
+Дополнительное восстановление контекста Owner для основных редакционных шагов не потребовалось.
+
+Одновременно к Close документ стал очень большим.
+
+В нём находятся:
+
+- постоянная экспериментальная инструкция;
+- полный Reader Analysis;
+- полный SEO Analysis;
+- подробный Coach Brief;
+- три крупных производственных пакета;
+- история всего цикла.
+
+Это не заблокировало процесс, но снизило обзорность и усложнило поиск актуального участка.
+
+Также большой объём вложенных Markdown-блоков увеличил риск нарушения форматирования при последовательной вставке.
+
+### Вывод
+
+```text
+One-link handoff:
+SUPPORTED
+
+One live document:
+SUPPORTED FOR ONE CYCLE
+
+Document usability at Close:
+PARTIALLY SUPPORTED
+
+Parallel document required:
+NO
+
+Compression required:
+YES
+```
+
+Для следующего цикла следует уменьшать не число ссылок, а объём промежуточных результатов.
+
+---
+
+## 6. Status System
+
+Статусов `- / 0 / +` оказалось достаточно для последовательного Intelligence и Integration.
+
+После Coach Distribution Brief три Production Steps были открыты одновременно:
+
+```text
+Telegram Weekly Package  | 0
+Facebook Weekly Package  | 0
+Microformats Package     | 0
+```
+
+Это не потребовало введения дополнительных типов статуса.
+
+Одновременное открытие Publication, Observation и Close было произведено по прямому Owner decision после подготовки пакетов.
+
+### Вывод
+
+```text
+Minimal status system:
+SUPPORTED
+
+Additional status vocabulary required:
+NO
+```
+
+---
+
+## 7. Owner Load
+
+В основном производственном цикле Owner мог действовать по модели:
+
+```text
+передать одну ссылку
+→ получить цельный блок
+→ добавить его в DIST-001
+→ изменить статус
+→ передать ту же ссылку дальше
+```
+
+Owner не формировал отдельные задания для:
+
+- каждого Telegram-поста;
+- каждого Facebook-поста;
+- каждого Microformat.
+
+Публикация материалов продолжается в обычном ритме платформ и не требует удерживать эксперимент открытым.
+
+При этом сохранялась административная нагрузка:
+
+- вставка очень больших Markdown-блоков;
+- ручное изменение статусов;
+- навигация по длинному документу;
+- финальная шлифовка материалов по мере публикации.
+
+Фактический объём Owner Polish по всей очереди на момент Close ещё не измерен.
+
+### Вывод
+
+```text
+Reduced per-post management:
+SUPPORTED
+
+Reduced document administration:
+PARTIALLY SUPPORTED
+
+Final polish load:
+NOT FULLY MEASURED
+```
+
+---
+
+## 8. Feedback Routing
+
+### Editor-level
+
+```text
+Telegram:
+учёт недавних композиционных ходов
+
+Facebook:
+разнообразие композиции и функций Писания
+
+Microformats:
+не сокращать сложное различение
+до неточного универсального правила
+```
+
+Маршрут:
+
+```text
+→ развитие соответствующих Channel Editors
+```
+
+### Content-intelligence
+
+Source подтвердил содержательный потенциал поля:
+
+```text
+вера
++
+обычный труд
++
+призвание
++
+человеческая ценность
++
+признание
++
+ответственность и границы
+```
+
+Однако DIST-001 не даёт достаточного основания автоматически создавать:
+
+- новую серию;
+- новые Portfolio Items;
+- отдельный кластер;
+- постоянную таксономию Distribution.
+
+Наиболее зрелый кандидат для дальнейшего Strategy review:
+
+> работа, которая не стала призванием.
+
+Маршрут:
+
+```text
+Content-intelligence
+→ Strategy
+→ только при будущей Portfolio необходимости
+```
+
+Minimal Notion Update в рамках Close не требуется.
+
+### System-level
+
+Подтверждены системные сигналы:
+
+1. Один живой документ работоспособен, но без сжатия промежуточных результатов быстро становится тяжёлым.
+2. Reader и SEO дают разную функцию, но полный последовательный Analysis создаёт значительное дублирование.
+3. Coach Integration работает, но сам Brief нуждается в более строгом ограничении объёма.
+4. Пакетное производство снижает поштучную диспетчеризацию.
+5. Публикационный ритм платформ не должен удерживать Distribution Process открытым после подготовки пригодной очереди.
+
+Маршрут:
+
+```text
+System-level
+→ EXP-002 Verdict
+→ Master review after evidence from DIST-002
+```
+
+Один цикл не устанавливает постоянную архитектуру.
+
+---
+
+# DIST-001 Close
+
+**Cycle result:**  
+PARTIAL
+
+`PARTIAL` относится не к качеству подготовленных материалов, а к полноте проверки всех экспериментальных гипотез.
+
+Производственная часть цикла завершена успешно:
+
+- Intelligence выполнен;
+- Distribution Brief сформирован;
+- Telegram Package подготовлен;
+- Facebook Package подготовлен;
+- Microformats Package подготовлен;
+- публикация идёт в обычном ритме платформ.
+
+Часть вопросов остаётся подтверждённой только предварительно:
+
+- фактическое снижение всей нагрузки Owner;
+- объём финальной шлифовки;
+- пригодность той же модели для другого Source;
+- необходимость полного Reader + SEO Analysis в каждом цикле.
+
+## What worked
+
+- Одна ссылка сохранила единый рабочий контекст.
+- Статусов `- / 0 / +` оказалось достаточно.
+- Reader и SEO помогли найти язык узнавания и разные человеческие входы.
+- Coach смог сформировать единый производственный Brief.
+- Telegram, Facebook и Microformats работали автономно.
+- Основной единицей производства стал Channel Package, а не отдельный пост.
+- Owner не потребовалось диспетчеризировать каждый Output.
+- Публикация может продолжаться независимо от закрытия экспериментального документа.
+
+## What created unnecessary work
+
+- Reader и SEO подробно повторили значительную часть одних и тех же Entry Points.
+- Coach Distribution Brief повторно развернул большую часть аналитических результатов.
+- Один живой документ стал слишком длинным для лёгкой навигации.
+- Большие вставки повысили административную и форматную нагрузку.
+- Часть аналитического объёма не была необходима Channel Editors в полном виде.
+
+## Channel Editor Feedback
+
+### Telegram
+
+Хранить наблюдение о повторяемости композиционных ходов и библейских текстов как материал развития Editor.
+
+### Facebook
+
+Развивать разнообразие композиционных моделей и функций Писания; не закреплять одну универсальную схему поста.
+
+### Microformats
+
+Отбирать только те краткие различения, которые сохраняют точность без длинного набора оговорок.
+
+## Content-intelligence Feedback
+
+Сохранить как кандидат для будущего Strategy review:
+
+> работа, которая не стала призванием.
+
+Не создавать новую Portfolio Card автоматически по итогам одного Distribution cycle.
+
+## System Feedback
+
+Для следующего цикла сохранить:
+
+```text
+one Source
+one DIST document
+one link
+minimal statuses
+package-level production
+independent Channel Editors
+```
+
+Проверить на сокращение:
+
+```text
+Reader Analysis
+SEO Analysis
+Coach Distribution Brief
+```
+
+## Recommendation for DIST-002
+
+Провести второй evidence cycle с другим опубликованным Source и проверить:
+
+1. Reader возвращает только сильные человеческие ситуации и риски восприятия.
+2. SEO возвращает только новые языковые и semantic signals, не повторяя Reader Analysis.
+3. Coach Distribution Brief ограничивается компактным производственным блоком.
+4. Channel Editors продолжают самостоятельно определять количество и композицию Outputs.
+5. Один DIST-документ сохраняется, но полный аналитический материал не дублируется на каждом следующем шаге.
+6. Owner отдельно фиксирует только:
+   - потребовались ли дополнительные пояснения;
+   - сколько Outputs потребовали существенной шлифовки;
+   - возникла ли поштучная диспетчеризация.
+7. Distribution закрывается после подготовки пригодной очереди; публикация продолжается по ритму платформ.
+
+---
+
+# EXP-002 Experiment Verdict
+
+```text
+Source distributed:
+YES — channel packages prepared;
+publication continues through normal platform scheduling
+
+One live document:
+PARTIALLY SUPPORTED
+
+One-link handoff:
+SUPPORTED
+
+Coach ownership:
+SUPPORTED
+
+Selective analysis:
+PARTIALLY SUPPORTED
+
+Coach integration:
+SUPPORTED
+
+Channel autonomy:
+SUPPORTED
+
+Minimal status system:
+SUPPORTED
+
+Reduced Owner load:
+PARTIALLY SUPPORTED
+
+Output routing:
+SUPPORTED
+
+System blocker:
+NO
+
+New Distribution Editor required:
+NOT ESTABLISHED
+
+Permanent Template ready:
+NO
+
+Strategic decision required:
+NO
+
+Further evidence required:
+YES — DIST-002
+```
+
+---
+
+Publication queue:
+continues operationally outside the closed experiment
+
+EXP-002:
+FIRST EVIDENCE CYCLE COMPLETE
+```
