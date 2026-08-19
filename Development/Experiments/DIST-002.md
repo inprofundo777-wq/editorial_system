@@ -108,9 +108,9 @@ Reusable Scenario Libraries помогают Channel Editors разнообра�
 | ---------------- | -------------------------- | :----: |
 | **Source**       | Published Article          |    +   |
 | **Intelligence** | Coach Intake               |    +   |
-|                  | Reader Human Entry Pool    |    0   |
-|                  | SEO Language Entry Pool    |    0   |
-| **Integration**  | Coach Navigation Brief     |    -   |
+|                  | Reader Human Entry Pool    |    +   |
+|                  | SEO Language Entry Pool    |    +   |
+| **Integration**  | Coach Navigation Brief     |    0   |
 | **Production**   | Telegram Weekly Package    |    -   |
 |                  | Facebook Weekly Package    |    -   |
 |                  | Microformats Package       |    -   |
