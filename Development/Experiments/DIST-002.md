@@ -111,10 +111,10 @@ Reusable Scenario Libraries помогают Channel Editors разнообра�
 |                  | Reader Human Entry Pool    |    +   |
 |                  | SEO Language Entry Pool    |    +   |
 | **Integration**  | Coach Navigation Brief     |    +   |
-| **Production**   | Telegram Weekly Package    |    0   |
-|                  | Facebook Weekly Package    |    0   |
-|                  | Microformats Package       |    0   |
-| **Quality**      | Coach Quality Gate         |    -   |
+| **Production**   | Telegram Weekly Package    |    +   |
+|                  | Facebook Weekly Package    |    +   |
+|                  | Microformats Package       |    +   |
+| **Quality**      | Coach Quality Gate         |    0   |
 | **Publication**  | Owner Polish + Publication |    -   |
 | **Observation**  | DIST-002 Observation       |    -   |
 | **Close**        | DIST-002 Close             |    -   |
