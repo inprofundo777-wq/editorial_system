@@ -5294,10 +5294,11 @@ VIA: VIA-2026-015
    → VIA-2026-015 CLOSED
 
 2. Покой среди будней
-   → NEXT PORTFOLIO ITEM
+   → PUBLISHED
+   → VIA-2026-016 CLOSED
 
 3. Гостеприимство как образ Царства
-   → QUEUED
+   → NEXT PORTFOLIO ITEM
 
 4. Когда сердце больше не доверяет самому себе
    → QUEUED
