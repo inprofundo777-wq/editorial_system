@@ -116,8 +116,8 @@ Reusable Scenario Libraries помогают Channel Editors разнообра�
 |                  | Microformats Package       |    +   |
 | **Quality**      | Coach Quality Gate         |    +   |
 | **Publication**  | Owner Polish + Publication |    0   |
-| **Observation**  | DIST-002 Observation       |    0   |
-| **Close**        | DIST-002 Close             |    -   |
+| **Observation**  | DIST-002 Observation       |    +   |
+| **Close**        | DIST-002 Close             |    0   |
 
 ### Статусы
 
