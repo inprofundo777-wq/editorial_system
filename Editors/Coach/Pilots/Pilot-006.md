@@ -49,6 +49,7 @@ Full Editor Capability
 → material guardrails + gates
 → Coach Integration
 → Longform freedom inside protected boundaries
+```
 
 Pilot одновременно проверяет progressive decision closure:
 
