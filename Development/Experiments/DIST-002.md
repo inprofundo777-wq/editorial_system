@@ -114,9 +114,9 @@ Reusable Scenario Libraries помогают Channel Editors разнообра�
 | **Production**   | Telegram Weekly Package    |    +   |
 |                  | Facebook Weekly Package    |    +   |
 |                  | Microformats Package       |    +   |
-| **Quality**      | Coach Quality Gate         |    0   |
-| **Publication**  | Owner Polish + Publication |    -   |
-| **Observation**  | DIST-002 Observation       |    -   |
+| **Quality**      | Coach Quality Gate         |    +   |
+| **Publication**  | Owner Polish + Publication |    0   |
+| **Observation**  | DIST-002 Observation       |    0   |
 | **Close**        | DIST-002 Close             |    -   |
 
 ### Статусы
