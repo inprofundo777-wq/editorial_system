@@ -501,6 +501,24 @@ YES / NO
 
 One-link handoff sufficient:
 YES / NO
+
+## Portfolio / Notion Routing
+
+При закрытии VIA Coach обязан подготовить точный Update Package для закрытого Portfolio.
+
+Минимально:
+
+- какой материал опубликован;
+- VIA ID;
+- publication status;
+- какой Portfolio item становится следующим;
+- какие новые связи, состояния или вопросы действительно нужно вернуть в Notion;
+- что не переносить, чтобы не создавать двойной учёт.
+
+Coach не изменяет состав закрытого Portfolio и не проводит новый Candidate Selection.
+
+VIA не получает финальный статус `CLOSED`, пока Update Package не передан Owner.
+
 19. Критерии результата
 SUCCESSFUL
 полный capability использовался без разрастания outputs;
