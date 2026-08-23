@@ -51,7 +51,8 @@ Audience response                 — NOT SUFFICIENTLY MEASURED
 ```
 
 ## 3. What Was Actually Tested
-DIST-001
+
+### DIST-001
 
 Source: опубликованная статья
 Материал: «Труд как место ученичества»
@@ -88,7 +89,7 @@ DIST-001 доказал прежде всего production process.
 
 Он не был полноценным acquisition test.
 
-DIST-002
+### DIST-002
 
 Source: опубликованная статья
 Материал: «Покой среди будней»
