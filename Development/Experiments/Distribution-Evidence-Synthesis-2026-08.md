@@ -48,6 +48,7 @@ Platform-native adaptation        — PROVEN editorially
 External reach                    — NOT YET PROVEN
 Discovery / Acquisition           — NOT YET PROVEN
 Audience response                 — NOT SUFFICIENTLY MEASURED
+```
 
 3. What Was Actually Tested
 DIST-001
