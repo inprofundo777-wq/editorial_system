@@ -50,7 +50,7 @@ Discovery / Acquisition           — NOT YET PROVEN
 Audience response                 — NOT SUFFICIENTLY MEASURED
 ```
 
-3. What Was Actually Tested
+## 3. What Was Actually Tested
 DIST-001
 
 Source: опубликованная статья
@@ -131,8 +131,10 @@ Entry × Scenario logic;
 reusable Scenario Libraries;
 разнообразие композиционных сценариев;
 общий Coach Quality Gate.
-4. Distribution Production Capability
-Telegram
+
+## 4. Distribution Production Capability
+
+### Telegram
 
 Status: PROVEN as production capability
 
@@ -151,7 +153,7 @@ Telegram output не сводился к механическим сокраще
 
 что именно эта форма Telegram Distribution оптимальна для роста аудитории.
 
-Facebook
+### Facebook
 
 Status: PROVEN as production capability
 
@@ -172,7 +174,7 @@ prayer / save format.
 
 что эти формы систематически повышают reach, engagement или acquisition.
 
-Microformats
+### Microformats
 
 Status: PROVEN editorially as selection and adaptation capability
 
@@ -190,13 +192,14 @@ editorial concept
 → final visual / video
 → publication
 → audience response
-5. Platform-native Adaptation
+
+## 5. Platform-native Adaptation
 
 Status: PROVEN editorially
 
 DIST-001 / DIST-002 показывают, что один Source может быть преобразован не только по длине, но и по функции.
 
-Фактически различаются:
+### Фактически различаются:
 
 композиция;
 poster thesis;
@@ -207,13 +210,13 @@ discussion function;
 save/share function;
 сценарий взаимодействия с читателем.
 
-Это достаточно для утверждения:
+### Это достаточно для утверждения:
 
 Platform-native adaptation существует как редакционная capability.
 
 Это не означает автоматически доказанный platform performance.
 
-6. Reach / Discovery / Acquisition
+## 6. Reach / Discovery / Acquisition
 Current Verdict
 Systematic acquisition:
 NOT DEMONSTRATED
@@ -236,7 +239,8 @@ DIST обслужили существующие площадки In Profundo к
 происходит ли повторный контакт;
 возникает ли подписка;
 какой канал способен выполнять acquisition function.
-7. What DIST Does Not Prove
+
+## 7. What DIST Does Not Prove
 
 DIST-001 / DIST-002 не позволяют утверждать:
 
@@ -255,9 +259,10 @@ DIST-001 / DIST-002 не позволяют утверждать:
 Что весь Microformats package был фактически реализован и опубликован.
 Что текущая production model масштабируется без роста Owner load.
 Что Discovery является главным constraint проекта.
-8. Downstream Content Quality
 
-DIST обнаружили реальные локальные risks:
+## 8. Downstream Content Quality
+
+### DIST обнаружили реальные локальные risks:
 
 повторение конструкций;
 повторение композиционных схем;
@@ -269,7 +274,7 @@ risk of Facebook formula repetition;
 technical canonical placeholders;
 недостаточный evidence финальной visual/video implementation.
 
-Эти findings являются:
+### Эти findings являются:
 
 channel/editor learning.
 
@@ -292,7 +297,8 @@ CTA;
 topic;
 platform fit;
 value proposition.
-9. Stable Capability Evidence
+
+## 9. Stable Capability Evidence
 
 После двух DIST можно безопасно сохранить следующие выводы.
 
@@ -303,8 +309,10 @@ Human Entry diversity помогает не превращать Distribution в
 Channel Editors способны работать с существенной автономией.
 Coach может выполнять navigation / boundary function без написания каждого downstream output.
 Editorial diversity и audience performance — разные вопросы.
-10. Channel / Editor Learning
-Telegram
+
+## 10. Channel / Editor Learning
+
+### Telegram
 
 Сохранить как development evidence:
 
@@ -312,7 +320,8 @@ function публикации и композиционный scenario — не 
 Вечное Слово должно сохранять собственную библейскую функцию;
 повторяться могут не только темы, но и способы движения текста;
 недельный пакет нуждается в ритмическом и композиционном разнообразии.
-Facebook
+
+### Facebook
 
 Сохранить как development evidence:
 
@@ -320,7 +329,8 @@ Facebook
 poster thesis / discussion / dialogue / case / bridge / prayer дают реально разные функции;
 biblical text не должен быть декоративным подтверждением соседнего human observation;
 platform-native adaptation требует больше, чем смены длины текста.
-Microformats
+
+### Microformats
 
 Сохранить как development evidence:
 
@@ -328,13 +338,14 @@ Microformats
 если формула становится точной только после длинного списка исключений, она ещё не готова;
 отказ от неподходящего формата является частью editorial capability;
 Microformat selection важнее механического масштабирования каждого Source во все возможные формы.
-11. Content Intelligence Candidates
+
+## 11. Content Intelligence Candidates
 
 Следующие signals не становятся автоматически Topic Cards.
 
 Они должны пройти Strategy filtering при будущем Portfolio Review.
 
-Candidate 1 — Работа, которая не стала призванием
+### Candidate 1 — Работа, которая не стала призванием
 
 DIST-001 обнаружил устойчивый human distinction:
 
@@ -342,7 +353,7 @@ DIST-001 обнаружил устойчивый human distinction:
 
 Возможная самостоятельность темы требует дальнейшего Strategy judgment.
 
-Candidate 2 — Отложенная жизнь
+### Candidate 2 — Отложенная жизнь
 
 Повторяемый человеческий язык:
 
@@ -356,7 +367,7 @@ Potential relevance:
 
 Не создавать отдельную тему автоматически.
 
-Candidate 3 — Покой без эмоционального обещания
+### Candidate 3 — Покой без эмоционального обещания
 
 Возможное distinction:
 
@@ -368,9 +379,10 @@ Candidate 3 — Покой без эмоционального обещания
 выгоранию;
 wellness;
 теме отдыха.
-12. System / Process Signals
 
-DIST дали следующие development signals:
+## 12. System / Process Signals
+
+### DIST дали следующие development signals:
 
 one-link workflow работоспособен;
 live document может становиться тяжёлым;
@@ -384,7 +396,7 @@ Repository Close должен отражать только реально по�
 
 Эти signals не считаются автоматически permanent architectural rules.
 
-13. Distribution System State
+## 13. Distribution System State
 Publication capability            — PROVEN
 Distribution production           — PROVEN
 Platform-native adaptation        — PROVEN editorially
@@ -409,7 +421,8 @@ Channel Editors способны работать без поштучной ин
 Scenario diversity улучшает редакционное разнообразие, но её влияние на audience response неизвестно.
 DIST обслужили существующие площадки, но не подтвердили систематическое привлечение новых релевантных людей.
 Имеющийся evidence не позволяет объяснять низкий reach слабым content-market fit или отказом аудитории от предлагаемой ценности.
-15. What Remains Unknown
+
+## 15. What Remains Unknown
 
 Неизвестно:
 
@@ -420,7 +433,9 @@ DIST обслужили существующие площадки, но не п�
 превращается ли exposure в переход / подписку / повторный контакт;
 насколько production model масштабируется;
 подтверждается ли редакционно наблюдаемое качество поведением аудитории.
-16. Analytical Close
+
+## 16. Analytical Close
+
 DIST-001
 
 Status: analytically closed
@@ -444,7 +459,7 @@ Repository Close завершён отдельно.
 
 Publication всей downstream queue не является необходимым условием для аналитического закрытия production experiment, если она не подтверждена evidence.
 
-17. Final Verdict
+## 17. Final Verdict
 
 Existing Distribution evidence — SYNTHESIZED
 
