@@ -397,6 +397,7 @@ Repository Close должен отражать только реально по�
 Эти signals не считаются автоматически permanent architectural rules.
 
 ## 13. Distribution System State
+
 Publication capability            — PROVEN
 Distribution production           — PROVEN
 Platform-native adaptation        — PROVEN editorially
@@ -413,7 +414,9 @@ output-level reach metrics отсутствуют;
 audience-origin data отсутствует;
 downstream publication evidence неполон;
 reaction data слишком ограничен для external validation.
-14. What We Can Now Safely Say
+
+## 14. What We Can Now Safely Say
+
 In Profundo способен систематически превращать статью в полноценные Telegram, Facebook и Microformats packages.
 Эта способность повторилась на двух разных Source.
 Downstream content адаптируется по функции и форме, а не производится простым сокращением статьи.
