@@ -2048,6 +2048,7 @@ Source недели:
 Channel function
 ≠
 Composition scenario
+```
 
 То есть Telegram Library может описывать что пост делает в ритме канала, а Post Library — как именно он это делает литературно.
 
