@@ -2,7 +2,7 @@
 
 ## Статус
 
-**Experimental / Active**
+**Experimental / Closed**
 
 Второй evidence-cycle Distribution System.
 
@@ -117,7 +117,7 @@ Reusable Scenario Libraries помогают Channel Editors разнообра�
 | **Quality**      | Coach Quality Gate         |    +   |
 | **Publication**  | Owner Polish + Publication |    0   |
 | **Observation**  | DIST-002 Observation       |    +   |
-| **Close**        | DIST-002 Close             |    0   |
+| **Close**        | DIST-002 Close             |    +   |
 
 ### Статусы
 
@@ -2911,3 +2911,39 @@ DIST-002 подтверждает один важный принцип Microform
 
 Microformat должен сохранять одну логику различения, а не просто одну красивую мысль.
 
+---
+
+# DIST-002 Repository Close
+
+**Result:** PARTIAL
+
+`PARTIAL` относится не к качеству произведённых пакетов, а к границе подтверждённого evidence.
+
+## Выполнено
+
+- Coach Intake;
+- Reader Human Entry Pool;
+- SEO Language Entry Pool;
+- Coach Navigation Brief;
+- Telegram Weekly Package;
+- Facebook Weekly Package;
+- Microformats Package;
+- Coach Quality Gate;
+- DIST-002 Observation;
+- Distribution Evidence Synthesis.
+
+## Фактический результат
+
+- **Production capability:** подтверждена на втором Source; статья преобразована в самостоятельные Telegram, Facebook и Microformats packages.
+- **Platform-native adaptation:** подтверждена редакционно; Channel Outputs различаются по функции, композиции и форме, а не являются простыми сокращениями Source.
+- **Publication всей downstream queue:** не подтверждена. `Owner Polish + Publication` остаётся незавершённым шагом без достаточного evidence фактической публикации всей очереди.
+- **Reach / Discovery / Acquisition:** в DIST-002 не проверялись и не подтверждены.
+- **Audience response:** достаточного evidence нет; реакция незнакомой релевантной аудитории не измерена.
+
+## Scope Boundary
+
+Дальнейшие вопросы acquisition и discovery находятся вне scope DIST-002. Закрытие эксперимента не означает, что Distribution reach capability или Discovery / Acquisition capability проекта подтверждены.
+
+## Repository State
+
+`DIST-002` формально закрыт. Подготовленные downstream materials могут использоваться в обычном публикационном ритме, но отсутствие evidence полной публикации не заменяется статусным предположением.
