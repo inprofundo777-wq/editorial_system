@@ -5292,14 +5292,16 @@ VIA: VIA-2026-015
 1. Труд как место ученичества
    → PUBLISHED
    → VIA-2026-015 CLOSED
+   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/trud-kak-mesto-uchenichestva.html`
 
 2. Покой среди будней
    → PUBLISHED
    → VIA-2026-016 CLOSED
+   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/pokoy-sredi-budney.html`
 
-3. Гостеприимство как образ Царства
-   → ACTIVE
-   → VIA-2026-017
+3. → `SCHEDULED: 29.08.2026`  
+   → `VIA-2026-017`  
+   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/gostepriimstvo-kak-obraz-carstva.html`
 
 4. Когда сердце больше не доверяет самому себе
    → NEXT PORTFOLIO ITEM
