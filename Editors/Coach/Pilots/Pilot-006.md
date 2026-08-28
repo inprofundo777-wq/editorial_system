@@ -2,7 +2,20 @@
 
 ## Статус
 
-**Experimental / Ready to Start**
+**Experimental / Observation completed; publication close pending**
+
+**Evidence:** `VIA/2026/VIA-2026-017.md`
+
+**Current result:**
+
+- `Review as Guardrails + Gates — SUPPORTED`;
+- `Full Capability — SUPPORTED`;
+- `Minimal Review Output — NOT YET SUPPORTED`;
+- one-link self-routing — `PARTIAL`.
+
+Pilot Observation завершён.
+
+Фактическое закрытие публикации остаётся отдельным gate после подтверждения публичной доступности статьи.
 
 ## Материал
 
