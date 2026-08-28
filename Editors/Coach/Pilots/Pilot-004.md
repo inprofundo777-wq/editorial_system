@@ -2,7 +2,11 @@
 
 ## Статус
 
-**Planned / Ready to Launch after EXP-001 Portfolio Close**
+**Closed / Production cycle completed**
+
+**Evidence:** `VIA/2026/VIA-2026-015.md`
+
+**Result:** материал «Труд как место ученичества» опубликован; VIA закрыт; one-link handoff и Closed Portfolio как достаточный upstream input подтверждены, снижение Owner load — частично.
 
 Pilot-004 является следующим эксплуатационным экспериментом Editorial System после Pilot-003.
 
