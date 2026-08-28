@@ -2,7 +2,11 @@
 
 ## Статус
 
-**Planned / Ready to Launch**
+**Closed / Production cycle completed**
+
+**Evidence:** `VIA/2026/VIA-2026-016.md`
+
+**Result:** полный capability Editors подтверждён, но минимальность Review output не удержалась последовательно; Pilot Observation завершён.
 
 ## Материал
 
