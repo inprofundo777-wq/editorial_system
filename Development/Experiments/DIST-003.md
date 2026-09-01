@@ -132,7 +132,7 @@ Reader и SEO создают общий навигационный матери�
 | **Source** | Final Text Intake | `+` |
 | **Scope** | Partial-Week Window | `+` |
 | **Intelligence** | Reader Human Entry Pool | `0` |
-|  | SEO Language Entry Pool | `-` |
+|  | SEO Language Entry Pool | `0` |
 | **Integration** | Coach Navigation Brief | `-` |
 | **Production** | Telegram Package — Wednesday to Sunday | `-` |
 |  | Facebook Package — Wednesday to Sunday | `-` |
