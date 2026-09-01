@@ -135,8 +135,8 @@ Reader и SEO создают общий навигационный матери�
 |  | SEO Language Entry Pool | `+` |
 | **Integration** | Coach Navigation Brief | `+` |
 | **Production** | Telegram Package — Wednesday to Sunday | `+` |
-|  | Facebook Package — Wednesday to Sunday | `+` |
-| **Quality** | Cross-Channel Separation + Quality Gate | `0` |
+|  | Facebook Package — Wednesday to Sunday | `0` |
+| **Quality** | Cross-Channel Separation + Quality Gate | `-` |
 | **Publication** | Owner Polish + Publication | `-` |
 | **Observation** | DIST-003 Observation | `-` |
 | **Close** | DIST-003 Close | `-` |
@@ -2383,6 +2383,272 @@ https://inprofundo777.blogspot.com/2026/08/gostepriimstvo-kak-obraz-carstva.html
 
 ---
 
+# Cross-Channel Separation + Quality Gate
 
+## Gate Scope
 
+Проверены:
 
+- Telegram Selection Map;
+- пять Telegram Outputs;
+- Facebook Selection Map;
+- пять Facebook Outputs;
+- Source fidelity;
+- pastoral safety;
+- internal diversity каждого канала;
+- cross-channel semantic separation;
+- canonical connections;
+- использование Рим. 15:7.
+
+Это не новый полный Review и не переписывание Channel Packages.
+
+---
+
+## Gate Results
+
+| Проверка | Результат |
+|---|---|
+| **Source Fidelity** | `PASS` |
+| **Pastoral Safety** | `PASS` |
+| **Telegram Internal Diversity** | `PASS` |
+| **Facebook Internal Diversity** | `PASS` |
+| **Day / Date Markers** | `PASS` |
+| **Canonical Limit** | `PASS` |
+| **Cross-Channel Separation** | `LOCAL CORRECTIONS REQUIRED` |
+
+## Verdict
+
+**`LOCAL CORRECTIONS`**
+
+Оба пакета в целом состоялись.
+
+Telegram и Facebook действительно выбрали разные Entry Maps и не повторяют друг друга как полные недельные траектории.
+
+Однако два Facebook Outputs пересекаются с Telegram сильнее установленной границы.
+
+---
+
+# Finding 1 — Saturday Entry Duplication
+
+## Affected Outputs
+
+### Telegram
+
+`TELEGRAM — ПЯТНИЦА — 04.09.2026`
+
+Primary Entry:
+
+`Обычный стол`
+
+### Telegram
+
+`TELEGRAM — СУББОТА — 05.09.2026`
+
+Primary Entry:
+
+`Когда будет не стыдно пригласить`
+
+### Facebook
+
+`FACEBOOK — СУББОТА — 05.09.2026`
+
+Primary Entry:
+
+`Обычный стол без идеальных условий`
+
+## Problem
+
+Facebook Saturday соединяет две смысловые линии, уже раскрытые Telegram:
+
+- обычный стол;
+- стыд несовершенной жизни;
+- ожидание подходящих условий;
+- дом как витрина;
+- canonical bridge к статье.
+
+В результате Facebook Saturday фактически становится расширенной версией Telegram Friday + Saturday.
+
+Формальная композиция различается, но human question и final movement почти совпадают.
+
+Это нарушает Cross-Channel Separation Standard.
+
+## Required Correction
+
+Facebook Editor должен полностью заменить Saturday Output, выбрав новый Primary Entry:
+
+`А если он не станет близким?`
+
+Предпочтительная функция:
+
+`shareable distinction / relational expectation`
+
+Предпочтительное центральное различение:
+
+> Гостеприимство не гарантирует дружбу, взаимность или дальнейшую близость.  
+> Возможность дать человеку место не становится напрасной только потому, что отношения не получили ожидаемого продолжения.
+
+Сохранить границы:
+
+- не обещать relational outcome;
+- не обвинять второго человека в отсутствии ответа;
+- не представлять гостеприимство как инвестицию в будущую дружбу;
+- не требовать взаимности;
+- не обесценивать краткое или однократное присутствие;
+- не использовать обычный стол, неидеальный дом или стыд за условия как основной образ;
+- не повторять Telegram Friday или Saturday.
+
+Canonical bridge к статье можно сохранить, но он должен появляться через вопрос об ожидаемом результате отношений, а не через тему неидеального дома.
+
+Poster thesis и полный Facebook-текст формулирует Facebook Editor.
+
+---
+
+# Finding 2 — Repeated Biblical Movement
+
+## Affected Outputs
+
+### Telegram
+
+`TELEGRAM — СРЕДА — 02.09.2026`
+
+Primary Entry:
+
+`Христос принял меня до того, как я стал удобным`
+
+### Facebook
+
+`FACEBOOK — ВОСКРЕСЕНЬЕ — 06.09.2026`
+
+Primary Entry:
+
+`Другой человек нарушает привычный порядок`
+
+## Problem
+
+Facebook Sunday начинается с самостоятельного Entry о различиях между людьми, но в финальной части возвращается к тому же движению, которое уже полностью раскрыто Telegram Wednesday:
+
+> другой не обязан быть удобным  
+> → я сам был принят Христом до того, как стал удобным  
+> → поэтому должен дать место другому.
+
+Особенно повторяются формулировки:
+
+- «основанием становится не удобство другого человека»;
+- «Я тоже пришёл к Нему не после того, как стал идеально подходящим»;
+- «другой перестаёт быть обязан сначала стать удобным».
+
+Из-за этого самостоятельный Facebook Entry завершается Telegram-выводом.
+
+## Required Correction
+
+Facebook Sunday сохраняет:
+
+- Primary Entry `Другой человек нарушает привычный порядок`;
+- Рим. 15:7;
+- контекст различий;
+- границу между принятием человека и одобрением всего, что он делает;
+- poster thesis `Принимать легко, пока другой ничего не меняет`.
+
+Необходимо изменить только final movement.
+
+Новый final movement должен удерживать вопрос:
+
+> может ли внутри отношений оставаться место для человека, который не совпадает со мной по темпу, привычкам и взглядам?
+
+Не повторять:
+
+- «Христос принял меня до того, как я стал удобным»;
+- «я пришёл к Нему не идеально подходящим»;
+- формулу о том, что другой сначала должен стать удобным;
+- личное движение Telegram Wednesday.
+
+Предпочтительная граница финала:
+
+> Принятие не стирает различия и не требует объявить всё одинаково правильным. Оно не позволяет сделать полное совпадение условием, без которого другому вообще нет места рядом.
+
+Facebook Editor самостоятельно переписывает только заключительную часть публикации.
+
+---
+
+# Outputs Requiring No Correction
+
+## Telegram
+
+Все пять Telegram Outputs:
+
+- соответствуют выбранным Primary Entries;
+- различаются по функции и композиции;
+- не превращают гостеприимство в обязанность;
+- сохраняют право на ограниченность;
+- используют один canonical bridge;
+- не требуют коррекции.
+
+**Telegram Package:** `READY`
+
+## Facebook
+
+Следующие Outputs готовы без изменений:
+
+- `FACEBOOK — СРЕДА — 02.09.2026`;
+- `FACEBOOK — ЧЕТВЕРГ — 03.09.2026`;
+- `FACEBOOK — ПЯТНИЦА — 04.09.2026`.
+
+**Facebook Wednesday–Friday:** `READY`
+
+Коррекция требуется только для:
+
+- `FACEBOOK — СУББОТА — 05.09.2026`;
+- заключительной части `FACEBOOK — ВОСКРЕСЕНЬЕ — 06.09.2026`.
+
+---
+
+# Correction Handoff
+
+Исполнитель:
+
+**Facebook Editor**
+
+Scope:
+
+- одна полная замена Saturday Output;
+- одна локальная коррекция финала Sunday Output;
+- обновление Facebook Selection Map для субботы;
+- остальные Facebook Outputs не переоткрывать;
+- Telegram Package не изменять;
+- Reader, SEO и Coach Navigation Brief не повторять.
+
+Facebook Editor возвращает одним цельным Markdown-блоком только:
+
+1. обновлённую строку Saturday в `Facebook Selection Map`;
+2. полный новый `FACEBOOK — СУББОТА — 05.09.2026`;
+3. полный скорректированный `FACEBOOK — ВОСКРЕСЕНЬЕ — 06.09.2026`.
+
+После коррекции требуется только повторная проверка двух исправленных Outputs.
+
+---
+
+# Process Map Update
+
+На время коррекции:
+
+- `Telegram Package — Wednesday to Sunday`: остаётся `+`;
+- `Facebook Package — Wednesday to Sunday`: `+ → 0 — LOCAL CORRECTIONS`;
+- `Cross-Channel Separation + Quality Gate`: `0 → - — RE-CHECK PENDING`;
+- `Owner Polish + Publication`: остаётся `-`;
+- `DIST-003 Observation`: остаётся `-`;
+- `DIST-003 Close`: остаётся `-`.
+
+После возвращения исправлений:
+
+- `Facebook Package — Wednesday to Sunday`: `0 → +`;
+- `Cross-Channel Separation + Quality Gate`: `- → 0`.
+
+Полный повтор Quality Gate не требуется.
+
+Проверить только:
+
+1. устранено ли совпадение Saturday;
+2. перестал ли Facebook Sunday повторять biblical movement Telegram Wednesday;
+3. не появились ли новые Source или pastoral risks в исправленных фрагментах.
+
+---
