@@ -135,8 +135,8 @@ Reader и SEO создают общий навигационный матери�
 |  | SEO Language Entry Pool | `+` |
 | **Integration** | Coach Navigation Brief | `+` |
 | **Production** | Telegram Package — Wednesday to Sunday | `+` |
-|  | Facebook Package — Wednesday to Sunday | `0` |
-| **Quality** | Cross-Channel Separation + Quality Gate | `-` |
+|  | Facebook Package — Wednesday to Sunday | `+` |
+| **Quality** | Cross-Channel Separation + Quality Gate | `0` |
 | **Publication** | Owner Polish + Publication | `-` |
 | **Observation** | DIST-003 Observation | `-` |
 | **Close** | DIST-003 Close | `-` |
