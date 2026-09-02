@@ -22,7 +22,7 @@
 
 | Блок | Шаг | Статус |
 |---|---|:---:|
-| **Formation** | Portfolio → VIA / Editorial Brief | - |
+| **Formation** | Portfolio → VIA / Editorial Brief | 0 |
 | **Draft** | Longform Draft | - |
 | **Review** | Independent Reviews | - |
 |  | Coach Integrated Review | - |
