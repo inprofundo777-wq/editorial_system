@@ -25,11 +25,12 @@
 | **Formation** | Portfolio → VIA / Editorial Brief | - |
 | **Draft** | Longform Draft | - |
 | **Review** | Independent Reviews | - |
-| | Coach Integrated Review | - |
+|  | Coach Integrated Review | - |
 | **Revision** | Longform Revision | - |
+| **Finalization** | External Literary Control | - |
 | **Final Check** | Required Re-checks | - |
 | **Publication** | Publication Preparation | - |
-| | Publication | - |
+|  | Publication | - |
 | **Close** | Notion / Portfolio Update | - |
 | **Observation** | Pilot Observation | - |
 
@@ -93,7 +94,47 @@ Independent Reviews добавляются последовательно по �
 
 ---
 
-# 5. Final Check
+# 5. Finalization
+
+После Longform Revision проводится External Literary Control актуального Revised Draft.
+
+Задача этапа:
+
+- проверить литературную цельность после Revision;
+- устранить только оставшиеся локальные литературные дефекты;
+- сохранить утверждённую архитектуру, богословские границы и авторский голос;
+- не проводить новый полный Literary Review;
+- не переоткрывать Portfolio, Editorial Brief и закрытые решения Coach Integration.
+
+Если material literary risk отсутствует, этап возвращает:
+
+`External Literary Control — PASS`
+
+Если необходимы локальные коррекции, Editor указывает только конкретные места и достаточные исправления без полной пересборки текста.
+
+После успешного завершения:
+
+- `External Literary Control`: `0 → +`;
+- `Required Re-checks`: `- → 0`, если Coach назначил re-check;
+- если Required Re-checks не требуются, активируется следующий фактически необходимый Publication step.
+
+Остальные последующие разделы шаблона перенумеровать:
+
+- прежний `# 5. Final Check` → `# 6. Final Check`;
+- прежний `# 6. Publication` → `# 7. Publication`;
+- прежний `# 7. Close` → `# 8. Close`;
+- прежний `# 8. Observation` → `# 9. Observation`.
+
+---
+
+# Correction Result
+
+`External Literary Control` закрепляется как отдельный Stage между Revision и Final Check.
+
+Это исправление не активирует этап заранее и не означает повторного полного Literary Review.
+
+---
+# 6. Final Check
 
 Проводятся только необходимые локальные re-check.
 
@@ -101,7 +142,7 @@ Independent Reviews добавляются последовательно по �
 
 ---
 
-# 6. Publication
+# 7. Publication
 
 Добавляются только фактически необходимые элементы, например:
 
@@ -115,7 +156,7 @@ Independent Reviews добавляются последовательно по �
 
 ---
 
-# 7. Close
+# 8. Close
 
 После публикации фиксируется минимальный пакет закрытия:
 
@@ -129,7 +170,7 @@ Independent Reviews добавляются последовательно по �
 
 ---
 
-# 8. Observation
+# 9. Observation
 
 Observation отделён от результата материала.
 
