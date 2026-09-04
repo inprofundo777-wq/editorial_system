@@ -7,7 +7,7 @@
 | Документ | VIA Template |
 | Название шаблона | VIA-YYYY-NNN — Simplified Handoff Template |
 | Версия | 1.3-experimental |
-| Статус | Active Experiment |
+| Статус | Historical |
 | Эксперимент | Pilot-004 |
 | Предыдущая версия | `Templates/Archive/VIA-YYYY-NNN-v1.2.md` |
 | Координация | Editorial Coach |
