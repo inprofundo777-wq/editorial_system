@@ -97,7 +97,7 @@
 
 # Active Handoffs
 
-## Portfolio → VIA / Editorial Brief — `0`
+## Portfolio → VIA / Editorial Brief
 
 **Исполнитель**
 
