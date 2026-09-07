@@ -7,7 +7,7 @@
 | **Document** | `DIST-004` |
 | **Source VIA** | `VIA-2026-018` |
 | **Source title** | «Когда сердце больше не доверяет самому себе» |
-| **Lifecycle status** | `Active / Source Intake` |
+| **Lifecycle status** | `Active / Intelligence` |
 | **Mode** | Operational Distribution Production |
 | **Validation** | Literary Practice Adjustment + Visual Editor Handoff + GitHub Direct Write |
 | **Channels** | Telegram / Facebook |
@@ -26,8 +26,8 @@
 
 | Блок | Шаг | Статус |
 |---|---|:---:|
-| **Source** | Final Text + SEO + Publication Record | `0 — URL REQUIRED` |
-| **Intelligence** | Reader Human Entry Pool | `-` |
+| **Source** | Final Text + SEO + Publication Record | `+` |
+| **Intelligence** | Reader Human Entry Pool | `0` |
 |  | SEO Language Entry Pool | `-` |
 | **Integration** | Coach Navigation Brief | `-` |
 | **Production** | Telegram Package — Monday to Sunday | `-` |
@@ -63,15 +63,11 @@ Process Map является единственным авторитетным �
 | **Primary Intent** | Как понять, происходит ли духовный рост, если сам человек его не видит? |
 | **Source status** | Final Text + SEO Publication Package complete |
 | **Publication status** | Owner reports `PUBLISHED` |
-| **Canonical URL** | `PENDING OWNER CONFIRMATION` |
+| **Canonical URL** | https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html |
 
-## 🔴 OWNER ACTION — Canonical URL
+## Canonical URL Confirmation — COMPLETED
 
-Добавить точный публичный URL статьи в поле `Canonical URL` и при необходимости в Publication Record `VIA-2026-018`.
-
-Не восстанавливать URL по предполагаемому Blogger slug.
-
-После внесения URL Coach выполняет переход:
+Canonical URL подтверждён Owner и внесён в Source record.
 
 - `Final Text + SEO + Publication Record`: `0 → +`;
 - `Reader Human Entry Pool`: `- → 0`.
@@ -553,21 +549,22 @@ Close фиксирует только подтверждённые production, p
 
 # 20. Active Assignment
 
-## 🔴 OWNER ACTION
-
-Добавить точный canonical URL опубликованной статьи в `# 1. Source Intake` и при необходимости в `VIA-2026-018`.
-
-После этого передать Coach одну актуальную ссылку на `DIST-004`.
+## Current Route
 
 | Поле | Значение |
 |---|---|
-| **Active step** | Source Intake / Canonical URL Confirmation |
-| **First executor** | Owner |
-| **Next executor** | Editorial Coach |
-| **Blocked step** | Reader Human Entry Pool |
-| **Required evidence** | Публичный canonical URL |
+| **Active step** | Reader Human Entry Pool |
+| **Executor** | Reader Editor |
+| **Write mode** | REPLACE COMPLETE SECTION |
+| **Allowed section** | `# 7. Reader Human Entry Pool` |
+| **Status permission** | Own row: `0 → +` |
+| **Next activation** | Editorial Coach activates SEO Language Entry Pool |
 
-После подтверждения URL Coach закрывает Source Intake и активирует Reader Human Entry Pool.
+## One-link Command
+
+> https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
+>
+> Выполни активный шаг `Reader Human Entry Pool`. Перед записью перечитай актуальную версию. Измени только собственный полный раздел и собственную status row.
 
 ---
 
@@ -580,5 +577,20 @@ Close фиксирует только подтверждённые production, p
 | Creation mode | `CREATE NEW FILE` |
 | Owner manual transfer of initial document | `NO` |
 | Canonical URL available in VIA at creation | `NO` |
-| First factual blocker | `Canonical URL confirmation` |
+| First factual blocker | `Canonical URL confirmation — RESOLVED` |
 
+
+
+# GitHub Direct Write Update — Source Intake
+
+| Проверка | Результат |
+|---|---|
+| Canonical URL supplied by Owner | `YES` |
+| Coach updated DIST directly | `YES` |
+| Owner manual Markdown transfer | `NO` |
+| Source Intake | `COMPLETE` |
+| Reader Human Entry Pool | `ACTIVE` |
+
+Canonical URL:
+
+https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
