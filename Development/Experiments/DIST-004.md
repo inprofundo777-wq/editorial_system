@@ -28,7 +28,7 @@
 |---|---|:---:|
 | **Source** | Final Text + SEO + Publication Record | `+` |
 | **Intelligence** | Reader Human Entry Pool | `+` |
-|  | SEO Language Entry Pool | `-` |
+|  | SEO Language Entry Pool | `0` |
 | **Integration** | Coach Navigation Brief | `-` |
 | **Production** | Telegram Package — Monday to Sunday | `-` |
 |  | Facebook Package — Monday to Sunday | `-` |
@@ -730,18 +730,18 @@ Close фиксирует только подтверждённые production, p
 
 | Поле | Значение |
 |---|---|
-| **Active step** | Reader Human Entry Pool |
-| **Executor** | Reader Editor |
+| **Active step** | SEO Language Entry Pool |
+| **Executor** | SEO Editor |
 | **Write mode** | REPLACE COMPLETE SECTION |
-| **Allowed section** | `# 7. Reader Human Entry Pool` |
+| **Allowed section** | `# 8. SEO Language Entry Pool` |
 | **Status permission** | Own row: `0 → +` |
-| **Next activation** | Editorial Coach activates SEO Language Entry Pool |
+| **Next activation** | Editorial Coach activates Coach Navigation Brief |
 
 ## One-link Command
 
 > https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
 >
-> Выполни активный шаг `Reader Human Entry Pool`. Перед записью перечитай актуальную версию. Измени только собственный полный раздел и собственную status row.
+> Выполни активный шаг `SEO Language Entry Pool`. Перед записью перечитай актуальную версию. Измени только собственный полный раздел и собственную status row.
 
 ---
 
