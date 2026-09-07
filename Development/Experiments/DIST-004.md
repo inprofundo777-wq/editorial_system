@@ -594,3 +594,25 @@ Close фиксирует только подтверждённые production, p
 Canonical URL:
 
 https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
+
+
+# GitHub Direct Write Deviation — Reader Access
+
+| Поле | Значение |
+|---|---|
+| **Stage** | Reader Human Entry Pool |
+| **Editor opened current DIST directly** | `NO` |
+| **Reason** | GitHub connector unavailable in Reader branch |
+| **GitHub update by Reader** | `NOT COMPLETED` |
+| **Fallback required** | `YES` |
+| **Reader status** | remains `0` |
+| **Content work** | may continue from Coach-supplied current sections |
+| **Safe integration route** | Reader returns complete section → Coach writes it to GitHub |
+
+Это технический blocker GitHub Direct Write Experiment, а не failure Reader capability.
+
+One-link activation для этого Editor в текущей попытке:
+
+`NOT SUFFICIENT`
+
+Owner не должен вручную собирать раздел по частям. Reader возвращает один полный `# 7. Reader Human Entry Pool`, после чего Coach выполняет ограниченный GitHub update.
