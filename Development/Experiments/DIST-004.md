@@ -7,7 +7,7 @@
 | **Document** | `DIST-004` |
 | **Source VIA** | `VIA-2026-018` |
 | **Source title** | «Когда сердце больше не доверяет самому себе» |
-| **Lifecycle status** | `Active / Quality` |
+| **Lifecycle status** | `Active / Publication` |
 | **Mode** | Operational Distribution Production |
 | **Validation** | Literary Practice Adjustment + Visual Editor Handoff + GitHub Direct Write |
 | **Channels** | Telegram / Facebook |
@@ -32,8 +32,8 @@
 | **Integration** | Coach Navigation Brief | `+` |
 | **Production** | Telegram Package — Monday to Sunday | `+` |
 |  | Facebook Package — Monday to Sunday | `+` |
-| **Quality** | Cross-Channel Separation + Quality Gate | `0` |
-| **Publication** | Owner Polish + Publication | `-` |
+| **Quality** | Cross-Channel Separation + Quality Gate | `+` |
+| **Publication** | Owner Polish + Publication | `0` |
 | **Observation** | DIST-004 Observation | `-` |
 | **Close** | DIST-004 Close | `-` |
 
@@ -755,9 +755,9 @@ Visual boundary:
 
 ## Status
 
-`ACTIVE — LOCAL CORRECTIONS REQUIRED`
+`COMPLETE`
 
-## Gate Summary
+## Final Gate
 
 | Проверка | Результат |
 |---|---|
@@ -765,51 +765,51 @@ Visual boundary:
 | **Pastoral safety** | PASS |
 | **Telegram Internal Diversity** | PASS |
 | **Facebook Internal Diversity** | PASS |
-| **Cross-Channel Separation** | LOCAL DEVIATION |
+| **Cross-Channel Separation** | PASS AFTER LOCAL CORRECTIONS |
 | **Literary Diversity** | PASS |
 | **Biblical Accuracy** | PASS |
 | **Repeated service transitions** | PASS |
-| **Poster Thesis / body / final distinction** | PASS, кроме локального риска повторения тезиса в Facebook Monday |
+| **Poster Thesis / body / final distinction** | PASS |
 | **Visual Handoff Readiness** | PASS |
 
-Оба пакета сохраняют главный Source Boundary: отсутствие видимого роста нигде не превращено в доказательство скрытого роста. Возможность реальной остановки и необходимость покаяния сохранены.
+Оба Channel Packages готовы к Owner Polish + Publication.
 
-Material deviation находится не внутри недель каждого канала, а между каналами в одинаковые дни.
+## Material Finding and Resolution
 
-## Required Local Corrections
+Первичная проверка выявила два same-day пересечения:
 
-### FACEBOOK — ПОНЕДЕЛЬНИК — 07.09.2026
+1. Monday начинался в обоих каналах с одного смыслового движения: конкретное падение становилось приговором всей истории.
+2. Wednesday использовал в обоих каналах 1 Ин. 3:20 как центральное библейское движение.
 
-- **Problem:** Primary Entry по существу совпадает с Telegram Monday: конкретное падение становится приговором всей духовной истории.
-- **Additional risk:** Poster Thesis, основное различение и финальная формула несколько раз повторяют один тезис близкими афоризмами.
-- **Required boundary:** выбрать другой Primary Entry из общего Navigation Field и пересобрать весь Monday Output вместе с его строкой Selection Map.
-- **Do not change:** Source Core, остальные Facebook Outputs, Telegram Package.
-- **Re-check scope:** Primary Entry separation; Poster Thesis / body / final distinction; Source Fidelity; pastoral safety.
+Facebook Editor локально пересобрал только Monday и Wednesday.
 
-### FACEBOOK — СРЕДА — 09.09.2026
+### Limited Re-check
 
-- **Problem:** оба канала в среду используют 1 Ин. 3:20 как центральное библейское движение и приходят к одному различению о частичном знании сердца.
-- **Required boundary:** выбрать Entry и literary movement, для которых 1 Ин. 3:20 не является центральной кульминацией; пересобрать весь Wednesday Output вместе с его строкой Selection Map.
-- **Do not change:** Source Core, остальные Facebook Outputs, Telegram Package.
-- **Re-check scope:** same-day biblical separation; Literary Diversity; Source Fidelity; pastoral safety.
+#### Facebook Monday
 
-## Closed Scope
+- новый Primary Entry: увеличение количества замечаемых внутренних реакций;
+- смысловое движение отделено от Telegram Monday;
+- Poster Thesis, основная сцена и финал выполняют разные функции;
+- материал не утверждает, что повышенная внимательность доказывает рост;
+- verdict: `PASS`.
 
-Не переоткрывать:
+#### Facebook Wednesday
 
-- весь Telegram Package;
-- Facebook Tuesday, Thursday, Friday, Saturday и Sunday;
-- Reader и SEO pools;
-- Coach Navigation Brief;
-- визуальные границы уже готовых Facebook Outputs вне Monday и Wednesday.
+- новый Primary Entry: следующий верный шаг без предварительного окончательного диагноза;
+- литературное движение построено вокруг ненаправленного сообщения с извинением;
+- 1 Ин. 3:20 не используется как кульминация;
+- необходимость признания, прощения и помощи сохранена без обещания роста;
+- verdict: `PASS`.
 
-После внесения двух локальных исправлений Facebook Editor сохраняет собственный production status `+` и сообщает Coach. Coach повторно проверяет только указанный re-check scope.
+## Closed Scope Confirmation
 
-## Current Verdict
+Telegram Package и пять остальных Facebook Outputs не переоткрывались. Reader, SEO и Coach Navigation Brief не изменялись.
 
-`LOCAL CORRECTIONS`
+## Final Verdict
 
-Quality Gate остаётся активным до ограниченного re-check.
+`READY`
+
+`Cross-Channel Separation + Quality Gate — COMPLETE`
 
 ---
 
@@ -943,20 +943,19 @@ Close фиксирует только подтверждённые production, p
 
 | Поле | Значение |
 |---|---|
-| **Active step** | Facebook Local Corrections — Monday and Wednesday |
-| **Executor** | Facebook Editor |
-| **Quality verdict** | `LOCAL CORRECTIONS` |
-| **Write mode** | Limited update inside complete `# 12. Facebook Package` section |
-| **Allowed changes** | Monday and Wednesday Selection Map rows + complete Monday and Wednesday Outputs |
-| **Closed scope** | All other Facebook Outputs; complete Telegram Package; Source and Intelligence sections |
-| **Production status** | remains `+` |
-| **Next activation** | Editorial Coach performs limited Quality Gate re-check |
+| **Active step** | Owner Polish + Publication |
+| **Executor** | Owner |
+| **Available packages** | Telegram Monday–Sunday / Facebook Monday–Sunday |
+| **Quality verdict** | `READY` |
+| **Owner actions** | local literary polish; poster production; logo; scheduling; publication |
+| **Status boundary** | фиксировать только фактически опубликованные Outputs |
+| **Next activation** | Editorial Coach activates DIST-004 Observation after publication facts are entered |
 
-## One-link Command
+## Owner Entry
 
 > https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
 >
-> Выполни активный шаг `Facebook Local Corrections — Monday and Wednesday` по findings в `# 15. Cross-Channel Separation + Quality Gate`. Измени только две строки Selection Map и два полных Outputs: Facebook Monday и Facebook Wednesday. Остальной package не переоткрывай. После записи верни ссылку и краткое подтверждение.
+> Используй готовые Telegram и Facebook packages. После публикации сообщи фактически опубликованные дни и каналы. Локальная литературная полировка, создание постеров, добавление логотипа и scheduling остаются в границе Owner.
 
 ---
 
