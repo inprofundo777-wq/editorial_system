@@ -7,7 +7,7 @@
 | **Document** | `DIST-004` |
 | **Source VIA** | `VIA-2026-018` |
 | **Source title** | «Когда сердце больше не доверяет самому себе» |
-| **Lifecycle status** | `Active / Production` |
+| **Lifecycle status** | `Active / Quality` |
 | **Mode** | Operational Distribution Production |
 | **Validation** | Literary Practice Adjustment + Visual Editor Handoff + GitHub Direct Write |
 | **Channels** | Telegram / Facebook |
@@ -32,7 +32,7 @@
 | **Integration** | Coach Navigation Brief | `+` |
 | **Production** | Telegram Package — Monday to Sunday | `+` |
 |  | Facebook Package — Monday to Sunday | `+` |
-| **Quality** | Cross-Channel Separation + Quality Gate | `-` |
+| **Quality** | Cross-Channel Separation + Quality Gate | `0` |
 | **Publication** | Owner Polish + Publication | `-` |
 | **Observation** | DIST-004 Observation | `-` |
 | **Close** | DIST-004 Close | `-` |
@@ -747,22 +747,63 @@ Visual boundary:
 
 `Editorial Coach`
 
-Проверить:
+## Status
 
-- Source Fidelity;
-- pastoral safety;
-- Telegram Internal Diversity;
-- Facebook Internal Diversity;
-- Cross-Channel Separation;
-- Literary Diversity;
-- Biblical Accuracy;
-- отсутствие повторяющихся служебных переходов;
-- различие Poster Thesis, основного движения и финала;
-- Visual Handoff Readiness.
+`ACTIVE — LOCAL CORRECTIONS REQUIRED`
 
-Gate не повторяет Reader и SEO, не проводит полную редактуру и возвращает только material findings.
+## Gate Summary
 
-Normal verdict: `READY`. При локальном риске: `LOCAL CORRECTIONS` с точным Channel / Day, problem, boundary и re-check scope.
+| Проверка | Результат |
+|---|---|
+| **Source Fidelity** | PASS |
+| **Pastoral safety** | PASS |
+| **Telegram Internal Diversity** | PASS |
+| **Facebook Internal Diversity** | PASS |
+| **Cross-Channel Separation** | LOCAL DEVIATION |
+| **Literary Diversity** | PASS |
+| **Biblical Accuracy** | PASS |
+| **Repeated service transitions** | PASS |
+| **Poster Thesis / body / final distinction** | PASS, кроме локального риска повторения тезиса в Facebook Monday |
+| **Visual Handoff Readiness** | PASS |
+
+Оба пакета сохраняют главный Source Boundary: отсутствие видимого роста нигде не превращено в доказательство скрытого роста. Возможность реальной остановки и необходимость покаяния сохранены.
+
+Material deviation находится не внутри недель каждого канала, а между каналами в одинаковые дни.
+
+## Required Local Corrections
+
+### FACEBOOK — ПОНЕДЕЛЬНИК — 07.09.2026
+
+- **Problem:** Primary Entry по существу совпадает с Telegram Monday: конкретное падение становится приговором всей духовной истории.
+- **Additional risk:** Poster Thesis, основное различение и финальная формула несколько раз повторяют один тезис близкими афоризмами.
+- **Required boundary:** выбрать другой Primary Entry из общего Navigation Field и пересобрать весь Monday Output вместе с его строкой Selection Map.
+- **Do not change:** Source Core, остальные Facebook Outputs, Telegram Package.
+- **Re-check scope:** Primary Entry separation; Poster Thesis / body / final distinction; Source Fidelity; pastoral safety.
+
+### FACEBOOK — СРЕДА — 09.09.2026
+
+- **Problem:** оба канала в среду используют 1 Ин. 3:20 как центральное библейское движение и приходят к одному различению о частичном знании сердца.
+- **Required boundary:** выбрать Entry и literary movement, для которых 1 Ин. 3:20 не является центральной кульминацией; пересобрать весь Wednesday Output вместе с его строкой Selection Map.
+- **Do not change:** Source Core, остальные Facebook Outputs, Telegram Package.
+- **Re-check scope:** same-day biblical separation; Literary Diversity; Source Fidelity; pastoral safety.
+
+## Closed Scope
+
+Не переоткрывать:
+
+- весь Telegram Package;
+- Facebook Tuesday, Thursday, Friday, Saturday и Sunday;
+- Reader и SEO pools;
+- Coach Navigation Brief;
+- визуальные границы уже готовых Facebook Outputs вне Monday и Wednesday.
+
+После внесения двух локальных исправлений Facebook Editor сохраняет собственный production status `+` и сообщает Coach. Coach повторно проверяет только указанный re-check scope.
+
+## Current Verdict
+
+`LOCAL CORRECTIONS`
+
+Quality Gate остаётся активным до ограниченного re-check.
 
 ---
 
@@ -896,27 +937,20 @@ Close фиксирует только подтверждённые production, p
 
 | Поле | Значение |
 |---|---|
-| **Active steps** | Telegram Package / Facebook Package |
-| **Executors** | Telegram Editor / Facebook Editor |
-| **Content mode** | Independent parallel production |
-| **GitHub write mode** | Sequential `REPLACE COMPLETE SECTION` |
-| **Allowed sections** | Telegram: `# 11. Telegram Package`; Facebook: `# 12. Facebook Package` |
-| **Status permission** | Each Editor changes only own row: `0 → +` |
-| **Next activation** | Editorial Coach runs Cross-Channel Separation + Quality Gate after both packages are complete |
+| **Active step** | Facebook Local Corrections — Monday and Wednesday |
+| **Executor** | Facebook Editor |
+| **Quality verdict** | `LOCAL CORRECTIONS` |
+| **Write mode** | Limited update inside complete `# 12. Facebook Package` section |
+| **Allowed changes** | Monday and Wednesday Selection Map rows + complete Monday and Wednesday Outputs |
+| **Closed scope** | All other Facebook Outputs; complete Telegram Package; Source and Intelligence sections |
+| **Production status** | remains `+` |
+| **Next activation** | Editorial Coach performs limited Quality Gate re-check |
 
-## One-link Commands
-
-### Telegram Editor
-
-> https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
->
-> Выполни активный шаг `Telegram Package — Monday to Sunday`. Перед записью перечитай актуальную версию. Измени только полный раздел `# 11. Telegram Package` и собственную status row.
-
-### Facebook Editor
+## One-link Command
 
 > https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
 >
-> Выполни активный шаг `Facebook Package — Monday to Sunday`. Перед записью перечитай актуальную версию. Измени только полный раздел `# 12. Facebook Package` и собственную status row.
+> Выполни активный шаг `Facebook Local Corrections — Monday and Wednesday` по findings в `# 15. Cross-Channel Separation + Quality Gate`. Измени только две строки Selection Map и два полных Outputs: Facebook Monday и Facebook Wednesday. Остальной package не переоткрывай. После записи верни ссылку и краткое подтверждение.
 
 ---
 
