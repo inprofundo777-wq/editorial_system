@@ -7,7 +7,7 @@
 | **Document** | `DIST-004` |
 | **Source VIA** | `VIA-2026-018` |
 | **Source title** | «Когда сердце больше не доверяет самому себе» |
-| **Lifecycle status** | `Active / Integration` |
+| **Lifecycle status** | `Active / Production` |
 | **Mode** | Operational Distribution Production |
 | **Validation** | Literary Practice Adjustment + Visual Editor Handoff + GitHub Direct Write |
 | **Channels** | Telegram / Facebook |
@@ -29,9 +29,9 @@
 | **Source** | Final Text + SEO + Publication Record | `+` |
 | **Intelligence** | Reader Human Entry Pool | `+` |
 |  | SEO Language Entry Pool | `+` |
-| **Integration** | Coach Navigation Brief | `0` |
-| **Production** | Telegram Package — Monday to Sunday | `-` |
-|  | Facebook Package — Monday to Sunday | `-` |
+| **Integration** | Coach Navigation Brief | `+` |
+| **Production** | Telegram Package — Monday to Sunday | `0` |
+|  | Facebook Package — Monday to Sunday | `0` |
 | **Quality** | Cross-Channel Separation + Quality Gate | `-` |
 | **Publication** | Owner Polish + Publication | `-` |
 | **Observation** | DIST-004 Observation | `-` |
@@ -576,18 +576,125 @@ Pool образует пять различимых кластеров:
 
 # 9. Coach Navigation Brief
 
-Coach интегрирует Reader и SEO pools без проектирования Channel Outputs.
+## Status
 
-Required output:
+`COMPLETE`
 
-- Navigation Field;
-- Protected Source Core;
-- Channel Independence Boundary;
-- Literary Practice Adjustment;
-- Visual Handoff Boundary;
-- Process Map update.
+Reader Human Entry Pool и SEO Language Entry Pool признаны достаточными для независимой работы Channel Editors.
 
-После завершения Coach активирует Telegram и Facebook параллельно.
+Navigation Brief не является недельным планом, не закрепляет Entries за днями или каналами и не задаёт готовые литературные конструкции.
+
+## Navigation Field
+
+Поле допускает несколько самостоятельных направлений выбора:
+
+| Навигационная территория | Что в ней находится | Что нельзя предполагать заранее |
+|---|---|---|
+| **Повторное падение и вся история** | Момент, когда один эпизод становится доказательством отсутствия любых перемен | Что прошлый рост обязательно был |
+| **Ожидаемая версия себя** | Сравнение с тем, кем человек, по его мнению, уже должен был стать | Что снижение требований решит напряжение |
+| **Надёжность внутреннего отчёта** | Память поражений, усталость от самопроверки, вопрос о границах собственной оценки | Что самооценка всегда ложна или бесполезна |
+| **Обличение и окончательный приговор** | Реальная вина, конкретное покаяние и переход от поступка к тотальному выводу | Что всякое осуждение сердца ошибочно |
+| **Возможное отсутствие движения** | Честное возражение: проблема может быть реальной и длительной | Что незаметный рост обязательно происходит |
+| **Внешний взгляд** | Друг может заметить перемену, подтвердить проблему либо быть недоступен | Что другой человек является последней инстанцией |
+| **Библейское наблюдение** | 1 Ин. 3:20 и полнота Божьего знания; Пс. 138:23–24 и просьба быть исследованным Богом | Что стих служит быстрым успокоением |
+| **Возвращение и основание надежды** | Возможность прийти к Богу без готового диагноза; надежда во Христе | Что обращение ко Христу отменяет покаяние и помощь |
+| **Следующий верный шаг** | Признание, просьба о помощи, молитва, изменение конкретного пути | Что малый шаг доказывает рост или решает проблему |
+
+Channel Editors выбирают из всего поля самостоятельно. SEO language можно использовать как естественный язык вопроса или узнавания, но не как обязательные заголовки и не как keyword set.
+
+## Protected Source Core
+
+Каждый Output обязан сохранять одновременно четыре утверждения:
+
+1. Конкретный грех, повторное падение и реальная остановка не должны смягчаться.
+2. Частичное знание сердца не получает права стать окончательным приговором всей истории человека.
+3. Божье знание полнее человеческого, но не обязано быть более благоприятным текущей самооценке.
+4. Основание надежды перед Богом находится во Христе, а не в убедительности духовного отчёта.
+
+Обязательный отрицательный контроль:
+
+- не обещать скрытый рост;
+- не утверждать, что человек обязательно меняется, если сам этого не видит;
+- не сводить тему к положительной самооценке;
+- не превращать материал в универсальную диагностику обличения и самоосуждения;
+- не делать другого человека судьёй духовного состояния;
+- не использовать Христа как обход конкретного покаяния, последствий или необходимой помощи.
+
+Главный риск цикла:
+
+> подменить ограничение окончательного самоприговора доказательством того, что рост всё-таки есть.
+
+## Channel Independence Boundary
+
+Telegram и Facebook получают одинаковый Source Core и общее Navigation Field, но строят две самостоятельные недели.
+
+До написания каждый Editor составляет собственную Selection Map. Редакторы не согласовывают одинаковую недельную дугу и не делят поле между собой заранее.
+
+На уровне готовых packages должно быть видно различие:
+
+- в Primary Entries;
+- в последовательности функций;
+- в литературном движении;
+- в роли Писания;
+- в типах финала;
+- в способе или отсутствии canonical bridge.
+
+Запрещено превращать один пакет в сокращённую или расширенную версию другого.
+
+Если после последовательной записи второго Channel Package обнаружится совпадение Primary Entry в один день, это не исправляется молча переписыванием чужого раздела. Совпадение передаётся Coach на Cross-Channel Quality Gate.
+
+## Literary Practice Adjustment
+
+Entries являются сырьём, а не формой текста.
+
+Channel Editors не наследуют автоматически:
+
+- названия Entries;
+- формулировку Natural language как заголовок;
+- синтаксис `не X, а Y`;
+- схему «сцена → объяснение → афоризм → оговорка → вывод»;
+- один и тот же переход к Писанию;
+- вопрос как обязательный финал.
+
+Внутри каждого Channel Package должны различаться как минимум:
+
+- способы начала: сцена, реплика, наблюдение над Писанием, прямой вопрос, конкретный поступок, незавершённое напряжение;
+- движения текста: повествование, различение, диалог, внимательное чтение стиха, пастырское разрешение, молитвенное возвращение;
+- финалы: образ, стих, конкретное действие, молитва, открытый вопрос, короткая реплика.
+
+Библейский поворот возникает из конкретного слова, действия или напряжения текста. Формулы «именно здесь», «и вот здесь», «остаётся более тихий вопрос» и близкие служебные переходы не должны заменять это наблюдение.
+
+## Visual Handoff Boundary
+
+Для каждого Facebook Output обязательны:
+
+- `Entry`;
+- `Function`;
+- `Poster thesis`;
+- день и дата.
+
+`Visual opportunity` добавляется только тогда, когда одна короткая установка действительно помогает избежать буквальной иллюстрации. Она не является prompt, не предлагает несколько композиций и не назначает человека центром изображения.
+
+Visual Editor должен получить достаточно смысла из Facebook Output, Poster Thesis и, при необходимости, одной Visual opportunity. Дополнительное объяснение от Coach не является нормальным условием активации.
+
+## Production Activation
+
+Активируются параллельно по содержанию:
+
+- `Telegram Package — Monday to Sunday`;
+- `Facebook Package — Monday to Sunday`.
+
+GitHub-записи в один файл остаются последовательными. Каждый Editor перед записью повторно открывает актуальный DIST и изменяет только собственный полный раздел и собственную status row.
+
+## Coach Completion
+
+- Reader и SEO pools интегрированы без предварительного распределения Entries;
+- Source Core и главный риск защищены;
+- Channel Independence и Literary Practice boundaries переданы;
+- Visual Handoff boundary подтверждена;
+- Telegram и Facebook готовы к независимой активации.
+
+`Coach Navigation Brief — COMPLETE`
 
 ---
 
@@ -889,18 +996,27 @@ Close фиксирует только подтверждённые production, p
 
 | Поле | Значение |
 |---|---|
-| **Active step** | Coach Navigation Brief |
-| **Executor** | Editorial Coach |
-| **Write mode** | REPLACE COMPLETE SECTION + UPDATE ROUTING |
-| **Allowed section** | `# 9. Coach Navigation Brief` + Coach-controlled Process Map / Active Assignment |
-| **Status permission** | Coach row: `0 → +`; activate Telegram and Facebook after completion |
-| **Next activation** | Telegram Package and Facebook Package in parallel |
+| **Active steps** | Telegram Package / Facebook Package |
+| **Executors** | Telegram Editor / Facebook Editor |
+| **Content mode** | Independent parallel production |
+| **GitHub write mode** | Sequential `REPLACE COMPLETE SECTION` |
+| **Allowed sections** | Telegram: `# 11. Telegram Package`; Facebook: `# 12. Facebook Package` |
+| **Status permission** | Each Editor changes only own row: `0 → +` |
+| **Next activation** | Editorial Coach runs Cross-Channel Separation + Quality Gate after both packages are complete |
 
-## One-link Command
+## One-link Commands
+
+### Telegram Editor
 
 > https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
 >
-> Выполни активный шаг `Coach Navigation Brief`. Интегрируй Reader и SEO pools без предварительного распределения Entries между каналами. После завершения активируй Telegram и Facebook packages параллельно.
+> Выполни активный шаг `Telegram Package — Monday to Sunday`. Перед записью перечитай актуальную версию. Измени только полный раздел `# 11. Telegram Package` и собственную status row.
+
+### Facebook Editor
+
+> https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
+>
+> Выполни активный шаг `Facebook Package — Monday to Sunday`. Перед записью перечитай актуальную версию. Измени только полный раздел `# 12. Facebook Package` и собственную status row.
 
 ---
 
