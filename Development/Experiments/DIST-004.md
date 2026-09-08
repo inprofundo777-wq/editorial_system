@@ -7,7 +7,7 @@
 | **Document** | `DIST-004` |
 | **Source VIA** | `VIA-2026-018` |
 | **Source title** | «Когда сердце больше не доверяет самому себе» |
-| **Lifecycle status** | `Active / Intelligence` |
+| **Lifecycle status** | `Active / Integration` |
 | **Mode** | Operational Distribution Production |
 | **Validation** | Literary Practice Adjustment + Visual Editor Handoff + GitHub Direct Write |
 | **Channels** | Telegram / Facebook |
@@ -29,7 +29,7 @@
 | **Source** | Final Text + SEO + Publication Record | `+` |
 | **Intelligence** | Reader Human Entry Pool | `+` |
 |  | SEO Language Entry Pool | `+` |
-| **Integration** | Coach Navigation Brief | `-` |
+| **Integration** | Coach Navigation Brief | `0` |
 | **Production** | Telegram Package — Monday to Sunday | `-` |
 |  | Facebook Package — Monday to Sunday | `-` |
 | **Quality** | Cross-Channel Separation + Quality Gate | `-` |
@@ -889,18 +889,18 @@ Close фиксирует только подтверждённые production, p
 
 | Поле | Значение |
 |---|---|
-| **Active step** | SEO Language Entry Pool |
-| **Executor** | SEO Editor |
-| **Write mode** | REPLACE COMPLETE SECTION |
-| **Allowed section** | `# 8. SEO Language Entry Pool` |
-| **Status permission** | Own row: `0 → +` |
-| **Next activation** | Editorial Coach activates Coach Navigation Brief |
+| **Active step** | Coach Navigation Brief |
+| **Executor** | Editorial Coach |
+| **Write mode** | REPLACE COMPLETE SECTION + UPDATE ROUTING |
+| **Allowed section** | `# 9. Coach Navigation Brief` + Coach-controlled Process Map / Active Assignment |
+| **Status permission** | Coach row: `0 → +`; activate Telegram and Facebook after completion |
+| **Next activation** | Telegram Package and Facebook Package in parallel |
 
 ## One-link Command
 
 > https://github.com/inprofundo777-wq/editorial_system/blob/main/Development/Experiments/DIST-004.md
 >
-> Выполни активный шаг `SEO Language Entry Pool`. Перед записью перечитай актуальную версию. Измени только собственный полный раздел и собственную status row.
+> Выполни активный шаг `Coach Navigation Brief`. Интегрируй Reader и SEO pools без предварительного распределения Entries между каналами. После завершения активируй Telegram и Facebook packages параллельно.
 
 ---
 
