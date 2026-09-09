@@ -5288,32 +5288,45 @@ VIA: VIA-2026-015
 
 ## 25.2. Текущее движение Publication Queue
 
+**Operational update:** `09.09.2026`
+
+Публикации ниже фактически подтверждены Owner; canonical URLs работают.
+
 ```text
 1. Труд как место ученичества
    → PUBLISHED
    → VIA-2026-015 CLOSED
-   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/trud-kak-mesto-uchenichestva.html`
+   → Publication date: 15.08.2026
+   → Canonical URL: https://inprofundo777.blogspot.com/2026/08/trud-kak-mesto-uchenichestva.html
 
 2. Покой среди будней
    → PUBLISHED
    → VIA-2026-016 CLOSED
-   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/pokoy-sredi-budney.html`
+   → Publication date: 22.08.2026
+   → Canonical URL: https://inprofundo777.blogspot.com/2026/08/pokoy-sredi-budney.html
 
-3. → `SCHEDULED: 29.08.2026`  
-   → `VIA-2026-017`  
-   → Canonical URL: `https://inprofundo777.blogspot.com/2026/08/gostepriimstvo-kak-obraz-carstva.html`
+3. Гостеприимство как образ Царства
+   → PUBLISHED
+   → VIA-2026-017 CLOSE IN PROGRESS
+   → Publication date: 29.08.2026
+   → Canonical URL: https://inprofundo777.blogspot.com/2026/08/gostepriimstvo-kak-obraz-carstva.html
 
 4. Когда сердце больше не доверяет самому себе
-   → NEXT PORTFOLIO ITEM
+   → PUBLISHED
+   → VIA-2026-018 CLOSE IN PROGRESS
+   → Owner confirmation: 07.09.2026
+   → Canonical URL: https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
 
 5. Ответственность, которую нельзя делегировать Богу
-   → QUEUED
+   → NEXT PORTFOLIO ITEM
 
 6. После сотого падения
    → QUEUED
 ```
 
-Опубликованная тема считается завершённым Portfolio item и не переносится в активную очередь следующего VIA.
+Опубликованные темы не возвращаются в активную Publication Queue. Незакрытые состояния `VIA-2026-017` и `VIA-2026-018` относятся к документальному Close, а не к доступности публикаций.
+
+Физическая обратная передача всех VIA в Notion выполняется позднее отдельным консолидированным пакетом и не отражается этим operational update.
 
 ---
 
@@ -5628,7 +5641,9 @@ Portfolio status: CLOSED
 First production cycle: COMPLETE
 Evidence: VIA-2026-015
 Published item: Труд как место ученичества
-Physical Notion update: READY FOR MANUAL EXECUTION
+Physical Notion update: DEFERRED TO CONSOLIDATED VIA PACKAGE
+Package scope: HISTORICAL SNAPSHOT AFTER VIA-2026-015
+Current queue authority: section 25.2
 ```
 
 ## 1. Назначение пакета
