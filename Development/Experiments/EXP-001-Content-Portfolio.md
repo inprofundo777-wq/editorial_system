@@ -5318,10 +5318,11 @@ VIA: VIA-2026-015
    → Canonical URL: https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
 
 5. Ответственность, которую нельзя делегировать Богу
-   → NEXT PORTFOLIO ITEM
+   → IN PRODUCTION
+   → VIA-2026-019 ACTIVE
 
 6. После сотого падения
-   → QUEUED
+   → NEXT PORTFOLIO ITEM
 ```
 
 Опубликованные темы не возвращаются в активную Publication Queue. Документальные Close `VIA-2026-017` и `VIA-2026-018` завершены после factual confirmation Owner.
