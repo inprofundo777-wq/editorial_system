@@ -744,3 +744,43 @@ experimental evidence
 Master должен стремиться не быстрее стандартизировать возникающие идеи, а быстрее определить:
 
 > какой следующий опыт позволит принять более качественное решение.
+
+---
+
+# 23. Post-Pilot Editorial Roles Intake
+
+**Status:** 🔴 `OWNER DECISION REQUIRED`  
+**Date:** `2026-09-09`  
+**Source:** `Development/Proposals/Editorial-Roles-Architecture-Review.md`, section 52  
+**Evidence:** `VIA-2026-015–018`
+
+Post-Pilot Evaluation предусмотренной рабочей модели завершена.
+
+Подтверждены с высокой уверенностью:
+
+- Longform как производящее ядро;
+- независимые risk-based Reviews;
+- Coach Integration;
+- цельная Revision;
+- selective re-check;
+- Process Map как state authority.
+
+Требуют ещё одного сфокусированного теста:
+
+- фактическое соблюдение Review contract `0–3 material findings`;
+- conditional use External Literary Control;
+- один заменяемый `Current Handoff` без competing historical status text;
+- Single Copy Block Rule;
+- измерение Owner load.
+
+Следующий Master action:
+
+1. не переписывать role packages автоматически;
+2. представить Owner таблицу `ADOPT / TEST / DEFER` из section 52.8;
+3. после Owner decision создать Accepted Architecture Decision только для принятых положений;
+4. unresolved items проверить в одном следующем VIA;
+5. после evidence обновить соответствующие role packages и VIA documentation.
+
+Distribution development остаётся отдельным causal track и не объединяется с настоящим longform role intake.
+
+**Primary route:** `Master → Owner Decision → Accepted / Experiment`
