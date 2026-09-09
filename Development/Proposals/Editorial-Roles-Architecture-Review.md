@@ -1796,3 +1796,165 @@ Pilot Operation
 → Accepted Architecture Decision, if readiness is confirmed
 
 # EDITORIAL ROLES ARCHITECTURE REVIEW: WORKING MODEL APPROVED FOR PILOT USE
+
+---
+
+# 52. Post-Pilot Evaluation — VIA-2026-015–018
+
+## 52.1. Status
+
+`COMPLETE / READY FOR POST-PILOT OWNER DECISIONS`
+
+Дата фиксации: `2026-09-09`
+
+Evidence base:
+
+- `VIA-2026-015 — Труд как место ученичества`;
+- `VIA-2026-016 — Покой среди будней`;
+- `VIA-2026-017 — Гостеприимство как образ Царства`;
+- `VIA-2026-018 — Когда сердце больше не доверяет самому себе`.
+
+Настоящий блок завершает предусмотренную разделом 50.11 оценку практической модели после нескольких реальных материалов. Он не является Accepted Decision и не изменяет постоянную документацию ролей.
+
+## 52.2. Executive Verdict
+
+Рабочая блоковая модель редакционных ролей подтверждена на уровне основного longform production cycle.
+
+Наиболее устойчивый контур:
+
+```text
+Closed Portfolio Handoff
+→ Coach Editorial Brief
+→ Longform Draft
+→ independent risk-based Reviews
+→ Coach Integration
+→ цельная Revision
+→ selective Final Check
+→ Publication
+→ VIA Close
+```
+
+Перенастройка требуется не на уровне состава всего цикла, а в трёх локальных местах:
+
+1. ограничение Review Output material findings;
+2. условное, а не автоматически обязательное использование External Literary Control;
+3. более ясный текущий handoff без конкурирующих исторических status-текстов.
+
+## 52.3. Evidence Matrix
+
+| Finding | VIA evidence | Convergence | Confidence |
+|---|---|---|---|
+| Longform как производящее ядро | 015–018 | Повторяется во всех циклах | High |
+| Независимые Reviews находят разные material risks | 015–018 | Literary / Theology / Reader различимы | High |
+| Coach Integration полезно сжимает Reviews в единый Revision Package | 015–018 | Особенно ясно в 016–018 | High |
+| Цельная Revision лучше механического внесения замечаний | 015–018 | Повторяется | High |
+| Selective re-check достаточен после ограниченной Revision | 016–018 | Повторяется | High |
+| Review Outputs не удерживают минимальный контракт | 016–017 | Повторяющийся cross-role defect | High |
+| External Literary Control полезен только при ясном локальном scope | 016–018 | 016 — reopening; 017–018 — успешная локальная работа | High |
+| One-link routing не всегда самодостаточен | 017–018 | 017 потребовал Owner clarification; 018 улучшил handoffs, но полная устойчивость не доказана | Medium |
+| Process Map сохраняет state authority | 015–018 | Работает во всех циклах | High |
+| Исторические handoffs создают competing state text | 015, 017, 018 | Повторяющийся системный pattern | High |
+| Single Copy Block Rule устойчиво работает | 017–018 | Техническое правило внедрено, но фактический transfer evidence неполон | Low / Medium |
+| Owner load существенно снижен | 015–018 | Частично поддержано; точных измерений недостаточно | Medium |
+
+## 52.4. Causal Attribution
+
+| Problem | Primary layer | Contributing layer | Status |
+|---|---|---|---|
+| Избыточные Review Outputs | `CROSS-ROLE EFFECT` | Literary / Theology / Reader contracts | `CONFIRMED / NEEDS CONTROLLED TEST` |
+| External Literary переоткрывает закрытые решения | `LITERARY–COACH BOUNDARY` | обязательность позднего этапа | `MIXED / TEST CONDITIONAL USE` |
+| Owner не всегда понимает следующий route по одной ссылке | `COACH / VIA HANDOFF` | отсутствие единого current handoff | `PARTIAL / TEST` |
+| Старые статусы остаются видимыми как будто текущие | `VIA STRUCTURE` | append-only накопление документа | `CONFIRMED / READY FOR OWNER DECISION` |
+| Трудно измерить Owner load | `OBSERVATION DESIGN` | отсутствие короткой factual close-метрики | `UNRESOLVED` |
+
+## 52.5. Preserve
+
+Не ослаблять:
+
+- Longform Editor как производящую роль;
+- независимость Literary, Theology и Reader findings;
+- Coach Integration как отдельную функцию;
+- цельную Revision внутри интегрированных границ;
+- selective re-check вместо автоматического полного Review;
+- один VIA как case file материала;
+- Process Map как единственный state authority;
+- разделение Publication и Distribution;
+- Source fidelity, pastoral safety и theological accuracy.
+
+## 52.6. Do Not Adopt Yet
+
+Пока не внедрять в permanent role documentation:
+
+- обязательный состав всех Reviews для каждого материала;
+- постоянные уровни A / B / C;
+- полную конструкцию Stage Editors;
+- External Literary Control как обязательный этап каждого VIA;
+- жёсткую универсальную квоту длины Review;
+- автоматизированную маршрутизацию;
+- новую систему статусов;
+- вывод о доказанном снижении Owner load.
+
+## 52.7. Minimal Next Test
+
+Следующий подходящий longform VIA должен проверить только три adjustments:
+
+1. Каждый Review возвращает `0–3 material findings`; при отсутствии material risk — одну строку `No material risk detected`.
+2. External Literary Control вызывается только при конкретном литературном signal после Revision; его отсутствие не считается пропущенным обязательным этапом.
+3. Рядом с Process Map существует один заменяемый `Current Handoff`; исторические задания не являются status source и при завершении явно маркируются `Historical / Completed`.
+
+Не добавлять новый календарь, новый status layer или новый полный Review.
+
+## 52.8. Documentation Decision Readiness
+
+| Possible change | Location | Readiness | Recommended decision |
+|---|---|---|---|
+| Longform как производящее ядро | Longform role package | Sufficient evidence | `ADOPT AFTER OWNER DECISION` |
+| Независимые risk-based Reviews | Role architecture | Sufficient evidence | `ADOPT PRINCIPLE` |
+| Coach Integration | Coach role package | Sufficient evidence | `ADOPT PRINCIPLE` |
+| Цельная Revision | Longform / Coach boundary | Sufficient evidence | `ADOPT PRINCIPLE` |
+| Selective re-check | VIA / role workflow | Sufficient evidence | `ADOPT PRINCIPLE` |
+| Review output `0–3 findings` | Review role contracts | Repeated need, unstable execution | `TEST` |
+| Conditional External Literary | Literary / Coach workflow | Mixed evidence | `TEST` |
+| Replaceable Current Handoff | VIA Protocol / Template | Repeated evidence | `TEST THEN ADOPT` |
+| Single Copy Block Rule | Shared output contract | Insufficient transfer evidence | `CONTINUE TEST` |
+| Permanent levels A / B / C | System architecture | Insufficient evidence | `DEFER` |
+| Stage Editors | System architecture | Insufficient evidence | `DEFER` |
+| New status system | VIA | No demonstrated need | `REJECT` |
+
+## 52.9. Role Routing
+
+### Longform
+
+Evidence supports reconstruction of the role package around Draft Creation and Author Revision. Publication Preparation remains a secondary or provisional capability.
+
+### Literary
+
+Evidence supports independent Literary Review. Final Literary Control should remain a candidate conditional mode until the next test distinguishes useful local correction from reopening closed decisions.
+
+### Theology and Reader
+
+Independent expertise is confirmed. The next issue is not capability loss but output compression and compliance with material-findings-only contracts.
+
+### Coach
+
+Coach Integration and decision closure are confirmed strengths. Development focus should move to route clarity, compact Review contracts and explicit current handoff.
+
+### Master / System
+
+Master receives the architecture decision, VIA state-hygiene question and unresolved Owner-load measurement. Distribution role development remains a separate causal track and is not merged into this longform decision.
+
+## 52.10. Required Next Route
+
+```text
+Post-Pilot Evaluation — COMPLETE
+→ Owner selects ADOPT / TEST / DEFER items
+→ create Development/Accepted/Editorial-Roles-Architecture-Decisions.md
+   only for adopted decisions
+→ run one focused VIA test for unresolved items
+→ reconstruct affected role packages
+→ validate documentation in practice
+```
+
+No direct edits to permanent Longform, Literary, Theology, Reader or VIA role documentation are authorized by this analytical block.
+
+# POST-PILOT EDITORIAL ROLES EVALUATION: COMPLETE
