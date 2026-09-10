@@ -119,6 +119,7 @@ Final Analytical Review
 | `RR-2026-004` | Reader Board | Final Analytical Review |
 | `RR-2026-005` | Strategy Editor | Final Analytical Review |
 | `RR-2026-006` | SEO Editor | Final Analytical Review |
+| `RR-2026-007` | Publication Master | Final Analytical Review / Owner Confirmed |
 
 Файлы:
 
@@ -128,6 +129,7 @@ Final Analytical Review
 - [`RR-2026-004-Reader-Board.md`](./RR-2026-004-Reader-Board.md)
 - [`RR-2026-005-Strategy-Editor.md`](./RR-2026-005-Strategy-Editor.md)
 - [`RR-2026-006-SEO-Editor.md`](./RR-2026-006-SEO-Editor.md)
+- [`RR-2026-007-Publication-Master.md`](./RR-2026-007-Publication-Master.md)
 
 ---
 
@@ -277,6 +279,9 @@ RR-2026-005
 
 RR-2026-006
 → SEO Editor
+
+RR-2026-007
+→ Publication Master
 ```
 
 Следующий системный этап:
