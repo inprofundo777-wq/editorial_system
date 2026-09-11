@@ -5324,8 +5324,12 @@ VIA: VIA-2026-015
    → Canonical URL: https://inprofundo777.blogspot.com/2026/09/otvetstvennost-kotoruyu-nelzya-delegirovat-bogu.html
 
 6. После сотого падения
-   → NEXT PORTFOLIO ITEM
+   → IN PRODUCTION
+   → VIA-2026-020 ACTIVE
+   → FINAL ACTIVE ITEM OF CURRENT PORTFOLIO
 ```
+
+Текущая утверждённая Publication Queue полностью активирована: VIA-2026-019 находится в Preliminary Close, VIA-2026-020 открыт по последней теме. После VIA-2026-020 новый Portfolio item не назначен. Reserve не активируется автоматически; продолжение требует отдельного Portfolio / Strategy decision.
 
 Опубликованные темы не возвращаются в активную Publication Queue. Документальные Close `VIA-2026-017` и `VIA-2026-018` завершены после factual confirmation Owner.
 
