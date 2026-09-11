@@ -5333,7 +5333,7 @@ VIA: VIA-2026-015
 
 Опубликованные темы не возвращаются в активную Publication Queue. Документальные Close `VIA-2026-017` и `VIA-2026-018` завершены после factual confirmation Owner.
 
-Физическая обратная передача всех VIA в Notion выполняется позднее отдельным консолидированным пакетом и не отражается этим operational update.
+Историческая синхронизация `VIA-2026-012–019 → Notion Content Intelligence` выполнена отдельным консолидированным проходом. Для `VIA-2026-019` в Notion фиксируется текущее состояние `SCHEDULED`; публикационный факт будет уточнён после публичного выхода. Production history и Process Map в Notion не переносятся.
 
 ---
 
@@ -5428,51 +5428,62 @@ PARTIALLY SUPPORTED IN PRODUCTION
 ### Текущий статус
 
 ```text
-PARTIALLY SUPPORTED
-MANUAL UPDATE TEST STILL REQUIRED
+SUPPORTED BY HISTORICAL SYNCHRONIZATION
+LIVE FEEDBACK TEST REQUIRED
 ```
 
-`VIA-2026-015` сформировал первый конкретный пакет:
+Отдельный консолидированный проход `VIA-2026-012–019 → Notion Content Intelligence` выполнен.
+
+Тест подтвердил рабочую границу:
 
 ```text
-Publication
-→ VIA Close Package
-→ Notion / Portfolio Update Package
+GitHub / VIA
+→ material, evidence, process history
+
+Notion
+→ current substantive understanding
 ```
 
-Пакет содержит:
+В Notion оказались полезны:
 
-- финальное название;
-- дату публикации;
-- URL;
-- VIA ID;
-- GitHub reference;
-- рубричное направление;
-- состояния и жизненные контексты;
-- основной жизненный и поисковый вопрос;
-- сигнал о консолидации близких тем;
-- движение Portfolio Queue.
+- publication identity;
+- Human Question;
+- Actual Function;
+- Corpus Relation;
+- связи с Human States;
+- связи с Rubrics.
 
-Одновременно VIA отделил данные, которые не следует возвращать в Notion:
+Не потребовалось переносить:
 
 - Draft;
 - Reviews;
 - Revision history;
-- SEO Publication Package целиком;
+- Process Map;
+- SEO Publication Package;
 - Blogger HTML;
-- историю статусов;
-- Pilot Observation целиком.
+- Distribution packages;
+- административную хронологию VIA.
 
-Это подтверждает возможность сформировать минимальный feedback package.
+Для `VIA-2026-019` синхронизировано предварительное состояние `SCHEDULED`. Статус `PUBLISHED` и окончательная дата подтверждаются только после фактического выхода статьи.
 
-Однако физическое обновление Notion ещё не проверено. Поэтому пока не подтверждены:
+### Ограничение вывода
 
-- удобство ручного обновления;
-- окончательный минимальный состав полей;
-- постоянная ответственность Strategy или Coach;
-- частота обновлений;
-- отсутствие двойного учёта;
-- возможность автоматизации.
+Исторический batch подтверждает техническую и содержательную возможность selective enrichment, но ещё не доказывает устойчивость естественного feedback loop на каждом новом VIA.
+
+Следующий ограниченный тест проводится в `VIA-2026-020`:
+
+- на Close определить `0–3` material Content Intelligence signals;
+- при отсутствии сигнала завершить `No material content-intelligence signal`;
+- Strategy фильтрует candidate signal до durable knowledge;
+- только durable knowledge получает exact Notion update;
+- новый workflow, база или обязательный большой отчёт не создаются.
+
+### Решение
+
+- новая архитектура Notion feedback не требуется;
+- ретроспективное обогащение всех Topic Cards не запускается;
+- Development Horizon остаётся отдельным возможным Strategy process;
+- H6 считается поддержанным историческим тестом и открытым для live validation.
 
 ---
 
