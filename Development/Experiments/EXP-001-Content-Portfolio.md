@@ -5318,8 +5318,10 @@ VIA: VIA-2026-015
    → Canonical URL: https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
 
 5. Ответственность, которую нельзя делегировать Богу
-   → IN PRODUCTION
-   → VIA-2026-019 ACTIVE
+   → SCHEDULED
+   → VIA-2026-019 PRELIMINARY CLOSE
+   → Scheduled publication: 12.09.2026, 10:00
+   → Canonical URL: https://inprofundo777.blogspot.com/2026/09/otvetstvennost-kotoruyu-nelzya-delegirovat-bogu.html
 
 6. После сотого падения
    → NEXT PORTFOLIO ITEM
