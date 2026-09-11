@@ -30,7 +30,7 @@ Approved publish-ready Source
 → Post-publication Handoff
 ```
 
-Publication System уже полного Editorial System. Она не выбирает тему, не создаёт Draft, не проводит содержательный Review и не утверждает Final Text.
+Publication System уже, чем полный Editorial System. Она не выбирает тему, не создаёт Draft, не проводит содержательный Review и не утверждает Final Text.
 
 ## 3. Когда активировать роль
 
