@@ -24,8 +24,8 @@
 | + | Reader Review | Reader | Читательская оценка |
 | + | SEO Review | SEO | Поисковая оценка |
 | + | Strategy Integration | Strategist | Reviews интегрированы; Queue, Reserve и Cards предложены |
-| ± | Strategy Close | Strategist | Owner confirmation и закрытие Portfolio |
-| 0 | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
+| + | Strategy Close | Strategist | Closed Content Portfolio |
+| ± | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
 
 ---
 
@@ -857,7 +857,7 @@ Far Development Horizon не изменён: оба Review прямо указа
 
 ## Status
 
-`PROPOSED FOR STRATEGY CLOSE — OWNER CONFIRMATION REQUIRED`
+`CLOSED CONTENT PORTFOLIO`
 
 ## Publication Queue
 
@@ -868,7 +868,7 @@ Far Development Horizon не изменён: оба Review прямо указа
 | 03 | Дружба как место духовного формирования | READY FOR VIA FORMATION | ориентировочно +2 недели |
 | 04 | Устойчивость как пространство для другого | READY WITH INTEGRATED BOUNDARY | ориентировочно +3 недели |
 
-Порядок является редакционной очередью, а не жёстким календарём. После Strategy Close Coach запускает темы последовательно, если не возникло material deviation.
+Порядок является закрытой редакционной очередью, а не жёстким календарём. Coach запускает темы последовательно, если не возникло material deviation.
 
 ## Reserve
 
@@ -1006,12 +1006,12 @@ Reserve не активируется автоматически и не вкл�
 
 **Canonical Portfolio:** `Development/Portfolios/Content-Portfolio-2026-02.md`  
 **NEXT item:** Portfolio Card 01 — «Литургия обычного дня»  
-**Activation condition:** только после Owner confirmation и завершения `Strategy Close`  
+**Activation condition:** Portfolio закрыт; Owner может передать эту каноническую ссылку Coach  
 **VIA readiness:** `READY`
 
 **Why NEXT:** Материал обладает наиболее ясной corpus function после `VIA-2026-020`: переводит внимание от повторного падения и самодиагностики к уже данной обычной жизни перед Богом.
 
-**Closed strategic decisions proposed:**
+**Closed strategic decisions:**
 
 - первый материал раскрывает нормальный хороший день, а не ежедневные духовные практики;
 - editorial title может сохранять формулировку «Литургия обычного дня»;
@@ -1041,9 +1041,9 @@ Reserve не активируется автоматически и не вкл�
 
 # 13. Необходимые точечные обновления Notion
 
-## Update package after Strategy Close
+## Selective update package
 
-Обновление выполняется только после Owner confirmation.
+Portfolio закрыт. Этот пакет готов для отдельного точечного обновления Notion; физическая запись в Notion в рамках Strategy Close не выполнялась.
 
 ### Publication Queue
 
