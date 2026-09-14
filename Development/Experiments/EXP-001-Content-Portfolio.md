@@ -5318,9 +5318,10 @@ VIA: VIA-2026-015
    → Canonical URL: https://inprofundo777.blogspot.com/2026/09/kogda-serdtse-bolshe-ne-doveryaet-samomu-sebe.html
 
 5. Ответственность, которую нельзя делегировать Богу
-   → SCHEDULED
-   → VIA-2026-019 PRELIMINARY CLOSE
-   → Scheduled publication: 12.09.2026, 10:00
+   → PUBLISHED
+   → VIA-2026-019 CLOSED
+   → Publication date: 12.09.2026
+   → Owner URL confirmation: 14.09.2026
    → Canonical URL: https://inprofundo777.blogspot.com/2026/09/otvetstvennost-kotoruyu-nelzya-delegirovat-bogu.html
 
 6. После сотого падения
@@ -5329,7 +5330,7 @@ VIA: VIA-2026-015
    → FINAL ACTIVE ITEM OF CURRENT PORTFOLIO
 ```
 
-Текущая утверждённая Publication Queue полностью активирована: VIA-2026-019 находится в Preliminary Close, VIA-2026-020 открыт по последней теме. После VIA-2026-020 новый Portfolio item не назначен. Reserve не активируется автоматически; продолжение требует отдельного Portfolio / Strategy decision.
+Текущая утверждённая Publication Queue полностью активирована: VIA-2026-019 опубликован и закрыт, VIA-2026-020 открыт по последней теме. После VIA-2026-020 новый Portfolio item не назначен. Reserve не активируется автоматически; продолжение требует отдельного Portfolio / Strategy decision.
 
 Опубликованные темы не возвращаются в активную Publication Queue. Документальные Close `VIA-2026-017` и `VIA-2026-018` завершены после factual confirmation Owner.
 
