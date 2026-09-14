@@ -30,6 +30,7 @@
 | + | Far Horizon Integration | Strategist | Reader и CEO Reviews интегрированы |
 | + | Portfolio Close | Strategist | Оба горизонта закрыты в одном Portfolio |
 | ± | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
+| ± | Portfolio Handoff | Owner → Research Lab Director | Передача закрытого Far Development Horizon |
 
 ---
 
