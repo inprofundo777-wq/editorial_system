@@ -29,8 +29,9 @@
 
 ```text
 CURRENT HANDOFF
-STRATEGY DRAFT COMPLETE
-→ READY FOR READER REVIEW
+READER REVIEW COMPLETE
+SEO REVIEW COMPLETE
+→ STRATEGY INTEGRATION ACTIVE
 ```
 
 ---
@@ -611,7 +612,7 @@ Material reader risks находятся не в самом наборе, а в 
 
 ## SEO verdict
 
-\`MATERIAL PORTFOLIO FINDINGS — 5\`
+`MATERIAL PORTFOLIO FINDINGS — 5`
 
 Оценка основана на различимости search intent, естественности языка вопросов, Entry Page potential и риске каннибализации внутри корпуса. Данных внешнего keyword research в Portfolio нет, поэтому выводы относятся к semantic readiness, а не к подтверждённому объёму поискового спроса.
 
@@ -633,8 +634,8 @@ Material reader risks находятся не в самом наборе, а в 
 
 Кандидат имеет Entry Page potential, если развести:
 
-- editorial H1: \`Литургия обычного дня\`;
-- search-facing question: \`Как жить с Богом в обычной повседневной жизни?\`
+- editorial H1: `Литургия обычного дня`;
+- search-facing question: `Как жить с Богом в обычной повседневной жизни?`
 
 **Required integration**
 
@@ -725,7 +726,7 @@ Entry Page potential появится после biblical formation, если б
 
 **Required integration**
 
-Сохранить статус \`MEDIUM — biblical formation required\`. Не создавать SEO promise до выбора центральных евангельских эпизодов и точного предмета наблюдения.
+Сохранить статус `MEDIUM — biblical formation required`. Не создавать SEO promise до выбора центральных евангельских эпизодов и точного предмета наблюдения.
 
 ---
 
@@ -748,21 +749,21 @@ Entry Page potential появится после biblical formation, если б
 
 Различимость возможна только при разных reader promises:
 
-- VIA-2026-019: \`Когда ожидание ясности становится избеганием доступной ответственности?\`
-- новый кандидат: \`Как различать уровни авторитета Писания, совета, обстоятельств и личного впечатления?\`
+- VIA-2026-019: `Когда ожидание ясности становится избеганием доступной ответственности?`
+- новый кандидат: `Как различать уровни авторитета Писания, совета, обстоятельств и личного впечатления?`
 
 Во втором случае центром становится не готовность действовать, а различение источников и границ духовного утверждения «Бог сказал».
 
 **Required integration**
 
-Сохранить \`REQUIRES ADDITIONAL FORMATION\`. До включения в закрытую очередь закрепить самостоятельный Primary Intent и явную cannibalization boundary относительно VIA-2026-019.
+Сохранить `REQUIRES ADDITIONAL FORMATION`. До включения в закрытую очередь закрепить самостоятельный Primary Intent и явную cannibalization boundary относительно VIA-2026-019.
 
 ### SEO conclusion
 
 - Все семь кандидатов могут оставаться в Review pool.
-- Material SEO evidence для изменения \`Far Development Horizon\` отсутствует.
+- Material SEO evidence для изменения `Far Development Horizon` отсутствует.
 - Альтернативная Publication Queue не формировалась.
-- \`Радость, которую не нужно оправдывать\` и \`Дружба как место духовного формирования\` не дали material SEO finding на текущей стадии: их основные intent различимы, а дальнейшая SEO-конкретизация может происходить внутри VIA.
+- `Радость, которую не нужно оправдывать` и `Дружба как место духовного формирования` не дали material SEO finding на текущей стадии: их основные intent различимы, а дальнейшая SEO-конкретизация может происходить внутри VIA.
 - Следующий процессный шаг: Strategy Integration.
 
 ---
@@ -820,7 +821,7 @@ Entry Page potential появится после biblical formation, если б
 
 Используй этот документ как единственную точку входа.
 
-Интегрируй независимые \`Reader Review\` и \`SEO Review\` в Near Publication Horizon.
+Интегрируй независимые `Reader Review` и `SEO Review` в Near Publication Horizon.
 
 Обязательная работа:
 
@@ -833,19 +834,19 @@ Entry Page potential появится после biblical formation, если б
 7. отдельно назвать исключённые или отложенные кандидаты и причины;
 8. не изменять Far Development Horizon без material evidence;
 9. не выбирать тему исключительно по поисковому потенциалу или авторской симпатии;
-10. подготовить документ к \`Strategy Close\`, но не активировать VIA и не выполнять работу Coach.
+10. подготовить документ к `Strategy Close`, но не активировать VIA и не выполнять работу Coach.
 
 После завершения:
 
-- заполни раздел \`# 10. Strategy Integration\`;
-- сформируй раздел \`# 11. Closed Content Portfolio\` как proposed final Queue, Reserve и Portfolio Cards;
-- подготовь \`# 12. Portfolio → Coach Handoff\`;
-- уточни selective \`# 13. Необходимые точечные обновления Notion\`;
-- измени в карте процесса \`Strategy Integration: ± → +\`, \`Strategy Close: 0 → ±\`;
+- заполни раздел `# 10. Strategy Integration`;
+- сформируй раздел `# 11. Closed Content Portfolio` как proposed final Queue, Reserve и Portfolio Cards;
+- подготовь `# 12. Portfolio → Coach Handoff`;
+- уточни selective `# 13. Необходимые точечные обновления Notion`;
+- измени в карте процесса `Strategy Integration: ± → +`, `Strategy Close: 0 → ±`;
 - не закрывай Portfolio окончательно без Owner confirmation.
 
-\`\`\`text
+```text
 READER REVIEW COMPLETE
 SEO REVIEW COMPLETE
 → STRATEGY INTEGRATION ACTIVE
-\`\`\`
+```
