@@ -20,12 +20,16 @@
 | Статус | Этап | Роль | Результат |
 | --- | --- | --- | --- |
 | + | Предварительный анализ | Strategist | Ближний и дальний горизонты выявлены |
-| + | Strategy Draft | Strategist | Новый Portfolio оформлен |
-| + | Reader Review | Reader | Читательская оценка |
-| + | SEO Review | SEO | Поисковая оценка |
-| + | Strategy Integration | Strategist | Reviews интегрированы; Queue, Reserve и Cards предложены |
-| + | Strategy Close | Strategist | Closed Content Portfolio |
-| ± | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
+| + | Strategy Draft | Strategist | Оба горизонта оформлены |
+| + | Near Horizon — Reader Review | Reader | Читательская оценка ближайших кандидатов |
+| + | Near Horizon — SEO Review | SEO | Поисковая оценка ближайших кандидатов |
+| + | Near Horizon — Strategy Integration | Strategist | Queue, Reserve и Cards сформированы |
+| + | Near Publication Close | Strategist | Ближняя публикационная очередь закрыта |
+| ± | Far Horizon Review | Leader | Оценка дальних территорий и направлений |
+| 0 | Far Horizon Review | CEO | Оценка направления, ресурса и границ |
+| 0 | Far Horizon Integration | Strategist | Интеграция двух Far Horizon Reviews |
+| 0 | Portfolio Close | Strategist | Оба горизонта закрыты в одном Portfolio |
+| 0 | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
 
 ---
 
@@ -853,11 +857,117 @@ Far Development Horizon не изменён: оба Review прямо указа
 
 ---
 
+# 10A. Far Development Horizon Review
+
+## Correction rationale
+
+Far Development Horizon вошёл в Strategy Draft как девять видимых территорий, но последующие задания Reader и SEO были ограничены Near Publication Horizon. Указание «не изменять Far Development Horizon без material evidence» сохранило границу компетенций, однако не заменило самостоятельной проверки дальнего горизонта.
+
+Поэтому:
+
+- Near Publication Horizon не переоткрывается;
+- Reader и SEO Reviews не повторяются;
+- закрытая Near Queue сохраняется;
+- полный Portfolio возвращается в работу только для оценки Far Development Horizon;
+- дальний горизонт проходит перекрёстный review Leader и CEO;
+- Strategist затем интегрирует их выводы и закрывает весь Portfolio.
+
+## Review object
+
+Проверке подлежат все девять территорий раздела `# 6`:
+
+1. продолжающееся действие Христа в Новом Завете;
+2. избрание и неизбрание человека в Библии;
+3. щедрость, stewardship и власть;
+4. от ведомого ученика к способному сопровождать;
+5. лидерство, пасторство, выгорание и уход людей из церкви;
+6. святыня как гарантия Божьей поддержки;
+7. радость, благодарность, плод и полнота обычной жизни;
+8. эмоциональные семена второго и третьего поколения;
+9. Research status в Notion.
+
+## Review boundary
+
+Far Horizon Review должен определить не публикационную последовательность, а качество карты развития:
+
+- соответствует ли территория ДНК и направлению In Profundo;
+- добавляет ли она новое поле, а не повторяет соседнюю территорию;
+- какой тип развития ей естественен: исследование, книга, серия, longform, microformat, системная задача или наблюдение;
+- что уже достаточно сформировано для сохранения;
+- что следует объединить, разделить, переформулировать или исключить;
+- где требуется решение Owner, ресурс или handoff в Research Lab;
+- какие территории заслуживают внимания сейчас, не становясь обязательством реализации.
+
+Не требуется:
+
+- назначать даты;
+- превращать территории в Reserve;
+- формировать альтернативную Near Queue;
+- обещать запуск исследования;
+- создавать Research Request от имени Research Lab;
+- менять Notion.
+
+## Leader Review
+
+`ACTIVE`
+
+Вернуть `0–5 material findings`:
+
+- стратегическая связность карты;
+- соответствие миссии и содержательной идентичности;
+- различимость девяти территорий;
+- возможные объединения или пропуски;
+- переходы между исследованиями, книгами, сериями и форматами;
+- риск распыления или превращения дальнего взгляда в список желаний.
+
+Допустимые рекомендации по каждой затронутой территории:
+
+```text
+RETAIN
+REFRAME
+MERGE
+SPLIT
+MOVE OUT OF FAR HORIZON
+REQUIRES OWNER DECISION
+REQUIRES RESEARCH FORMATION
+```
+
+## CEO Review
+
+`PENDING`
+
+После Leader Review вернуть `0–5 material findings`:
+
+- соответствует ли горизонт направлению развития проекта;
+- какие территории имеют наибольшую долгосрочную ценность;
+- где потенциальная ценность не оправдывает внимание и ресурс;
+- что относится к содержательному горизонту, а что к системной работе;
+- какие решения нельзя принимать без Owner;
+- сохраняет ли карта возможности, не превращая их в скрытые обязательства.
+
+CEO не формирует календарь и не активирует исследования или публикации.
+
+## Far Horizon Integration
+
+`PENDING — Strategist интегрирует Leader и CEO Reviews после их завершения.`
+
+Результат интеграции:
+
+- уточнённая карта Far Development Horizon;
+- сохранённые, объединённые, разделённые или исключённые территории;
+- тип потенциала каждой территории;
+- readiness / next possible step без обязательного срока;
+- отдельные bounded candidates для возможного handoff `Strategist / Owner → Research Lab Director`;
+- Owner decisions required;
+- основание для полного `Portfolio Close`.
+
+---
+
 # 11. Closed Content Portfolio
 
 ## Status
 
-`CLOSED CONTENT PORTFOLIO`
+`NEAR PUBLICATION HORIZON CLOSED — FULL PORTFOLIO ACTIVE`
 
 ## Publication Queue
 
@@ -868,7 +978,7 @@ Far Development Horizon не изменён: оба Review прямо указа
 | 03 | Дружба как место духовного формирования | READY FOR VIA FORMATION | ориентировочно +2 недели |
 | 04 | Устойчивость как пространство для другого | READY WITH INTEGRATED BOUNDARY | ориентировочно +3 недели |
 
-Порядок является закрытой редакционной очередью, а не жёстким календарём. Coach запускает темы последовательно, если не возникло material deviation.
+Порядок является закрытой ближней редакционной очередью, а не жёстким календарём. Far Horizon Review не переоткрывает состав и порядок Near Queue.
 
 ## Reserve
 
@@ -1006,7 +1116,7 @@ Reserve не активируется автоматически и не вкл�
 
 **Canonical Portfolio:** `Development/Portfolios/Content-Portfolio-2026-02.md`  
 **NEXT item:** Portfolio Card 01 — «Литургия обычного дня»  
-**Activation condition:** Portfolio закрыт; Owner может передать эту каноническую ссылку Coach  
+**Activation condition:** после Far Horizon Integration и полного `Portfolio Close`  
 **VIA readiness:** `READY`
 
 **Why NEXT:** Материал обладает наиболее ясной corpus function после `VIA-2026-020`: переводит внимание от повторного падения и самодиагностики к уже данной обычной жизни перед Богом.
@@ -1043,7 +1153,7 @@ Reserve не активируется автоматически и не вкл�
 
 ## Selective update package
 
-Portfolio закрыт. Этот пакет готов для отдельного точечного обновления Notion; физическая запись в Notion в рамках Strategy Close не выполнялась.
+Near Publication Horizon закрыт, но полный Portfolio остаётся активным до завершения Far Horizon Review. Пакет готовится сейчас, а физическая запись в Notion до `Portfolio Close` не выполняется.
 
 ### Publication Queue
 
@@ -1108,4 +1218,5 @@ Portfolio закрыт. Этот пакет готов для отдельног
 6. Новые исследования могут опираться как на самостоятельную работу с Писанием и источниками, так и на критическое чтение исследований других организаций.
 7. Reader и SEO подтвердили ценность независимых Review: совпавшие findings усилили решение, а различающиеся сохранили reader- и search-специфику.
 8. Для фиксации процесса достаточно одной карты с отметками `+ / ± / 0`; динамические поля паспорта и отдельный `Current Handoff` создавали дублирование и были удалены.
-9. Наблюдения этого цикла не изменяют архитектуру автоматически.
+9. Первый review-маршрут фактически проверил только Near Publication Horizon. Наличие Far Horizon в документе не равнозначно его независимой проверке; поэтому полный Portfolio был возвращён в работу при сохранении закрытой Near Queue.
+10. Наблюдения этого цикла не изменяют архитектуру автоматически.
