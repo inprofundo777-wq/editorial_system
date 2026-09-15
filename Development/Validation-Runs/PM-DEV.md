@@ -5,10 +5,10 @@
 **Run:** `PM-DEV`  
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
-**Current Gate:** `LONGFORM DOCUMENTATION READINESS — package formation / bounded system-level review`  
-**Current Owner:** Publication Master branch  
-**Status:** 🟡 ACTIVE — COACH DOC READINESS PASS / LONGFORM PACKAGE FORMATION IN PROGRESS  
-**Next Decision Owner:** Publication Master unless material authority decision or blocker  
+**Current Gate:** `INSTALLATION VALIDATION — Coach then Longform fresh-context recovery`  
+**Current Owner:** Owner for branch handoff  
+**Status:** 🟡 BOTH PACKAGES READY — COACH INSTALLATION TEST RELEASED FIRST  
+**Next Decision Owner:** Editorial Coach branch through this Run Record; then Owner forwards same link to Longform branch after Coach result  
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -20,13 +20,13 @@ This record is the single handoff point for the connected validation sequence. O
 | 1 | `PM-DEV-001` Fresh-context Recovery | Publication Master | PASS | canonical Publication Master README | recoverability demonstrated; `No material documentation findings`; `Ready for PM-DEV-002: YES`; recovered in Event 004 | Owner |
 | 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Publication Master |
 | 3 | Coach Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | stabilized Coach package + Event 006 | package-level verification PASS; Event 008 | Publication Master |
-| 4 | Longform Documentation Readiness | Publication Master | ACTIVE | existing Longform durable evidence + placeholder package | bounded Review / minimal package formation in progress | Publication Master |
-| 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | DEFERRED — ASSIGNMENT PREPARED IN EVENT 007 | Coach Documentation Readiness PASS + Longform Documentation Readiness PASS required before execution | not executed | Owner / Editorial Coach after both package readiness PASS |
-| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | NOT YET ACTIVATED | both package readiness PASS + bounded assignment | pending | Owner / Longform Editor |
+| 4 | Longform Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | existing Longform durable evidence + minimal durable package formation | bounded Review, package formation and verification PASS; Event 009 | Owner |
+| 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | ACTIVE — RELEASED FOR EXECUTION | Events 007–010 + stabilized Coach package | result pending | Owner / Publication Master after Coach result |
+| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | PREPARED — NOT YET RELEASED | Event 010 bounded assignment + Longform package | waits for Coach test result before branch handoff | Owner / Publication Master |
 | 7 | Publication Role Readiness Final Validation Close | Publication Master | NOT STARTED | both role-specific Installation Test results | pending | Owner |
 | 8 | Real-work Validation | Editorial Coach / required Editors | NOT AUTHORIZED | Publication Role Readiness Close | pending | Owner |
 
-The map records only verified state. It must not infer completion of a role-specific Installation Test from a prepared assignment or from documentation readiness.
+The map records only verified state. A prepared assignment is not a completed or active role-specific test until the route explicitly releases it.
 
 ## Run Write Authority
 
@@ -42,7 +42,7 @@ An assigned role may not:
 
 - rewrite or delete a previous Event;
 - silently replace another role’s artifact;
-- activate the next role without Owner authority;
+- activate the next role without the route authority recorded here;
 - change canonical role packages merely to complete this validation unless the current Owner-authorized gate explicitly permits package formation/stabilization;
 - turn a Package, Mode, Review or Audit into expanded authority;
 - record an unverified historical result as completed.
@@ -54,8 +54,8 @@ Corrections are appended as new revisions. Earlier artifacts remain in the recor
 Owner action should normally be limited to:
 
 1. opening the canonical Run Record;
-2. reading the latest verdict and requested decision;
-3. sending the same Run Record link to the next branch when a separate role must be activated.
+2. reading the latest gate;
+3. sending the same Run Record link to the branch named by that gate.
 
 Owner should not have to download, rename, re-upload or summarize another role’s target artifact.
 
@@ -622,23 +622,12 @@ Approve / modify / defer / reject targeted Coach stabilization before the next P
 | `PM-CF-001` Coach Constitution retains pre-Publication-Master system ownership | OPEN — OWNER-GATED | stabilization required before next production cycle | approve / modify / defer / reject correction |
 | `PM-CF-002` current Coach role map retains Strategy-under-Coach representation | OPEN — OWNER-GATED | stabilization required before next production cycle | approve / modify / defer / reject transfer clarification |
 | `PM-CF-003` explicit Coach Activation / Stop / Result / Exit contract missing | OPEN — OWNER-GATED | stabilization required before next production cycle | approve / modify / defer / reject clarification |
-| `PM-CF-004` Coach capability remains Validation Required | OPEN — TEST | requires later real Portfolio → VIA validation after stabilization | no new architecture decision required |
-| Coach and Longform downstream validation state not yet verified | OPEN | no downstream role is activated yet | Owner decision on next gate required |
+| `PM-CF-004` Coach capability remains Validation Required | OPEN — TEST | requires practical Coach validation | no new architecture decision required |
+| Coach and Longform downstream validation state not yet verified | OPEN | no downstream role completed yet | installation tests required |
 
 ## Next Gate
 
-`OWNER DECISION — PM-DEV-002 targeted Coach stabilization`
-
-Owner should append one short decision to this Run Record:
-
-- `APPROVE CS-PM-DEV-002`;
-- `APPROVE WITH MODIFICATION`;
-- `DEFER`;
-- `REJECT`.
-
-If stabilization is approved, Owner may authorize the appropriate branch to perform only the bounded Coach-package stabilization described in Event 005 and append its result here.
-
-Until that Owner decision is recorded, no Coach stabilization, Coach production validation, Longform validation, Portfolio 02 activation or new VIA is treated as authorized.
+Historical next-gate text below is superseded only by later append-only Events. Earlier Events remain evidence and are not rewritten.
 
 ## Event 006 — Owner-approved Targeted Coach Stabilization
 
@@ -1004,3 +993,291 @@ Coach readiness provides the first condition. Longform readiness is still missin
 Publication Master retains ownership for this next gate under the Owner's controlling route.
 
 No separate Owner intervention is required unless Longform review discovers a material authority decision, material architecture change or blocker.
+
+## Event 009 — Longform Package Formation + Documentation Readiness
+
+### Bounded Review
+
+**Primary Role:** Publication Master  
+**Gate:** `LONGFORM DOCUMENTATION READINESS — package formation / bounded system-level review`  
+**Principle:** `Existing Capability before New Structure`  
+**Authority:** Owner route explicitly authorizes bounded Review and minimal Installation Package formation for existing Longform capability; material authority / architecture change remains Owner-gated.
+
+### Observed existing durable state
+
+Publication Master inspected the current `Editors/Longform/` directory.
+
+The expected role files existed:
+
+- `README.md`;
+- `Constitution.md`;
+- `Prompt.md`;
+- `Workflow.md`;
+- `Checklist.md`;
+- `Development.md`.
+
+Before this gate each was a one-byte placeholder and contained no recoverable role package.
+
+Therefore Longform documentation readiness was initially `FAIL / FORMATION REQUIRED`, but this was a documentation gap rather than evidence that the Longform capability itself did not exist.
+
+### Existing capability evidence
+
+Current durable VIA evidence demonstrates an already-operating Longform capability:
+
+- `Templates/VIA-YYYY-NNN.md` defines `Longform Draft` and `Longform Revision` as explicit editorial steps;
+- Draft output is a whole `## Longform Editor — Draft` with one complete Draft;
+- Revision output is a whole `## Longform Editor — Revised Draft`;
+- Revision must obey required boundaries, preserve protected ground and retain Longform literary implementation freedom;
+- Coach Integration is explicitly prohibited from designing the Revised Draft;
+- `VIA-2026-018` completed both `Longform Draft` and `Longform Revision` in a full closed cycle;
+- `VIA-2026-020` likewise records completed Longform Draft and Longform Revision and preserves Longform freedom inside Coach boundaries.
+
+This evidence supports documenting the existing capability; it does not justify adding unrelated Longform authority.
+
+### Recovered capability / boundary model
+
+Publication Master established the minimum stable model necessary for the package:
+
+**Identity / scope**  
+Longform is the specialist capability for whole-article Draft and Revision inside a concrete VIA / article assignment.
+
+**Coach ↔ Longform**  
+Coach decides when Longform is needed, supplies the article-specific handoff, closed decisions, required boundaries, protected ground and expected output. Longform owns literary implementation inside that bounded assignment and returns ownership after Draft / Revision.
+
+**Authority end**  
+Longform does not own Portfolio strategy, Coach orchestration, independent Theology / Reader / Literary Review verdicts, Review Integration, required Review selection, VIA state authority, Publication System architecture or permanent role authority.
+
+**Activation**  
+A Draft requires canonical VIA/source, active Longform step, Coach Editorial Brief, closed decisions, required boundaries, protected ground and expected output. Revision additionally requires current Draft and Coach Integrated Review / Revision Assignment.
+
+**Stop Conditions**  
+Longform must stop when the current source, active step, bounded handoff, required boundaries or authority cannot be established; when required constraints materially conflict without Coach integration; or when the task requires another specialist / architecture authority.
+
+**Result / Exit**  
+Return one complete Draft / Revised Draft, not scattered patches; report material deviation if necessary; return ownership to Coach / Owner and do not activate downstream steps independently.
+
+### Minimal Installation Package formed
+
+Publication Master populated only the existing placeholder documents necessary for fresh-context recovery:
+
+- `Editors/Longform/README.md` `0.1`;
+- `Editors/Longform/Constitution.md` `0.1`;
+- `Editors/Longform/Prompt.md` `0.1`;
+- `Editors/Longform/Workflow.md` `0.1`;
+- `Editors/Longform/Checklist.md` `0.1`;
+- `Editors/Longform/Development.md` `0.1`.
+
+The package documents only the existing Draft / Revision capability and its current interfaces. It does not create new Review authority, publication authority, Portfolio ownership, architecture authority, stages or protocols.
+
+### Package verification
+
+Publication Master re-read the formed package and checked it against:
+
+- current Coach stabilized boundary;
+- `VIA/README.md`;
+- `Templates/VIA-YYYY-NNN.md`;
+- durable VIA evidence from `VIA-2026-018` and `VIA-2026-020`.
+
+**Verification result:** `PASS`
+
+The package now exposes a single recoverable model for:
+
+- identity / scope;
+- authority / accountability;
+- Coach ↔ Longform interface;
+- Draft and Revision activation;
+- specialist independence;
+- Stop Conditions;
+- Result Contract / Handoff / Role Exit;
+- governing VIA interfaces;
+- distinction between Documentation Update and later Installation Validation.
+
+No material authority expansion or architecture change was required.
+
+### Verdict
+
+**Longform Documentation Readiness:** `PASS — READY FOR INSTALLATION TEST`
+
+This PASS means only that the role now has a sufficient durable package for a separate fresh-context Installation / Recovery Test. It does not mean Longform fresh-context recoverability has already passed, and it does not validate a real Draft or Revision under the new package.
+
+### Writes
+
+- `Editors/Longform/README.md` — commit `17b1e72d4ce01d727b364bdb958620da3c2ff9e9`
+- `Editors/Longform/Constitution.md` — commit `27150af100b3fc71d3118cffb7957d88e4cd6493`
+- `Editors/Longform/Prompt.md` — commit `924a75f7853b062167b19fb4e192687e88b16d2d`
+- `Editors/Longform/Workflow.md` — commit `dc3112691c95ca37234d6f2adc0234e5488273e1`
+- `Editors/Longform/Checklist.md` — commit `2b93388d35980942177bcef5781b2a58b80a6833`
+- `Editors/Longform/Development.md` — commit `0f22b238b7fa84923751414c63d0265316e62680`
+
+### Readiness condition reached
+
+Both documentation gates are now verified:
+
+- `Coach Documentation Readiness: PASS — READY FOR INSTALLATION TEST`
+- `Longform Documentation Readiness: PASS — READY FOR INSTALLATION TEST`
+
+Therefore Phase D may begin.
+
+## Event 010 — Fresh-context Installation Validation Assignments
+
+### Route release
+
+Owner's controlling route authorizes Publication Master to prepare role-specific fresh-context assignments only after both documentation readiness gates pass.
+
+That condition is now satisfied.
+
+The role-specific tests remain separate. Publication Master does not perform either test.
+
+### Assignment A — Editorial Coach Fresh-context Installation / Recovery Test
+
+**Primary Role:** Editorial Coach  
+**Status:** `ACTIVE — RELEASED FOR EXECUTION`  
+**Canonical handoff:** this Run Record  
+**Canonical role entry:** `Editors/Coach/README.md`  
+**Historical assignment basis:** Event 007 retained  
+**Route correction:** Event 008 deferred execution until both package readiness PASS; Event 009 satisfies the second condition.  
+**Return Route:** Editorial Coach → Owner / Publication Master through this Run Record.
+
+#### Purpose
+
+Validate fresh-context recoverability and readiness for real work without creating or simulating a production cycle.
+
+#### Required tasks
+
+Editorial Coach must independently recover from durable documentation:
+
+1. identity, scope, authority and accountability;
+2. boundaries with Strategist, Publication Master, Owner and specialist Editors;
+3. Activation / Minimum Input;
+4. Stop Conditions;
+5. Result Contract / Handoff / Role Exit;
+6. Process Map / one-link / capability-selection discipline relevant to future production;
+7. exact minimum input needed for a real `Portfolio → VIA` entry;
+8. exact stop if that production input is absent.
+
+Coach must also check whether fresh context exposes any material contradiction that Publication Master package verification missed.
+
+#### Prohibited
+
+- no Portfolio 02 activation;
+- no new VIA;
+- no real Editorial Brief;
+- no Longform or other specialist activation;
+- no Draft / Review / Revision / Publication work;
+- no canonical package modification;
+- no reconstruction of missing production input from old chats.
+
+#### Verdict
+
+Return one of:
+
+- `PASS — FRESH-CONTEXT RECOVERABLE / READY FOR REAL-WORK ENTRY`
+- `PASS WITH NON-BLOCKING FINDINGS`
+- `FAIL — MATERIAL DOCUMENTATION / AUTHORITY GAP`
+- `BLOCKED — TEST INPUT / ACCESS`
+
+#### Result Contract
+
+Append a new Event to this Run Record:
+
+```text
+Editorial Coach Installation Test: COMPLETE | BLOCKED
+
+**Verdict:**
+**Recovered identity / scope:**
+**Recovered authority / boundaries:**
+**Minimum real-work input:**
+**Stop Conditions:**
+**Result / Handoff / Role Exit recovered:**
+**Material findings, if any:**
+**Ownership returned to:** Publication Master / Owner
+**Next authorized step:** Longform Installation Test only if route remains unblocked
+```
+
+After Coach result, Owner should forward only this same Run Record link to the next branch named by the updated gate.
+
+### Assignment B — Longform Editor Fresh-context Installation / Recovery Test
+
+**Primary Role:** Longform Editor  
+**Status:** `PREPARED — NOT YET RELEASED`  
+**Canonical handoff:** this Run Record  
+**Canonical role entry:** `Editors/Longform/README.md`  
+**Release condition:** Coach Installation Test completes without a material route blocker.  
+**Return Route:** Longform Editor → Owner / Publication Master through this Run Record.
+
+#### Purpose
+
+Validate that a fresh Longform context can recover the existing Draft / Revision capability, its boundaries and handoff contract from durable documentation without producing a real article.
+
+#### Required tasks
+
+Longform must independently recover:
+
+1. identity and scope;
+2. authority and accountability;
+3. Coach ↔ Longform interface;
+4. minimum Draft activation input;
+5. minimum Revision activation input;
+6. professional freedom inside required boundaries / protected ground;
+7. exact authority limits relative to Strategy, Coach and independent Reviews;
+8. Stop Conditions;
+9. Result Contract / Handoff / Role Exit;
+10. governing relationship to VIA Protocol, Template and article-specific handoff.
+
+Then apply the recovered package only to two bounded hypothetical checks:
+
+**Check 1 — Draft readiness**  
+State what must exist before Longform may begin a Draft and what exact blocker is returned if Process Map shows no active Longform step.
+
+**Check 2 — Revision readiness**  
+State how Longform distinguishes required boundaries, protected ground and optional suggestions, and what it does if two required constraints materially conflict without a Coach resolution.
+
+No prose article, sample Draft or simulated Revision should be produced.
+
+#### Prohibited
+
+- no new VIA;
+- no real Draft / Revised Draft;
+- no Portfolio 02 work;
+- no independent Review;
+- no Coach Integration;
+- no package modification;
+- no use of old Longform chat history as authority.
+
+#### Verdict
+
+Return one of:
+
+- `PASS — FRESH-CONTEXT RECOVERABLE / READY FOR REAL-WORK ENTRY`
+- `PASS WITH NON-BLOCKING FINDINGS`
+- `FAIL — MATERIAL DOCUMENTATION / AUTHORITY GAP`
+- `BLOCKED — TEST INPUT / ACCESS`
+
+#### Result Contract
+
+Append a new Event to this Run Record:
+
+```text
+Longform Installation Test: COMPLETE | BLOCKED
+
+**Verdict:**
+**Recovered identity / scope:**
+**Recovered authority / boundaries:**
+**Draft activation recovery:**
+**Revision activation recovery:**
+**Stop Conditions:**
+**Result / Handoff / Role Exit recovered:**
+**Material findings, if any:**
+**Ownership returned to:** Publication Master / Owner
+**Next authorized step:** Publication Master Final Validation Close after both tests complete
+```
+
+### Current released gate
+
+Only Assignment A is currently released.
+
+Owner should now send the Editorial Coach branch only this Run Record link.
+
+Assignment B remains prepared but not released until Coach returns its result without a material route blocker.
+
+Publication Master does not begin either role-specific test and does not begin real-work validation.
