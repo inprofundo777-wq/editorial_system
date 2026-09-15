@@ -6,9 +6,9 @@
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
 **Current Gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
-**Current Owner:** Owner  
-**Status:** 🟡 TARGETED STABILIZATION COMPLETE — DOWNSTREAM VALIDATION NOT YET ACTIVATED  
-**Next Decision Owner:** Owner  
+**Current Owner:** Editorial Coach branch  
+**Status:** 🟡 ACTIVE — COACH VALIDATION ASSIGNMENT ISSUED / RESULT PENDING  
+**Next Decision Owner:** Owner after Coach result  
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -19,7 +19,7 @@ This record is the single handoff point for the connected validation sequence. O
 |---|---|---|---|---|---|---|
 | 1 | `PM-DEV-001` Fresh-context Recovery | Publication Master | PASS | canonical Publication Master README | recoverability demonstrated; `No material documentation findings`; `Ready for PM-DEV-002: YES`; recovered in Event 004 | Owner |
 | 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Owner |
-| 3 | Coach validation action | Editorial Coach | NOT YET ACTIVATED | stabilized Coach package + Owner authorization | pending | Owner / Publication Master |
+| 3 | Coach validation action | Editorial Coach | ACTIVE — ASSIGNMENT ISSUED | stabilized Coach package + Event 007 bounded assignment | result pending | Owner / Publication Master |
 | 4 | Longform interface validation | Longform Editor | NOT YET RECORDED | authorized assignment | pending | Owner / Publication Master |
 | 5 | Validation close | Publication Master | NOT STARTED | completed connected tests | pending | Owner |
 
@@ -796,3 +796,157 @@ Whether to activate the stabilized Editorial Coach for the next fresh-context / 
 **Next owner:** Owner for activation decision; Editorial Coach only after explicit Owner activation.
 
 The next branch should receive this Run Record as the canonical handoff. Until Owner activates that gate, no Coach production work, Longform validation, Portfolio 02 activation or new VIA is authorized.
+
+## Event 007 — Editorial Coach Validation Activation
+
+### Owner Activation
+
+Owner instructed the Publication Master branch to continue the `PM-DEV` validation chain strictly from the canonical Run Record and to act according to the next recorded gate.
+
+Because Event 006 names `COACH VALIDATION — stabilized package fresh-context / production-cycle validation` as the next gate and requires explicit Owner activation before Editorial Coach acts, this Event records that activation and the bounded assignment to Editorial Coach.
+
+**Primary Role:** Editorial Coach  
+**Gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
+**Canonical handoff:** this Run Record  
+**Coach canonical entry:** `Editors/Coach/README.md`  
+**Authority basis:** stabilized Coach package from Event 006  
+**Status:** `ACTIVE — RESULT PENDING`  
+**Return Route:** Editorial Coach → Owner through this Run Record
+
+### Validation Purpose
+
+Validate whether a fresh Editorial Coach context can recover the stabilized role from durable documentation and correctly prepare the next real `Portfolio → VIA` production-cycle entry without hidden context, architecture capture or premature downstream activation.
+
+This gate validates Coach recovery and bounded operational readiness. It does not itself authorize the full editorial cycle, Longform work, or any later role unless that authorization is explicitly reached and recorded through the current Coach result and subsequent Owner decision.
+
+### Required Starting Point
+
+Editorial Coach must begin from this Run Record and then recover its current role package through:
+
+`Editors/Coach/README.md`
+
+The Coach must independently find and read the current documents required by the stabilized package. Old Coach chats, historical branch context and remembered architecture are not authority.
+
+### Bounded Validation Tasks
+
+Editorial Coach must establish and report:
+
+1. **Fresh-context recovery**
+   - current Coach identity and scope;
+   - authority and accountability;
+   - boundaries with Owner, Strategist, Publication Master and specialist Editors;
+   - Activation / Minimum Input;
+   - Stop Conditions;
+   - Result Contract / Handoff / Role Exit.
+
+2. **Stabilization verification from the Coach side**
+   - whether the three Event 006 documentation corrections are recoverable without conflict;
+   - whether any material contradiction remains between the canonical Coach entry/highest-authority layer and the operational Workflow/VIA layer;
+   - do not reopen non-material wording preferences or redesign the package.
+
+3. **Production-cycle entry readiness**
+   - determine the exact minimum upstream input required to begin the next real `Portfolio → VIA` cycle;
+   - distinguish closed Strategist/Portfolio decisions from Coach-owned Editorial Brief formation;
+   - identify what Coach can decide autonomously inside accepted architecture and what remains Owner-gated;
+   - state the exact Stop Condition if the real upstream Portfolio handoff is not yet present in this validation gate.
+
+4. **Capability-selection readiness**
+   - recover how Coach selects only necessary existing capabilities;
+   - recover how specialist independence is preserved;
+   - recover dependency / parallel-work rules relevant to a future real VIA;
+   - do not activate or simulate Longform, Literary, Theology, SEO, Reader or other Editors in this gate.
+
+5. **State and handoff discipline**
+   - recover Process Map as the state authority for a real VIA;
+   - recover one-link / transferable-result expectations;
+   - explain how Coach would return `COMPLETE` or `BLOCKED` without requiring Owner to reconstruct hidden analysis;
+   - release operational ownership at Role Exit.
+
+### Explicit Scope Boundary
+
+This gate authorizes **validation of stabilized Coach recoverability and readiness only**.
+
+Editorial Coach must **not**:
+
+- start Portfolio 02;
+- invent or reconstruct a missing Portfolio handoff from memory;
+- create a new VIA unless a real closed upstream handoff is explicitly present and this Event independently authorizes creation — it does not;
+- activate Longform or any specialist Editor;
+- perform Draft, Review, Revision, Finalization or Publication work;
+- modify the Coach canonical package merely because validation reveals a preference;
+- modify Strategist, Publication Master, VIA or specialist role packages;
+- make permanent architecture / authority changes;
+- self-activate the Longform validation gate;
+- close Step 4 or Step 5 of the Process Map.
+
+### GitHub Write Authority
+
+Editorial Coach may write **only to this Run Record** for this validation gate:
+
+- append its complete Result as a new Event;
+- update only its own Process Map row from `ACTIVE` to the verified result state;
+- update Current State to the next verified decision gate;
+- name the proposed next owner / next gate.
+
+No canonical role-package writes are authorized in this gate.
+
+### Stop Conditions for This Validation
+
+Return `BLOCKED` rather than infer or expand scope if:
+
+- the stabilized Coach package cannot be recovered from current canonical documentation;
+- governing Coach documents materially conflict about current authority or boundaries;
+- the required current source for a claimed production action is missing;
+- the validation would require an independent specialist verdict;
+- the operation would require creating a VIA or starting Portfolio work not authorized here;
+- the requested next state cannot be verified from canonical sources.
+
+The absence of a real Portfolio handoff is **not** a failure of fresh-context recovery. It means Coach must stop before production execution and report the exact missing input / next authorized route.
+
+### Required Result
+
+Editorial Coach must append one complete result Event to this Run Record containing:
+
+1. `Editorial Coach work: COMPLETE | BLOCKED`;
+2. fresh-context recovery verdict;
+3. stabilization consistency verdict;
+4. exact recovered role/authority boundaries;
+5. exact minimum input for a real `Portfolio → VIA` start;
+6. production-entry readiness verdict;
+7. capability-selection / specialist-independence verdict;
+8. any material finding, with evidence and classification;
+9. whether `PM-CF-004` can be considered validated by this gate or remains open for real production evidence;
+10. current blocker, if any;
+11. ownership returned / handed to;
+12. next authorized step;
+13. open Owner decision, if any;
+14. Role Exit.
+
+### Verdict Discipline
+
+Use one of:
+
+- `PASS — STABILIZED COACH RECOVERABLE / READY FOR REAL PRODUCTION ENTRY`;
+- `PASS WITH MATERIAL FINDING`;
+- `BLOCKED`;
+- `FAIL`.
+
+Do not claim full real-work Coach validation merely from documentation recovery. If no real Portfolio → VIA cycle occurs in this gate, distinguish recovery/readiness evidence from production-execution evidence.
+
+### Downstream Gate Discipline
+
+Longform remains `NOT YET RECORDED` / not activated.
+
+After Editorial Coach appends its result, ownership returns to Owner. The Coach may propose a next gate but must not activate it.
+
+The Owner should be able to pass only this Run Record link to the Editorial Coach branch. No separate summary, attachment or hidden context is required.
+
+## Next Gate — Event 007
+
+**Active gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
+**Active role:** Editorial Coach  
+**Next owner after result:** Owner  
+**Longform:** NOT ACTIVATED  
+**Publication Master validation close:** NOT STARTED
+
+Until Editorial Coach appends its actual result, Step 3 remains active and no later validation step is treated as authorized.
