@@ -5,9 +5,9 @@
 **Run:** `PM-DEV`  
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
-**Current Gate:** `OWNER DECISION — PM-DEV-002 targeted Coach stabilization`  
+**Current Gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
 **Current Owner:** Owner  
-**Status:** 🟡 DECISION REQUIRED — PM-DEV-002 COMPLETE  
+**Status:** 🟡 TARGETED STABILIZATION COMPLETE — DOWNSTREAM VALIDATION NOT YET ACTIVATED  
 **Next Decision Owner:** Owner  
 **Canonical record:** this file
 
@@ -18,8 +18,8 @@ This record is the single handoff point for the connected validation sequence. O
 | Step | Task | Primary Role | Status | Input | Result | Next owner |
 |---|---|---|---|---|---|---|
 | 1 | `PM-DEV-001` Fresh-context Recovery | Publication Master | PASS | canonical Publication Master README | recoverability demonstrated; `No material documentation findings`; `Ready for PM-DEV-002: YES`; recovered in Event 004 | Owner |
-| 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZATION REQUIRED | Coach canonical package + PM-DEV-001 | Coach recoverable: YES; next production cycle: AFTER STABILIZATION; `TARGETED STABILIZATION`; full result in Event 005 | Owner |
-| 3 | Coach validation action | Editorial Coach | NOT YET RECORDED | Owner decision + PM-DEV-002 result | pending | Owner / Publication Master |
+| 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Owner |
+| 3 | Coach validation action | Editorial Coach | NOT YET ACTIVATED | stabilized Coach package + Owner authorization | pending | Owner / Publication Master |
 | 4 | Longform interface validation | Longform Editor | NOT YET RECORDED | authorized assignment | pending | Owner / Publication Master |
 | 5 | Validation close | Publication Master | NOT STARTED | completed connected tests | pending | Owner |
 
@@ -637,3 +637,162 @@ Owner should append one short decision to this Run Record:
 If stabilization is approved, Owner may authorize the appropriate branch to perform only the bounded Coach-package stabilization described in Event 005 and append its result here.
 
 Until that Owner decision is recorded, no Coach stabilization, Coach production validation, Longform validation, Portfolio 02 activation or new VIA is treated as authorized.
+
+## Event 006 — Owner-approved Targeted Coach Stabilization
+
+### Owner Decision
+
+**Decision:** `APPROVED — TARGETED STABILIZATION`  
+**Authority:** execute strictly within the Improvement Package recorded in Event 005.  
+**Restriction:** Coach / Longform outside this gate are not activated.  
+**Recording:** stabilization result and next gate must be appended to this Run Record.
+
+### Execution
+
+Publication Master executed only the three approved stabilization items.
+
+#### Change 1 — Authority synchronization — COMPLETE
+
+Updated `Editors/Coach/Constitution.md` from `0.2` to `0.3`.
+
+The stabilized Constitution now makes explicit that:
+
+- Coach owns orchestration and integrity of the concrete editorial cycle inside accepted architecture;
+- Coach does not own Portfolio / Content Horizon / Content Intelligence;
+- Coach does not own Publication System or Editorial System architecture;
+- Content learning routes to Strategist;
+- cross-role / VIA-wide / system-level signals route to Publication Master;
+- permanent architecture and authority-changing decisions remain Owner-gated;
+- specialist independence is preserved;
+- local process decisions do not create system-level authority.
+
+No new role, stage, process, protocol or permanent threshold was created.
+
+#### Change 2 — Strategy boundary synchronization — COMPLETE
+
+Updated `Editors/Coach/README.md` from `0.4` to `0.5`.
+
+The obsolete Strategy-under-Coach role map was removed. The current interface now states:
+
+`Strategist → closed Portfolio / Horizon / Content Intelligence handoff → Coach → editorial cycle → Publication System`
+
+and separately routes Content learning to Strategist and system/cross-role signals to Publication Master.
+
+Coach is explicitly prohibited from repeating closed Portfolio strategy merely because it coordinates the downstream editorial cycle.
+
+No Strategist package was redesigned or modified.
+
+#### Change 3 — Coach outer assignment contract — COMPLETE
+
+The stabilized README now contains the minimal durable outer contract requested by Event 005:
+
+- Activation / Minimum Input;
+- Current Source / closed upstream decision requirement;
+- Stop Conditions;
+- `Editorial Coach work: COMPLETE | BLOCKED` Result Contract;
+- ownership handoff;
+- next authorized step;
+- open Owner decision;
+- explicit Role Exit.
+
+The contract reuses current Workflow / VIA semantics and does not introduce a new editorial stage, state layer or protocol.
+
+### Cross-document verification
+
+Publication Master re-read the written `Constitution.md` and `README.md` after the writes.
+
+**Verification result:** `PASS`
+
+The three material stabilization targets from Event 005 are now represented in current canonical Coach entry/authority documentation:
+
+- `PM-CF-001` — corrected at the highest-authority Coach layer;
+- `PM-CF-002` — corrected in current navigation/interface map;
+- `PM-CF-003` — clarified through the minimal role-level activation/stop/result/exit contract.
+
+`PM-CF-004` remains intentionally open as `TEST`: Documentation Update does not equal practical Validation.
+
+No material need was found during bounded verification to modify `Prompt.md`, `Workflow.md`, `Checklist.md`, VIA architecture, Strategist package, specialist Editor packages or Publication Master documentation. Those documents were therefore left unchanged in accordance with `Existing Capability before New Structure` and the approved scope.
+
+### Writes performed
+
+1. `Editors/Coach/Constitution.md`  
+   Commit: `7c6209546647b353dc12a0486cbb4596a5d6666f`
+
+2. `Editors/Coach/README.md`  
+   Commit: `62b0d592f6babad46e8444a8a3439937d6893237`
+
+3. This Run Record — Event 006 and verified state update.
+
+No other canonical role package was changed.
+
+### Stabilization Result
+
+**Targeted stabilization:** `COMPLETE`  
+**Cross-document verification:** `PASS`  
+**Coach package recoverable after stabilization:** `YES — documentation-level`  
+**Coach practical production validation:** `PENDING`  
+**Longform interface validation:** `NOT ACTIVATED`
+
+The documentation blocker identified by PM-DEV-002 has been removed within the approved bounded Change Set. This does not convert Coach `0.4-working` operational capability into validated capability by documentation alone.
+
+### Capability / Validation Delta
+
+**Documentation Delta**  
+Coach authority, Strategy boundary and outer assignment contract are now synchronized at the canonical entry/highest-authority layer.
+
+**Capability Delta**  
+The stabilized package can now be handed to a fresh Coach context with an explicit minimum input, Stop logic, authority boundary, Result Contract and Role Exit instead of relying on interpretation from older role history.
+
+**Validation Delta**  
+No real Portfolio → VIA production cycle was executed in this gate. The remaining validation obligation is practical use of the stabilized package in the next authorized Coach validation / production-cycle test.
+
+### Handoff / Role Exit
+
+Publication Master has completed the Owner-approved stabilization and releases temporary write/control ownership of the Coach package.
+
+**Ownership returned to:** Owner.
+
+Publication Master does not activate Coach, Longform, Portfolio 02 or a new VIA.
+
+### Publication Master Result Contract
+
+**Publication Master work:** `COMPLETE`
+
+**Decision / result:**  
+Owner-approved `CS-PM-DEV-002 — Coach Boundary Stabilization` executed strictly within Event 005. `Editors/Coach/Constitution.md` and `Editors/Coach/README.md` were updated; post-write cross-document verification passed. `PM-CF-001`, `PM-CF-002` and `PM-CF-003` are resolved at Documentation Update level. `PM-CF-004` remains open for practical Validation.
+
+**Active process:**  
+`PM-DEV-002 targeted stabilization — COMPLETE`.
+
+**Capability Delta, if any:**  
+Coach can now be recovered from the canonical entry with explicit current boundaries to Strategist / Publication Master / Owner / Editors and with a durable Activation / Stop / Result / Handoff / Role Exit contract. Real production capability remains validation-pending.
+
+**Ownership returned to:**  
+Owner.
+
+**Next authorized step:**  
+None automatically. Owner may separately activate the next Coach validation gate using this Run Record as the handoff source.
+
+**Open Owner decision, if any:**  
+Whether to activate the stabilized Editorial Coach for the next fresh-context / real Portfolio → VIA validation step. Longform remains outside the current gate until separately authorized.
+
+**Role Exit:** Publication Master exits the targeted stabilization capability here. No downstream role is self-activated.
+
+## Findings Register — Event 006 Update
+
+| Finding | Status after stabilization | Gate impact | Owner decision |
+|---|---|---|---|
+| `PM-CF-001` Coach Constitution retains pre-Publication-Master system ownership | RESOLVED — DOCUMENTATION UPDATED | no longer blocks documentation readiness | approved and executed |
+| `PM-CF-002` current Coach role map retains Strategy-under-Coach representation | RESOLVED — DOCUMENTATION UPDATED | no longer blocks Portfolio → Coach boundary documentation | approved and executed |
+| `PM-CF-003` explicit Coach Activation / Stop / Result / Exit contract missing | RESOLVED — DOCUMENTATION UPDATED | no longer blocks fresh-context contract recovery | approved and executed |
+| `PM-CF-004` Coach capability remains Validation Required | OPEN — TEST | requires practical Coach validation | no new architecture decision required |
+| Coach downstream validation | NOT ACTIVATED | next possible gate | Owner activation required |
+| Longform interface validation | NOT ACTIVATED | remains later gate | Owner activation required |
+
+## Next Gate — Event 006
+
+**Proposed next gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`
+
+**Next owner:** Owner for activation decision; Editorial Coach only after explicit Owner activation.
+
+The next branch should receive this Run Record as the canonical handoff. Until Owner activates that gate, no Coach production work, Longform validation, Portfolio 02 activation or new VIA is authorized.
