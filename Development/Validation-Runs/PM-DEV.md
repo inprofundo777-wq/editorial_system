@@ -5,10 +5,10 @@
 **Run:** `PM-DEV`  
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
-**Current Gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
-**Current Owner:** Editorial Coach branch  
-**Status:** 🟡 ACTIVE — COACH VALIDATION ASSIGNMENT ISSUED / RESULT PENDING  
-**Next Decision Owner:** Owner after Coach result  
+**Current Gate:** `LONGFORM DOCUMENTATION READINESS — package formation / bounded system-level review`  
+**Current Owner:** Publication Master branch  
+**Status:** 🟡 ACTIVE — COACH DOC READINESS PASS / LONGFORM PACKAGE FORMATION IN PROGRESS  
+**Next Decision Owner:** Publication Master unless material authority decision or blocker  
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -18,12 +18,15 @@ This record is the single handoff point for the connected validation sequence. O
 | Step | Task | Primary Role | Status | Input | Result | Next owner |
 |---|---|---|---|---|---|---|
 | 1 | `PM-DEV-001` Fresh-context Recovery | Publication Master | PASS | canonical Publication Master README | recoverability demonstrated; `No material documentation findings`; `Ready for PM-DEV-002: YES`; recovered in Event 004 | Owner |
-| 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Owner |
-| 3 | Coach validation action | Editorial Coach | ACTIVE — ASSIGNMENT ISSUED | stabilized Coach package + Event 007 bounded assignment | result pending | Owner / Publication Master |
-| 4 | Longform interface validation | Longform Editor | NOT YET RECORDED | authorized assignment | pending | Owner / Publication Master |
-| 5 | Validation close | Publication Master | NOT STARTED | completed connected tests | pending | Owner |
+| 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Publication Master |
+| 3 | Coach Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | stabilized Coach package + Event 006 | package-level verification PASS; Event 008 | Publication Master |
+| 4 | Longform Documentation Readiness | Publication Master | ACTIVE | existing Longform durable evidence + placeholder package | bounded Review / minimal package formation in progress | Publication Master |
+| 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | DEFERRED — ASSIGNMENT PREPARED IN EVENT 007 | Coach Documentation Readiness PASS + Longform Documentation Readiness PASS required before execution | not executed | Owner / Editorial Coach after both package readiness PASS |
+| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | NOT YET ACTIVATED | both package readiness PASS + bounded assignment | pending | Owner / Longform Editor |
+| 7 | Publication Role Readiness Final Validation Close | Publication Master | NOT STARTED | both role-specific Installation Test results | pending | Owner |
+| 8 | Real-work Validation | Editorial Coach / required Editors | NOT AUTHORIZED | Publication Role Readiness Close | pending | Owner |
 
-The map records only verified state. It must not infer completion of Coach or Longform work from the existence of discussion or draft assignments.
+The map records only verified state. It must not infer completion of a role-specific Installation Test from a prepared assignment or from documentation readiness.
 
 ## Run Write Authority
 
@@ -40,7 +43,7 @@ An assigned role may not:
 - rewrite or delete a previous Event;
 - silently replace another role’s artifact;
 - activate the next role without Owner authority;
-- change canonical role packages merely to complete this validation;
+- change canonical role packages merely to complete this validation unless the current Owner-authorized gate explicitly permits package formation/stabilization;
 - turn a Package, Mode, Review or Audit into expanded authority;
 - record an unverified historical result as completed.
 
@@ -52,8 +55,7 @@ Owner action should normally be limited to:
 
 1. opening the canonical Run Record;
 2. reading the latest verdict and requested decision;
-3. appending a short Owner Decision;
-4. sending the same Run Record link to the next branch.
+3. sending the same Run Record link to the next branch when a separate role must be activated.
 
 Owner should not have to download, rename, re-upload or summarize another role’s target artifact.
 
@@ -859,94 +861,146 @@ Editorial Coach must establish and report:
 5. **State and handoff discipline**
    - recover Process Map as the state authority for a real VIA;
    - recover one-link / transferable-result expectations;
-   - explain how Coach would return `COMPLETE` or `BLOCKED` without requiring Owner to reconstruct hidden analysis;
-   - release operational ownership at Role Exit.
+   - explain how Coach would return a bounded assignment to a specialist without requiring Owner to reconstruct it;
+   - do not create a new VIA during this validation gate.
 
-### Explicit Scope Boundary
+### Required Verdict
 
-This gate authorizes **validation of stabilized Coach recoverability and readiness only**.
+Return one of:
 
-Editorial Coach must **not**:
+- `PASS — READY FOR REAL PORTFOLIO → VIA ENTRY`
+- `PASS WITH NON-BLOCKING FINDINGS`
+- `BLOCKED — DOCUMENTATION / AUTHORITY`
 
-- start Portfolio 02;
-- invent or reconstruct a missing Portfolio handoff from memory;
-- create a new VIA unless a real closed upstream handoff is explicitly present and this Event independently authorizes creation — it does not;
+### Required Result Contract
+
+Append the result to this Run Record as a new Event using:
+
+```text
+Editorial Coach validation: COMPLETE | BLOCKED
+
+**Verdict:**
+
+**Recovered role / authority:**
+
+**Minimum production input:**
+
+**Stop Condition if input absent:**
+
+**Capability-selection / independence check:**
+
+**Material documentation findings, if any:**
+
+**Ownership returned to:**
+
+**Next authorized step:**
+
+**Open Owner decision, if any:**
+
+**Role Exit:**
+```
+
+### Prohibited Actions
+
+This gate does **not** authorize Editorial Coach to:
+
+- create or open a new production VIA;
+- begin Portfolio 02;
+- reconstruct missing Portfolio decisions from memory or prior chats;
 - activate Longform or any specialist Editor;
-- perform Draft, Review, Revision, Finalization or Publication work;
-- modify the Coach canonical package merely because validation reveals a preference;
-- modify Strategist, Publication Master, VIA or specialist role packages;
-- make permanent architecture / authority changes;
-- self-activate the Longform validation gate;
-- close Step 4 or Step 5 of the Process Map.
+- perform Draft, Review, Revision, Finalization or Publication Preparation;
+- change permanent Coach documentation;
+- change VIA Protocol or Template;
+- make architecture / authority decisions reserved for Owner or Publication Master;
+- record the later Longform interface validation as completed.
 
-### GitHub Write Authority
+If the real Portfolio handoff is absent, that is not a failure of this validation. Coach must identify the exact missing production input and stop before production execution.
 
-Editorial Coach may write **only to this Run Record** for this validation gate:
+### Handoff Rule
 
-- append its complete Result as a new Event;
-- update only its own Process Map row from `ACTIVE` to the verified result state;
-- update Current State to the next verified decision gate;
-- name the proposed next owner / next gate.
+Owner should send the Editorial Coach branch only the link to this Run Record.
 
-No canonical role-package writes are authorized in this gate.
+The Coach branch must read this Event and the stabilized canonical role package, perform only this gate, append its result to this same Run Record, update only its own verified Process Map state, and return ownership through the route recorded here.
 
-### Stop Conditions for This Validation
+Longform remains unactivated until a later explicit gate.
 
-Return `BLOCKED` rather than infer or expand scope if:
+## Event 008 — Owner Route Correction + Coach Documentation Readiness Close
 
-- the stabilized Coach package cannot be recovered from current canonical documentation;
-- governing Coach documents materially conflict about current authority or boundaries;
-- the required current source for a claimed production action is missing;
-- the validation would require an independent specialist verdict;
-- the operation would require creating a VIA or starting Portfolio work not authorized here;
-- the requested next state cannot be verified from canonical sources.
+### Owner Route Correction
 
-The absence of a real Portfolio handoff is **not** a failure of fresh-context recovery. It means Coach must stop before production execution and report the exact missing input / next authorized route.
+Owner clarified the controlling Publication Role Readiness route.
 
-### Required Result
+`Event 007 — Editorial Coach Validation Activation` was prepared and activated prematurely relative to package readiness sequencing.
 
-Editorial Coach must append one complete result Event to this Run Record containing:
+**Correction rule:**
 
-1. `Editorial Coach work: COMPLETE | BLOCKED`;
-2. fresh-context recovery verdict;
-3. stabilization consistency verdict;
-4. exact recovered role/authority boundaries;
-5. exact minimum input for a real `Portfolio → VIA` start;
-6. production-entry readiness verdict;
-7. capability-selection / specialist-independence verdict;
-8. any material finding, with evidence and classification;
-9. whether `PM-CF-004` can be considered validated by this gate or remains open for real production evidence;
-10. current blocker, if any;
-11. ownership returned / handed to;
-12. next authorized step;
-13. open Owner decision, if any;
-14. Role Exit.
+- Event 007 is not deleted, rewritten or invalidated as an assignment artifact;
+- its execution is now `DEFERRED`;
+- Editorial Coach must not execute Event 007 until both Coach and Longform documentation/package readiness are verified `PASS`;
+- preparation of an assignment is not treated as role completion or test execution;
+- no downstream production work is activated by this correction.
 
-### Verdict Discipline
+The controlling sequence is now:
 
-Use one of:
+`Publication Master Installation PASS → Coach Documentation Readiness → Longform Documentation Readiness → role-specific Fresh-context Installation Tests → Publication Master Final Validation Close → later Real-work Validation`.
 
-- `PASS — STABILIZED COACH RECOVERABLE / READY FOR REAL PRODUCTION ENTRY`;
-- `PASS WITH MATERIAL FINDING`;
-- `BLOCKED`;
-- `FAIL`.
+### Coach Package Acceptance / Documentation Readiness
 
-Do not claim full real-work Coach validation merely from documentation recovery. If no real Portfolio → VIA cycle occurs in this gate, distinguish recovery/readiness evidence from production-execution evidence.
+Publication Master performed bounded package-level verification after Event 006 stabilization.
 
-### Downstream Gate Discipline
+Current sources re-read for this acceptance include:
 
-Longform remains `NOT YET RECORDED` / not activated.
+- `Editors/Coach/README.md` `0.5`;
+- `Editors/Coach/Constitution.md` `0.3`;
+- `Editors/Coach/Workflow.md` `0.4-working / Active / Validation Required`;
+- `Editors/Coach/Prompt.md` `0.4`;
+- `Editors/Coach/Checklist.md` `0.3`;
+- `Editors/Coach/Development.md` `0.2`;
+- `VIA/README.md`;
+- `Templates/VIA-YYYY-NNN.md`.
 
-After Editorial Coach appends its result, ownership returns to Owner. The Coach may propose a next gate but must not activate it.
+#### Verification result
 
-The Owner should be able to pass only this Run Record link to the Editorial Coach branch. No separate summary, attachment or hidden context is required.
+**Coach Documentation Readiness:** `PASS — READY FOR INSTALLATION TEST`
 
-## Next Gate — Event 007
+Reasons:
 
-**Active gate:** `COACH VALIDATION — stabilized package fresh-context / production-cycle validation`  
-**Active role:** Editorial Coach  
-**Next owner after result:** Owner  
-**Longform:** NOT ACTIVATED  
-**Publication Master validation close:** NOT STARTED
+- canonical entry now exposes current role identity, boundaries, Activation / Minimum Input, Stop Conditions, Result Contract, Handoff and Role Exit;
+- highest-authority Constitution no longer assigns Portfolio / Publication System architecture ownership to Coach;
+- current interface to Strategist, specialist Editors, Publication Master and Owner is recoverable without old branch context;
+- Workflow/VIA operational mechanics remain compatible with stabilized authority boundaries;
+- Process Map authority, one-link handoff, capability selection, independent specialist work, Integration and transfer discipline remain recoverable;
+- known `Validation Required` status is validation debt, not a documentation-readiness blocker;
+- no new material contradiction was found that requires reopening the approved targeted stabilization.
 
-Until Editorial Coach appends its actual result, Step 3 remains active and no later validation step is treated as authorized.
+Non-blocking historical wording remains in older operational/supporting documents, including broader system-development language in `Prompt.md` / `Checklist.md`. Because `Constitution.md` is the role's highest authority and the current `README.md` explicitly defines the stabilized boundaries, these passages do not create a material competing authority sufficient to block the Installation Test. They should be evaluated only if fresh-context validation proves actual ambiguity.
+
+### Coach readiness boundary
+
+This PASS means only:
+
+> a fresh Coach branch now has a sufficient durable package from which to attempt an Installation / Recovery Test.
+
+It does **not** mean:
+
+- Coach fresh-context recoverability has already passed;
+- real production has been validated;
+- Portfolio 02 may begin;
+- a new VIA may be opened;
+- Longform is ready.
+
+### Event 007 status after correction
+
+`Event 007 assignment artifact:` `RETAINED`  
+`Execution:` `DEFERRED`  
+`Condition to release:` `Coach Documentation Readiness PASS` + `Longform Documentation Readiness PASS`.
+
+Coach readiness provides the first condition. Longform readiness is still missing.
+
+### Next gate
+
+`LONGFORM DOCUMENTATION READINESS — package formation / bounded system-level review`
+
+Publication Master retains ownership for this next gate under the Owner's controlling route.
+
+No separate Owner intervention is required unless Longform review discovers a material authority decision, material architecture change or blocker.
