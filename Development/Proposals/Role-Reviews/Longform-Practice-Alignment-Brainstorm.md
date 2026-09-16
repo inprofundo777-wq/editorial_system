@@ -975,3 +975,378 @@ Longform should know the literary principles. It should not be forced to simulat
 **Canonical package changes:** none  
 **Next participant activated:** none  
 **Ownership returned to:** Owner
+
+---
+
+# Longform Self-Review — Practice Alignment
+
+## Executive view
+
+Текущий durable package надёжно восстанавливает операционную форму Longform: bounded Draft / Revision, one-link entry, authority boundaries, цельный transferable result, Stop Conditions и Role Exit. Он защищает роль от захвата Coach, Review, Strategy, SEO и process authority и тем самым исправляет реальные слабости прежней практики.
+
+Однако пакет пока описывает зрелую capability уже, чем она была доказана в `RR-2026-001` и последних VIA. Формулы «литературная реализация материала» и «faithful execution назначенной capability» верны, но недостаточны. Longform не только оформляет заранее законченную мысль. Он удерживает центральный человеческий вопрос, различает смысловой центр, строит путь читателя, соединяет человеческий опыт, Писание, богословскую мысль и пасторскую меру в одном тексте и во время Revision снова видит целое.
+
+Основной вывод:
+
+> Current package preserves bounded authorship operationally, but under-describes mature authorship intellectually, pastorally and formally.
+
+Это не требует расширения authority Longform. Требуется точнее назвать уже доказанную capability внутри существующих границ.
+
+## What the current package preserves well
+
+### 1. Draft и Revision как подтверждённое ядро
+
+README, Constitution, Prompt и Workflow согласованно закрепляют создание одного цельного Draft и одного нового цельного Revised Draft. Это соответствует `RR-2026-001` и VIA-практике. Revision не сводится к набору замен.
+
+### 2. Whole-text ownership
+
+Формула Prompt — `Longform отвечает за текст как целое` — сохраняет главное отличие роли от диагностических и координационных capabilities.
+
+Workflow подтверждает это практически:
+
+- Brief не должен становиться последовательностью пунктов Draft;
+- required findings решаются литературно;
+- локальные участки можно существенно перестраивать;
+- результат возвращается одним полным Markdown-блоком.
+
+В VIA-018, VIA-019 и VIA-020 Longform действительно возвращал цельные Draft и Revised Draft. В VIA-020 три интегрированные границы были решены через перестройку середины и финала: исчез отдельный safeguard-heavy раздел, человеческая линия стала непрерывнее, а христологическая кульминация осталась одна. Это Author Revision, а не compliance editing.
+
+### 3. Creative freedom inside closed intent
+
+Constitution сохраняет свободу структуры, композиционного движения, последовательности сцен и аргумента, переходов, формулировок, ритма, степени экспликации и литературного способа исполнения boundaries.
+
+Особенно важны два принципа:
+
+- Longform не обязан повторять структуру Brief;
+- optional suggestions не становятся обязательными автоматически.
+
+Они защищают различие:
+
+> Coach определяет, куда должен двигаться материал; Longform определяет, как это движение становится текстом.
+
+### 4. One-link recovery and state discipline
+
+VIA-модель улучшила историческую практику:
+
+- Process Map определяет активный шаг;
+- Current / Active Handoff содержит конкретное задание;
+- canonical VIA физически перечитывается;
+- память ветки не признаётся authority;
+- отсутствующий или противоречивый input вызывает `BLOCKED`;
+- следующий этап не активируется самой ролью.
+
+VIA-019 и VIA-020 показали, что Longform может получить одну ссылку, восстановить Draft или Revision assignment и внести bounded result без нового административного объяснения Owner.
+
+### 5. Protected Ground and integrated Review
+
+Текущая архитектура улучшила историческую модель через Coach Integrated Review, Required Boundaries, Protected Ground, Optional Suggestions, selective Re-checks и Conditional External Literary Control.
+
+В VIA-019 три Review-потока были сведены к трём причинным revision boundaries. В VIA-020 Theology, Reader и Literary findings также были интегрированы в три границы и один Global Preserve. Это лучше прямой передачи Longform нескольких независимых agendas.
+
+## Demonstrated capability under-described or missing
+
+### 1. Longform как bounded author
+
+Текущий пакет уверенно говорит о композиции, ритме и реализации, но слабее исторического Review называет авторскую интеллектуальную работу.
+
+Зрелый Longform фактически:
+
+- удерживает центральный вопрос;
+- различает реальное человеческое напряжение;
+- выбирает, какая мысль должна стать явной, а какая остаться в движении текста;
+- определяет смысловую и эмоциональную иерархию;
+- связывает конкретный опыт с библейской и богословской осью;
+- ведёт читателя, не превращая текст в наставление сверху;
+- допускает более одной человечески правдивой перспективы, если assignment не требует единственного диагноза.
+
+Это не Strategy, Theology, Reader или Coach authority. Это обычная авторская способность, без которой их input нельзя превратить в зрелый In Profundo longform.
+
+### 2. DNA-level writing judgment
+
+Prompt перечисляет Human Entry, Central Movement, Reader Promise и boundaries, но почти не раскрывает качества mature Longform:
+
+- recognition before diagnosis;
+- pastoral care without paternalism;
+- mentoring / guiding quality без давления;
+- глубина без ненужной тяжести;
+- простота без уплощения;
+- resistance to moralism and false certainty;
+- христоцентричность как центр надежды и движения;
+- пространство для читателя.
+
+Без этого fresh-context роль может правильно восстановить процедуру и всё же писать более плоско и административно, чем зрелая capability.
+
+### 3. Biblical and theological authorship within boundary
+
+`RR-2026-001` различал:
+
+> Longform формулирует богословскую мысль внутри живого текста; Theology независимо проверяет её устойчивость.
+
+Текущий package сильнее подчёркивает запрет присваивать Theology verdict, чем положительно описывает нормальную biblical / theological работу автора.
+
+Longform должен уметь:
+
+- читать назначенный biblical axis в контексте assignment;
+- не использовать стих как декоративное подтверждение;
+- строить мысль вокруг Писания без превращения статьи в конспект;
+- различать утверждение текста, допустимое богословское следствие и пасторское применение;
+- удерживать христологический центр пропорционально, не дублируя его ради compliance.
+
+Независимый Theology Review остаётся внешней authority проверки.
+
+### 4. Format range
+
+Текущий package почти везде использует слово «статья». Это создаёт неявное сужение.
+
+Доказанное ядро относится шире к bounded longform text. Роль должна быть способна работать как минимум со статьёй, эссе, рефлексией, study, research-informed материалом, обзором и close reading / exploration. Не все формы одинаково валидированы, но один привычный article pattern не должен становиться идентичностью роли.
+
+### 5. Revision as re-seeing
+
+Workflow разрешает локальную существенную перестройку, но зрелая практика требует назвать сильнее право заново увидеть всё движение и при необходимости убрать целую объясняющую конструкцию, объединить safeguards, перенести различение, изменить пропорции или раньше завершить статью при сохранении Working Function, closed decisions, required boundaries и protected ground.
+
+VIA-018 и особенно VIA-020 подтверждают: сильная Revision иногда достигает finding не добавлением, а удалением и перераспределением.
+
+## Appropriate constraints
+
+Необходимы и должны сохраниться:
+
+- closed Portfolio decision, тема, Working Function, Primary Audience, series placement и обязательные theology boundaries;
+- независимость Theology, Reader и Literary verdicts;
+- Coach Integration после нескольких Reviews;
+- Stop Conditions и material deviation при конфликте или недостаточном input;
+- один полный transferable result;
+- возврат ownership и запрет самовольной активации следующего этапа.
+
+Longform вправе писать богословски содержательный и человечески узнаваемый текст, но не вправе объявлять собственную эмпатию Reader verification, self-editing — Literary Review, а авторское решение — Theology verdict.
+
+## Possible over-constraint / lost potential
+
+### 1. Semantic saturation before Draft
+
+Working Function, Audiences, Human Entry, Central Movement, Reader Promise, Biblical Axis, Christological Center, Required Boundaries, Protected Ground и Closed Decisions по отдельности полезны, но вместе могут завершить мышление статьи до Longform.
+
+VIA-018 показывает верхнюю границу риска: семь исходных Required Boundaries и затем шесть Required Revision Boundaries. Результат остался рабочим благодаря Longform Freedom и литературному контролю, но такая плотность не должна становиться нормой.
+
+### 2. Central Movement as hidden outline
+
+Даже с оговоркой «не обязательный outline» детальное движение может предопределить композицию. Признак over-constraint: Longform может переставлять абзацы, но не может найти другой убедительный путь к той же закрытой функции.
+
+### 3. Safeguard accumulation
+
+VIA-020 дал прямое evidence: середина Draft превратилась в последовательность safeguards. Каждый был разумен, но вместе они ослабили человеческую линию. Revision стала сильнее, когда ограничения были реализованы через композицию, пропорцию и отсутствие overclaim, а не отдельное объяснение каждого риска.
+
+### 4. Reader Promise as required effect
+
+Reader Promise полезен как orientation. Он чрезмерен, если Longform должен гарантировать заданный внутренний результат читателя. Текст предлагает движение, но не управляет реакцией.
+
+### 5. Review findings as audible co-authors
+
+Если Required Boundaries передаются как ожидаемые фразы или симметричные контраргументы, Revised Draft начинает звучать несколькими голосами. Finding должен передавать material risk и причину, а не заранее написанный способ исправления.
+
+### 6. Formulaicity across corpus
+
+Продуктивная схема `human tension → distinction → safeguards → Christological center → practical movement` становится проблемой, если превращается в default form независимо от материала. Форму должен выбирать предмет, а не Template.
+
+## Minimum viable Coach → Longform assignment
+
+Для сильного Draft необходимы:
+
+1. Canonical Source / VIA.
+2. Active capability — Draft или Revision.
+3. Working Function.
+4. Central human question / tension.
+5. Closed decisions.
+6. Required boundaries с указанием material risk.
+7. Biblical / theological anchor, если он уже закрыт или необходим.
+8. Protected ground.
+9. Expected output / location.
+10. Return route.
+
+Для Revision добавляются актуальный Draft, один Coach Integrated Review / Revision Assignment, различение required / optional и named re-check risks.
+
+Helpful but optional depending on material:
+
+- Primary Audience, если она не следует из Source;
+- Relevant Audiences;
+- отдельный Human Entry;
+- Reader Promise;
+- Series relation;
+- Search / external language;
+- Christological Center как отдельное поле;
+- suggested structure or ending;
+- format recommendation;
+- article-specific examples.
+
+Эти поля обязательны только при реальной неоднозначности assignment.
+
+## Draft freedom
+
+Draft должен сохранять свободу:
+
+- выбирать longform-форму;
+- находить реальную начальную сцену или отказаться от scene-first opening;
+- менять порядок движения относительно Brief;
+- определять литературный и смысловой центр;
+- распределять интенсивность неравномерно;
+- выбирать степень прямоты;
+- оставлять часть safeguards неявными;
+- использовать biblical axis как основание, образ, напряжение или аргумент в пределах handoff;
+- вводить несколько человечески правдивых перспектив;
+- завершать текст раньше, если движение уже произошло;
+- не включать optional material;
+- возвращать material deviation, если лучший путь требует переоткрыть closed decision.
+
+Longform Freedom — не право менять Working Function, а право находить лучший текстовый путь к ней.
+
+## Revision freedom
+
+Revision должна сохранять совместимую Draft freedom и дополнительно право:
+
+- решать причину finding, а не его словесную поверхность;
+- перестраивать затронутое движение целиком;
+- удалять вместо добавления;
+- объединять пересекающиеся safeguards;
+- менять вес и расположение разделов;
+- восстанавливать один голос после нескольких Reviews;
+- сохранять emergent protected ground;
+- отклонять optional suggestions;
+- выбирать минимальное достаточное вмешательство;
+- поднимать deviation, если findings вместе разрушают Working Function или protected ground.
+
+Критерий:
+
+> Revised Draft должен читаться как текст одного автора, который заново увидел целое, а не как документ с одной вставкой на каждое замечание.
+
+## DNA / biblical / pastoral / theological safeguards
+
+### DNA
+
+- узнавание до диагноза;
+- реальный человеческий опыт;
+- отсутствие речи сверху;
+- спокойный ненавязчивый тон;
+- глубина без ненужной тяжести;
+- простота без уплощения;
+- ясность без ложной категоричности;
+- пространство для читателя.
+
+### Biblical foundation
+
+- точный назначенный текст и контекст;
+- Писание не как декоративная печать;
+- отсутствие обещаний сильнее текста;
+- различение biblical claim, inference и application;
+- сохранение независимого Theology Review.
+
+### Christ-centeredness
+
+- Христос как основание надежды и движения, когда это определено assignment;
+- отсутствие повторной кульминации ради видимости;
+- пропорциональность центра статье без универсальной развязки любого напряжения.
+
+### Pastoral care
+
+- признание греха, ответственности, ущерба и помощи без уничтожения человека;
+- отсутствие одной обязательной скорости или эмоции;
+- учёт harmed person и последствий, где это относится к теме;
+- мягкость не заменяет различение, строгость не доказывает зрелость.
+
+### Theological depth
+
+Longform формулирует мысль внутри текста; Theology проверяет устойчивость; Coach интегрирует correction; Owner сохраняет окончательную миссионную и богословскую ответственность.
+
+## Format range
+
+### Core-capable now
+
+- article;
+- essay;
+- reflection;
+- biblical / thematic study;
+- research-informed longform;
+- overview;
+- close reading / exploration.
+
+Общие принципы: bounded assignment, whole-text authorship, одна доминирующая функция, честное движение, пропорциональная biblical / theological работа, human recognition и полный transferable result.
+
+### Developing / validation needed
+
+- series writing с сильной межтекстовой зависимостью;
+- book chapter;
+- multi-chapter / book architecture;
+- research-heavy synthesis с отдельным evidence apparatus.
+
+Эти формы естественно связаны с Longform, но требуют отдельной проверки масштаба и interfaces.
+
+## Failure modes
+
+1. Brief execution instead of authorship.
+2. Assignment drift.
+3. Safeguard stacking.
+4. Mechanical Revision.
+5. Review ventriloquism.
+6. Moralism.
+7. False reassurance.
+8. Theological overreach.
+9. Self-review substitution.
+10. Universalized audience.
+11. Formulaic corpus rhythm.
+12. Over-explanation.
+13. Human Entry as mandatory device.
+14. Christological duplication.
+15. Process ownership creep.
+16. Format collapse.
+17. Administrative fragments instead of full text.
+18. Memory-based recovery.
+
+## Practice Alignment classification
+
+| Major capability | Classification | Finding |
+|---|---|---|
+| Draft Creation | PRESERVED | Цельный Draft, bounded assignment и composition freedom закреплены ясно. |
+| Author Revision | PRESERVED / CLARIFIED | Whole-text Revision и required/optional distinction улучшены; re-seeing whole следует назвать сильнее. |
+| Whole-text authorship | PRESERVED, UNDER-DESCRIBED | Операционно защищено, но identity уже зрелой capability. |
+| Coach ↔ Longform division | CLARIFIED | Границы сильнее; риск command/execution hierarchy остаётся при чрезмерном Brief. |
+| One-link VIA recovery | CLARIFIED | Существенное улучшение recent practice. |
+| Stop Conditions / Role Exit | CLARIFIED | Исторически слабая зона документирована хорошо. |
+| Review integration | CLARIFIED | Integrated Review, Protected Ground и selective re-checks улучшают модель. |
+| Biblical / theological authorship | DRIFT | Ограничения описаны сильнее положительной capability. |
+| Human recognition / pastoral guidance | DRIFT | Практикой доказано, но пакет называет недостаточно. |
+| Project DNA / Christ-centered writing | DRIFT | Частично присутствует через handoff fields, но не восстановлено как mature judgment. |
+| Format range | DRIFT / OPEN | Пакет article-centric; широкий range требует фиксации и частично validation. |
+| Strategy / Portfolio authority | TRANSFERRED / CLARIFIED | Правильно оставлено upstream. |
+| Independent specialist verdicts | CLARIFIED | Правильно сохранены вне Longform. |
+| Review integration / orchestration | TRANSFERRED / CLARIFIED | Правильно принадлежит Coach. |
+| Technical Publication Preparation | TRANSFERRED | Не является ядром Longform. |
+| Late authorial Final Text help | OPEN | Только по отдельному bounded handoff. |
+| Series writing | OPEN | Естественная capability, но требует validation. |
+| Book longform | OPEN | Не включать в confirmed core без проверки. |
+| Life Recognition Map | DROPPED as required / OPEN as method | Artifact не обязателен; recognition остаётся intrinsic judgment. |
+
+## Recommendations for package recovery
+
+Аналитические рекомендации; прямых canonical changes этот review не производит.
+
+1. Уточнить identity: Longform — bounded author of the whole longform text, а не только исполнитель литературной реализации.
+2. Положительно назвать mature judgment: central human question, internal movement, human recognition, pastoral measure, biblical/theological thinking within assignment, Christ-centeredness и whole-text integrity.
+3. Сохранить authority boundaries; не превращать описание competence в расширение authority.
+4. Усилить `Coach → where / Longform → how`: `how` включает discovery of form, emphasis, proportion, image, silence и explicitness.
+5. Зафиксировать Revision как re-seeing the whole, допускающее removal, recomposition и redistribution.
+6. Разделить minimum required handoff и optional enrichment fields.
+7. Определить Required Boundaries как risk / outcome constraints с причиной, а не как обязательные формулировки.
+8. Сохранить Central Movement как orientation, не hidden outline.
+9. Разрешить safeguards исполняться через пропорцию, omission и calibrated language.
+10. Добавить широкий format range, сохранив book / multi-chapter modes в Developing / Validation.
+11. Включить Longform-owned thresholds: не переобъяснять достигнутую мысль, различать meaningful / mechanical repetition, сохранять uneven intensity, спрашивать, что потеряется от улучшения.
+12. Не заставлять Longform симулировать Literary Inspector; corpus-level formulaicity и independent KEEP/intervene judgment оставить внешнему Review.
+13. Сохранить whole paste-ready Markdown, minimal Material Notes, Stop Conditions и Role Exit.
+14. Проверить package в real-work validation при rich Coach Brief и нескольких integrated boundaries. Ключевой вопрос — остаётся ли реальная discovery authority.
+15. Не решать сейчас late Publication Preparation, book mode и обязательность конкретных Reviews; оставить Owner / Publication Master gates.
+
+**Longform Editor work:** COMPLETE  
+**Mode:** Practice Alignment Self-Review  
+**Authority exercised:** analytical only  
+**Canonical Longform package changes:** none  
+**Next participant activated:** none  
+**Ownership returned to:** Owner
+
