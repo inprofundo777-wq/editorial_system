@@ -1350,3 +1350,329 @@ Longform формулирует мысль внутри текста; Theology �
 **Next participant activated:** none  
 **Ownership returned to:** Owner
 
+---
+
+# Theology Editor — Longform Boundary / Practice Alignment Review
+
+## Executive view
+
+Зрелая Longform capability In Profundo не может быть сведена к литературному оформлению богословских решений, полностью принятых до Draft. Longform должен самостоятельно мыслить библейски и богословски внутри текста: понимать назначенный biblical axis, различать текст Писания и пасторское применение, формулировать мысль о Боге с соразмерной уверенностью, удерживать христологический центр и замечать пасторские последствия собственных утверждений.
+
+Но внутренняя компетентность не устраняет независимую Theology capability. Автор, создающий движение текста, не является достаточной последней инстанцией для проверки собственной экзегезы, богословских предпосылок, атрибуции Божьего действия, доктринальной категоричности и пасторски опасных обещаний.
+
+Подтверждённая граница остаётся устойчивой:
+
+> Longform формулирует богословскую мысль внутри живого текста.  
+> Theology независимо проверяет богословскую устойчивость того, что текст решается сказать.
+
+VIA-практика улучшила историческую модель: Theology Review получил ограниченный article-specific scope, findings передаются через Coach, а повторная проверка может быть targeted. Но durable package Longform описывает запрет присваивать Theology verdict яснее, чем положительную biblical / theological способность зрелого автора. Здесь есть documentation drift: authority роли расширять не нужно, но её реальная компетентность описана уже доказанной практики.
+
+Отдельный documentation fact: самостоятельный durable package Editors/Theology в репозитории не обнаружен. Текущая Theology capability восстанавливается прежде всего через исторический RR-2026-003 и VIA-практику. Это не отменяет независимую функцию, но оставляет её permanent recovery и точные current boundaries открытым вопросом стабилизации.
+
+## Historical Theology function around Longform
+
+Историческая функция Theology возникла не для добавления в статью большего количества богословских слов. Она защищала точность того, что In Profundo говорит о Боге, Писании и духовной реальности.
+
+RR-2026-003 фиксирует устойчивые виды judgment:
+
+- проверка библейского текста в контексте;
+- различение утверждения отрывка, допустимого богословского следствия и пасторского применения;
+- обнаружение proof-texting и вывода на слишком слабом основании;
+- различение человеческого переживания и утверждения о духовной реальности;
+- проверка атрибуции конкретного действия Богу;
+- калибровка слов «всегда», «никогда», «значит», «Бог хочет», «Бог ведёт»;
+- проверка христоцентричности как реального движения, а не финального добавления;
+- различение богословской ошибки и вопроса, который статья не обязана закрывать;
+- оценка пасторских последствий формально корректной фразы;
+- защита от ложных обещаний, романтизации страдания, обвинения страдающего и богословского максимализма.
+
+Практика одновременно установила restraint Theology:
+
+- не переписывать Draft вместо Longform;
+- не превращать статью в трактат;
+- не закрывать все возможные возражения;
+- не подменять Research новым исследованием по каждому вопросу;
+- не считать каждое замечание блокером;
+- не требовать полного повторного Review, если достаточно локального re-check.
+
+Историческая capability защищала одновременно достаточную богословскую точность и достаточную жанровую, пасторскую и литературную свободу. Theology является не только источником safeguards, но и ограниченной экспертной ролью, обязанной знать, когда не вмешиваться.
+
+## Biblical/theological competence intrinsic to Longform
+
+### 1. Biblical engagement
+
+Longform должен уметь:
+
+- читать назначенный biblical axis в релевантном контексте;
+- не приписывать стиху отсутствующее утверждение;
+- не использовать Писание как декоративную печать;
+- различать narrative description, theological claim и pastoral application;
+- работать вокруг центрального текста, когда это помогает избежать каталога цитат;
+- видеть разницу между прямым смыслом и допустимым применением;
+- ограничивать формулировку, если основание не позволяет сказать больше.
+
+Без этого Longform становится зависимым от заранее написанного theological brief и перестаёт быть автором богословски содержательного текста.
+
+### 2. Theological formulation
+
+Longform должен самостоятельно формулировать богословскую мысль, а не только вставлять утверждённые тезисы. Это включает способность:
+
+- соединять человеческий опыт с богословским различением;
+- различать Бога, человеческое восприятие Бога и интерпретацию обстоятельств;
+- не превращать возможность в обещание;
+- не выводить Божью волю автоматически из внутреннего мира, доступного шага или результата;
+- различать прощение, последствия, доверие, примирение и восстановление отношений;
+- видеть, когда антропологическая формула подменяет евангельское основание надежды;
+- говорить о грехе серьёзно, не делая самоуничтожение условием покаяния;
+- оставлять честную неопределённость там, где assignment не требует окончательного решения.
+
+### 3. Christ-centered authorship
+
+Longform должен понимать христоцентричность не как обязательную повторную кульминацию, а как основание движения материала. Христос может быть прямым центром аргумента, основанием надежды или присутствующим богословским центром без повторного полного объяснения в финале.
+
+Longform должен уметь решить, где центр уже состоялся и где новое его проговаривание превращается в compliance repetition.
+
+### 4. Pastoral theological judgment
+
+Зрелое авторство должно заранее замечать очевидные риски:
+
+- обвинение страдающего;
+- романтизацию боли;
+- нормализацию скрытого или разрушительного поведения;
+- обещание быстрого изменения;
+- смешение повторяющейся слабости, зависимости, насилия и опасного поведения;
+- возложение ответственности за восстановление на пострадавшего;
+- представление профессиональной помощи как недостатка веры.
+
+Это не Reader verdict и не окончательная Theology verification. Это базовая ответственность автора за смысл собственного текста.
+
+### 5. Awareness of interpretive plurality
+
+Longform должен узнавать, что внутри серьёзной христианской традиции существуют несколько прочтений, и не превращать собственное предпочтение в universal Christian claim.
+
+Он может обозначить границу статьи, назвать несколько серьёзных позиций, выбрать не закрывающий вопрос сильнее assignment язык или запросить material decision. Но он не должен самостоятельно утверждать новую doctrinal position проекта.
+
+## Independent Theology judgment that should remain external
+
+### 1. Independent verification of Scripture use
+
+Theology независимо проверяет:
+
+- поддерживает ли отрывок центральное утверждение;
+- сохранён ли релевантный контекст;
+- не выдано ли применение за прямой смысл;
+- не построен ли вывод на изолированной формулировке;
+- не конфликтует ли чтение с более широким библейским свидетельством.
+
+VIA-018 показывает эту необходимость на 1 Ин. 3:19–20: Longform создал зрелое движение, но внешний Review заметил риск сузить стих до общей эпистемической формулы о неполноте самопознания.
+
+VIA-020 показывает другой тип границы: Евр. 4:14–16 допустимо применять к повторному возвращению после падения, но сам отрывок не является специальным обещанием о «сотом совершённом грехе». Различение смысла и применения должно оставаться независимо проверяемым.
+
+### 2. Doctrinal and categorical claims
+
+Theology сохраняет независимый контроль, когда текст утверждает:
+
+- что Бог делает, допускает, посылает или хочет;
+- что является признаком настоящей веры или покаяния;
+- как соотносятся оправдание, освящение, благодать и человеческий ответ;
+- что обязательно происходит с каждым верующим;
+- какое обещание читатель вправе присвоить;
+- как понимать спорную doctrinal position.
+
+Чем центральнее и категоричнее утверждение, тем сильнее основание для проверки.
+
+### 3. High-risk pastoral theology
+
+Независимая проверка особенно нужна, когда формулировка может влиять на безопасность пострадавшего, отношение к зависимости или опасному поведению, обращение за профессиональной помощью, переживание вины и Божьего отсутствия, ожидание исцеления, чуда, водительства или быстрого освобождения.
+
+Longform обязан думать об этих рисках, но не должен сам заверять собственную достаточность.
+
+### 4. Adjudication and escalation
+
+Theology должна сохранять authority:
+
+- признать material theological deviation;
+- потребовать correction при material risk;
+- различить required и recommended внутри своей экспертизы;
+- запросить Research, если проверка невозможна без исследования;
+- вернуть вопрос Owner, если затронута doctrinal / mission position;
+- определить предмет узкого re-check в своей зоне через Coach routing.
+
+## Helpful theological constraints
+
+### 1. Article-specific scope
+
+В VIA-018 Theology получил три зоны: 1 Ин. 3:19–20, различие оправдания и освящения, отсутствие автоматического обещания скрытого роста.
+
+В VIA-019 проверка сосредоточилась на Флп. 2:12–13, связи Божьего действия и человеческого ответа, «доступном шаге» и риске скрытого алгоритма Божьей воли.
+
+В VIA-020 проверка ограничена применением Евр. 4:14–16 и связью с 1 Ин. 1:8–9.
+
+Такой scope снижает вероятность повторного редактирования всей статьи.
+
+### 2. Risk-based finding
+
+Полезный finding передаёт точное место, material risk, основание, required boundary, protected ground и необходимость re-check. Это позволяет Longform решить причину риска, а не копировать чужую фразу.
+
+### 3. Protected ground
+
+Theology boundary полезна, когда вместе с запретом сохраняется положительный центр: не расширять 1 Ин. 3:20 до универсальной теории ненадёжности сердца, но сохранить Божье более полное знание и христологическое основание надежды; не представить Евр. 4 как специальное обещание о повторном грехе, но сохранить Христа как основание приближения к престолу благодати.
+
+### 4. Selective re-check
+
+VIA-019 подтвердил, что targeted Theology re-check может проверить material deviation без повторного открытия всей статьи. VIA-020 правильно ограничивает ожидаемый re-check biblical boundary, которую Revision могла изменить.
+
+> Re-check проверяет риск, а не повторяет роль.
+
+### 5. Proportional restraint
+
+Theology должна уметь вернуть PASS WITH LOCAL PRECISION или PASS — NO MATERIAL DEVIATION, если центральное движение устойчиво. Отсутствие необходимости расширять текст является полноценным экспертным результатом.
+
+## Risks of theological over-constraint
+
+### 1. Theological saturation before Draft
+
+Coach Brief может заранее содержать biblical axis, Christological Center, подробные Required Boundaries и Protected Ground. Если они сформулированы как почти готовые абзацы, Longform остаётся распределить чужие решения по тексту.
+
+Граница должна сообщать material risk, его причину и required outcome. Она не должна без необходимости задавать формулировку, композиционное место и объём ответа.
+
+### 2. Safeguard accumulation
+
+VIA-020 является прямым evidence. Required Boundaries были по отдельности оправданы, но совокупный эффект превратил середину Draft в последовательность safeguards.
+
+> Material boundary должна быть исполнена в тексте; она не обязана быть отдельно проговорена как мини-трактат.
+
+Safeguards могут реализовываться через модальность, отказ от overclaim, пропорцию, выбор примера, omission, расположение, краткую оговорку или отсутствие опасного вывода.
+
+### 3. Theology findings as hidden co-authorship
+
+Если finding задаёт готовую заменяющую фразу, обязательную структуру или полный контраргумент, Theology становится вторым автором.
+
+Локальная формулировка допустима для конкретной ошибки или двусмысленности. Нормальный output передаёт risk и boundary, оставляя Longform реализацию.
+
+### 4. Defensive writing
+
+Попытка закрыть каждое возражение создаёт текст, который звучит осторожно, но не движется; постоянно сообщает, чего не утверждает; ставит исключение рядом с каждым тезисом; теряет человеческую сцену и создаёт ощущение doctrinal audit.
+
+Богословская честность не равна максимальному числу оговорок.
+
+### 5. Christological duplication
+
+Требование сохранить христологический центр может быть ошибочно понято как обязанность ещё раз объяснить Христа в финале. VIA-020 показал, что второе полное достижение уже сформулированного центра ослабляет композицию.
+
+### 6. Elimination of responsible plurality
+
+Избыточный контроль может заставить Longform выбирать одну формулировку там, где серьёзная христианская традиция допускает несколько позиций, либо перегружать статью каталогом оговорок.
+
+Иногда зрелое решение — обозначить предел материала и не разрешать весь спор.
+
+### 7. Review proliferation
+
+Если каждый Draft получает полный Review, каждая Revision — новый полный Review, а title и description — дополнительные проверки без risk threshold, независимая экспертиза становится постоянным соавторством.
+
+Богословская ответственность обязательна. Одинаковый полный маршрут каждого материала пока не доказан.
+
+## Interpretive plurality / Christian tradition
+
+Christian tradition должна функционировать для Longform как:
+
+1. **Boundary** — защита от прочтений, выходящих за устойчивое христианское свидетельство проекта.
+2. **Conversation partner** — помощь увидеть, что собственная формулировка не единственно возможная.
+3. **Context** — честное обозначение разных серьёзных прочтений, если это materially относится к статье.
+
+Она не должна работать как декоративная ссылка, автоматическая передача authority большинству, обязанность перечислить все позиции или скрытая конфессиональная стандартизация без Owner decision.
+
+Когда существуют несколько серьёзных прочтений сопоставимого веса, возможны четыре маршрута:
+
+- статья не обязана решать спор и использует совместимый с несколькими позициями язык;
+- Longform кратко обозначает plurality, если она помогает читателю;
+- Theology проверяет справедливость представления и отсутствие ложной универсализации;
+- Owner принимает material doctrinal / editorial decision, если статья требует выбрать позицию как голос проекта.
+
+Longform не должен выдавать личное прочтение за consensus. Theology не должен превращать каждую статью в обзор традиций.
+
+## Coach integration and Revision
+
+Coach Integration должна сохранять не словесную поверхность Theology finding, а его material reason.
+
+Для каждого finding Coach передаёт Longform:
+
+- какой claim или effect является риском;
+- насколько correction обязательна;
+- что нельзя потерять;
+- что остаётся implementation freedom;
+- какой новый риск Revision действительно потребует проверить.
+
+Coach должен схлопывать пересекающиеся findings. Если Theology, Reader и Literary указывают на один участок с разных сторон, Longform не должен получать три обязательные вставки.
+
+Revision должна иметь право решить risk без повторения предложенной фразы, сократить вместо добавить, объединить safeguards, переместить различение, реализовать boundary через модальность или композицию, сохранить emergent protected ground и вернуть deviation, если совокупность требований разрушает Working Function.
+
+Targeted re-check должен отвечать на узкий вопрос:
+
+> Сохранилась ли или восстановлена ли конкретная богословская граница?
+
+Он не должен заново оценивать весь Draft или добавлять несвязанные findings.
+
+## Practice Alignment classification
+
+| Major capability / boundary | Classification | Finding |
+|---|---|---|
+| Longform formulates theology inside living text | PRESERVED, UNDER-DESCRIBED | Практика подтверждена, но durable package сильнее описывает запреты, чем положительную capability. |
+| Biblical engagement in Draft | PRESERVED / DRIFT | Prompt признаёт biblical / theological axis, но contextual judgment и claim / inference / application почти не названы. |
+| Christ-centered authorship | PRESERVED / DRIFT | Присутствует в практике; есть риск свести к отдельному полю и повторной кульминации. |
+| Pastoral theological judgment intrinsic to Longform | PRESERVED, UNDER-DESCRIBED | Практически необходимо, но может ошибочно восприниматься только как внешний verdict. |
+| Independent Theology verification | PRESERVED / CLARIFIED | VIA даёт ограниченный scope, material findings и selective re-check. |
+| Final theological authority | CLARIFIED | Не принадлежит Longform; Owner сохраняет material doctrinal и mission decisions. |
+| Coach integration of Theology findings | CLARIFIED | Модель сильнее исторического ping-pong; compression quality требует validation. |
+| Risk-based Theology Review | CLARIFIED | VIA-018–020 демонстрируют полезное ограничение Review. |
+| Targeted Theology re-check | CLARIFIED | VIA-019 подтвердил работоспособность; VIA-020 продолжает validation. |
+| Full Theology Review for every longform | OPEN | Универсальный полный маршрут не доказан. |
+| Theology consultation before Draft | OPEN | Уместна для high-risk material, но не должна стать default co-authoring. |
+| Interpretive plurality handling | DRIFT / OPEN | Исторический judgment существует, current package почти не фиксирует его. |
+| Christian tradition as boundary / conversation | OPEN | Нужна дальнейшая Owner calibration. |
+| Theology permanent role recovery | OPEN / DOCUMENTATION GAP | Durable Editors/Theology package не обнаружен. |
+| Theology rewriting Longform | DROPPED / PROHIBITED | Локальная correction допустима; крупное переписывание не является core. |
+| Exhaustive doctrinal coverage | DROPPED | Статья не обязана отвечать на каждый богословский вопрос. |
+| Independent Theology judgment delegated to Longform | DROPPED / PROHIBITED | Авторская компетентность не заменяет verification. |
+
+## Principles Publication Master should protect
+
+1. Назвать biblical / theological thinking частью зрелой Longform authorship, не расширяя authority роли.
+2. Сохранить формулу: Longform формулирует; Theology проверяет; Coach интегрирует; Owner решает material doctrinal / mission questions.
+3. Не описывать Longform как литературного исполнителя готового theological content.
+4. Зафиксировать внутри Longform minimum: contextual Scripture use, claim / inference / application, calibrated certainty, organic Christ-centeredness, recognition of pastoral risk и interpretive humility.
+5. Сохранить Theology authority для exegesis, doctrine, attribution of divine action, categorical promises, high-risk consequences и disputed positions.
+6. Передавать Required Theology Boundaries как risk + reason + required outcome, а не готовый абзац.
+7. Считать absence of overclaim допустимым исполнением boundary; не требовать отдельной оговорки для каждого риска.
+8. Требовать от Coach collapse пересекающихся Theology / Reader / Literary findings.
+9. Защитить Revision как whole-text authorship: удаление, сжатие и перераспределение могут быть ответственнее добавления.
+10. Не требовать повторного христологического финала, если центр уже состоялся.
+11. Сохранить targeted re-check как проверку named risk, а не новый Review.
+12. Не делать Full Theology Review универсальным default до risk-based validation.
+13. Учитывать Christian tradition как boundary и conversation partner, не превращая статью в обзор школ.
+14. Не требовать от Longform имитировать собственного Theology Editor.
+15. Рассмотреть durable recovery Theology capability, поскольку RR-2026-003 и VIA evidence сейчас несут больше recovery load, чем permanent documentation.
+
+## Questions to keep open
+
+1. Какой theological risk threshold требует Full Review, Local Check или отсутствие отдельного Review?
+2. Когда Theology должна подключаться до Draft, а когда это преждевременно предопределяет текст?
+3. Какой minimum biblical / theological competence должен проверяться fresh-context установкой Longform?
+4. Должно ли поле biblical / theological axis различать anchor, direct claim, application и contested question?
+5. Как Coach будет ограничивать число Required Boundaries до material minimum?
+6. Когда отсутствие явной оговорки является достаточным safeguard?
+7. Кто принимает решение между серьёзными традиционными прочтениями в зависимости от уровня вопроса?
+8. Нужен ли project-level statement о конфессиональных границах и Christian tradition?
+9. Как проверять corpus-level theological formulaicity?
+10. Когда title / description нуждаются в Theology Check?
+11. Какой evidence нужен, чтобы считать targeted re-check confirmed capability?
+12. Следует ли стабилизировать durable Theology package до окончательной установки Longform?
+
+**Theology Editor work:** COMPLETE  
+**Mode:** Longform Theology Boundary / Practice Alignment Review  
+**Authority exercised:** independent analytical review only  
+**Canonical Longform package changes:** none  
+**Canonical Theology package changes:** none  
+**Next participant activated:** none  
+**Ownership returned to:** Owner
+
