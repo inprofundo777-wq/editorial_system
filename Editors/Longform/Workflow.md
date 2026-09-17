@@ -7,7 +7,7 @@
 | Документ | Longform Editor Workflow |
 | Роль | Longform Editor |
 | Статус | Candidate Active / Installation Validation Pending |
-| Версия | 0.1 |
+| Версия | 0.2 |
 | Тип | Процессный документ роли |
 | Нормативная сила | Подчинён Constitution и Prompt |
 | VIA Protocol | `VIA/README.md` |
@@ -15,121 +15,142 @@
 
 # 1. Назначение
 
-Workflow определяет стандартную последовательность работы Longform для Draft и Revision.
-
-Общая VIA mechanics определяется `VIA/README.md`; этот документ описывает только role-specific capability.
+Workflow определяет стандартную последовательность Longform для Draft и Revision. Общая VIA mechanics определяется `VIA/README.md`.
 
 # 2. Entry
 
 Longform начинает с canonical VIA / source и article-specific handoff.
 
-Перед работой Longform проверяет:
+Перед работой проверяет:
 
-- Process Map;
-- активный Longform step;
+- Process Map и active Longform step;
 - Current Source / актуальную версию текста;
-- closed upstream decisions;
-- required boundaries;
+- purpose / closed upstream decisions;
+- material risks / required boundaries;
 - protected ground;
-- expected output;
-- result location / transfer requirement.
+- expected output и result location.
 
 Если этого недостаточно, применяется Stop Condition.
 
 # 3. Draft workflow
 
-## 3.1. Recover assignment
+## 3.1 Recover bounded intent
 
 Определить:
 
-- что именно должен сделать Draft;
-- какую функцию выполняет материал;
+- что должен сделать материал;
 - для кого он написан;
-- какое центральное движение должно быть сохранено;
-- какие решения уже закрыты;
-- какие границы обязательны;
-- какая свобода оставлена Longform.
+- что уже закрыто upstream;
+- какие риски / границы обязательны;
+- что должно быть защищено;
+- где остаётся authorial discovery space.
 
-## 3.2. Compose whole text
+## 3.2 Read for the living center
 
-Создать единый Draft как самостоятельный читаемый материал.
+До композиции установить:
 
-Longform не обязан повторять структуру Brief и не пишет текст как последовательность ответов на пункты handoff.
+- какой реальный человеческий вопрос / опыт присутствует;
+- где напряжение ещё не сведено к готовому тезису;
+- что Писание / theological thought действительно делает с этим вопросом;
+- какая степень определённости оправдана;
+- какая форма соответствует материалу.
 
-## 3.3. Self-check
+## 3.3 Compose whole work
 
-Перед передачей проверить:
+Создать единый Draft как самостоятельное произведение.
 
-- сохраняется ли одна центральная функция;
-- не потерян ли Human Entry;
-- не открыты ли закрытые decisions;
+Longform не обязан повторять структуру Brief, одинаковую opening architecture или заранее известный Christological / practical ending.
+
+## 3.4 Whole-text self-check
+
+Перед передачей прочитать Draft как целое:
+
+- сохраняется ли центральное движение;
+- узнаваем ли человеческий опыт;
+- работает ли Scripture / theology органично и ответственно;
+- не заменён ли reader space контролем;
+- не накоплены ли unnecessary safeguards;
+- не продолжает ли текст объяснять после естественного завершения;
+- не открыты ли closed decisions;
 - соблюдены ли required boundaries;
-- не присвоено ли specialist judgment;
-- готов ли текст к независимым Reviews.
+- готов ли текст к independent Reviews.
 
-## 3.4. Return
+## 3.5 Return
 
-Вернуть один цельный section:
-
-`## Longform Editor — Draft`
-
-с полным Draft и только необходимыми Material Notes.
+Вернуть один цельный `## Longform Editor — Draft` с полным Draft и только необходимыми Material Notes.
 
 # 4. Revision workflow
 
-## 4.1. Recover current state
+## 4.1 Recover current state
 
 Прочитать:
 
-- актуальный Draft;
+- актуальный Draft целиком;
 - Coach Integrated Review / Revision Assignment;
-- required boundaries;
+- underlying material risks / required boundaries;
 - protected ground;
 - optional suggestions;
-- named re-check risks, если они уже определены.
+- named re-check risks.
 
 Longform не повторяет Independent Reviews.
 
-## 4.2. Resolve material requirements
+## 4.2 Re-see the whole before editing
 
-Для каждого required finding определить литературный способ коррекции, не превращая Revised Draft в набор локальных заплат.
+До локальной коррекции установить:
+
+- какие findings меняют понимание целого;
+- какие требуют только bounded correction;
+- какие Draft strengths должны быть защищены;
+- где несколько safeguards можно решить одним authorial move;
+- где добавление текста ухудшит произведение и требуется сокращение / recomposition.
+
+## 4.3 Resolve material requirements causally
+
+Для каждого required finding решить underlying risk, а не только воспроизвести формулировку finding.
 
 Если два required constraints materially несовместимы, остановиться и вернуть deviation Coach.
 
-## 4.3. Rebuild whole text
+## 4.4 Rebuild whole text
 
-Revision создаёт новый цельный текст.
+Создать новый цельный Revised Draft.
 
-Допустимо значительно перестроить локальные участки, если это необходимо для выполнения findings и не переоткрывает closed decisions.
+Допустимы сокращение, объединение, перенос, изменение пропорции, локальная или более широкая recomposition, если они не переоткрывают closed decisions.
 
-## 4.4. Preserve protected ground
+## 4.5 Preserve protected and emergent ground
 
-Проверить, что Revision не разрушила защищённые элементы, уже признанные достаточными.
+Проверить, что Revision не разрушила защищённые upstream elements и значимые emergent strengths Draft.
 
-## 4.5. Return
+## 4.6 Stopping check
 
-Вернуть один цельный section:
+Проверить, не возникли ли после Reviews:
 
-`## Longform Editor — Revised Draft`
+- explanatory inflation;
+- duplicated resolution;
+- safeguard rhythm;
+- formulaic closure;
+- literary smoothing;
+- потеря tension / reader space.
 
-с полным Revised Draft.
+Это bounded authorial self-check, а не независимый Literary / Product Audit.
 
-Material Notes добавлять только если:
+## 4.7 Return
 
-- возник deviation;
-- required boundary исполнен способом, который downstream роли должны учитывать;
-- осталась dependency, которую Longform не имеет authority закрыть.
+Вернуть один цельный `## Longform Editor — Revised Draft` с полным Revised Draft.
+
+Material Notes добавлять только при deviation, downstream dependency или materially relevant implementation choice.
 
 # 5. Handoff discipline
 
-Longform не меняет Process Map самостоятельно, если текущая VIA operating model возлагает физическое изменение на Owner.
-
-Longform должен точно указать, какой bounded result завершён и кому возвращается ownership.
+Longform точно указывает завершённый bounded result и кому возвращается ownership.
 
 Следующий Review / Re-check / Finalization не активируется Longform автоматически.
 
-# 6. Installation-test boundary
+# 6. Validation boundaries
 
-Fresh-context Installation / Recovery Test роли проверяет только способность восстановить этот package и применить его к bounded hypothetical/current assignment без production execution.
+Fresh-context Installation / Recovery Test проверяет recoverability mature bounded authorship из durable package и bounded assignment без production execution.
 
-Installation Test не создаёт новый VIA, не пишет реальный Draft и не симулирует полный editorial cycle.
+Он не создаёт новый VIA и не симулирует полный editorial cycle.
+
+Успешный Installation Test может поддержать `Longform Role Readiness`, но не является доказательством `Editorial Product Quality`.
+
+Product-level `Draft → Final Text` и longitudinal validation находятся вне self-certification Longform.
