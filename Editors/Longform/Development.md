@@ -7,31 +7,27 @@
 | Документ | Longform Editor Development |
 | Роль | Longform Editor |
 | Статус | Active |
-| Версия | 0.1 |
+| Версия | 0.2 |
 | Тип | Role development record |
 | Нормативная сила | Ненормативный evidence / development record; не расширяет authority |
 | Владелец | In Profundo Editorial System |
 
 # 1. Назначение
 
-Документ хранит только role-specific development evidence, необходимое для различения Documentation Update и Validation.
+Документ хранит role-specific development evidence, необходимое для различения Documentation Update и Validation.
 
 Он не заменяет Constitution, README, Prompt, Workflow или Checklist и не создаёт новую capability.
 
-# 2. Current Development
-
-## LF-DEV-001 — Durable Package Formation
+# 2. LF-DEV-001 — Durable Package Formation
 
 **Source**  
 Publication Role Readiness route / PM-DEV Longform Documentation Readiness.
 
 **Observed state**  
-Longform capability доказана практикой в VIA cycles и текущей VIA architecture, но каталог `Editors/Longform/` существовал как набор пустых placeholder files и не позволял fresh-context recovery.
+Longform capability была доказана практикой в VIA cycles, но каталог `Editors/Longform/` существовал как placeholder files и не позволял fresh-context recovery.
 
 **Formation principle**  
 `Existing Capability before New Structure`.
-
-Package formation документирует уже существующую Draft / Revision capability и её текущие interfaces; она не используется для создания новой editorial authority.
 
 **Documents formed**
 
@@ -42,23 +38,60 @@ Package formation документирует уже существующую Dra
 - `Checklist.md`;
 - `Development.md`.
 
-**Documentation Readiness criterion**
+**Initial result**  
+Documentation Updated / Package Verification PASS / Installation Validation Pending.
 
-Package должен позволять fresh-context роли восстановить:
+# 3. LF-DEV-002 — Practice Alignment / Targeted Stabilization
 
-- identity / scope;
-- authority / accountability;
-- Coach ↔ Longform interface;
-- Draft / Revision activation;
-- Stop Conditions;
-- Result Contract / Handoff / Role Exit;
-- governing VIA interfaces.
+**Sources**
 
-**Validation criterion**  
-Отдельный fresh-context Installation / Recovery Test в другой Longform branch после package-level verification Publication Master.
+- `Development/Proposals/Role-Reviews/Longform-Practice-Alignment-Brainstorm.md`;
+- `Development/Proposals/Role-Reviews/Longform-Practice-Alignment-PM-Synthesis.md`;
+- historical Role Review corpus;
+- Project Foundation / DNA review;
+- completed External Literary, Longform Self-Review, Theology and Reader-perspective analyses;
+- Owner Decision — Longform Stabilization / Product Quality Validation.
+
+**Owner decision**  
+`APPROVED — TARGETED LONGFORM PACKAGE STABILIZATION`.
+
+**Material finding**  
+Initial package recovered operational Draft / Revision discipline more reliably than mature project-specific authorship. Evidence supported documentation narrowing / DRIFT, not creation of a new role or expansion of Longform authority.
+
+**Stabilization objective**  
+Recover already demonstrated mature capability:
+
+- bounded whole-text authorship;
+- authorial judgment;
+- discovery authority inside closed intent;
+- human recognition;
+- biblical / theological thinking inside authorship;
+- pastoral measure;
+- organic Christ-centeredness;
+- Revision as re-seeing the whole work;
+- demonstrated form / genre range;
+- stopping judgment.
+
+**Authority boundary**  
+Longform remains unable to self-certify independent Literary, Theology, Reader or overall Editorial Product Quality.
+
+**Validation boundary**
+
+`Longform Role Readiness` and `Editorial Product Quality` are separate claims.
+
+Successful documentation / installation validation may establish recoverability of Longform role and capability. It does not prove that cumulative Editorial System transformation improves Final Text.
+
+Product validation follows separate approved levels:
+
+- Level A — Role / Capability Validation;
+- Level B — VIA Transformation + Final Product Validation;
+- Level C — Corpus / Longitudinal Validation.
+
+**Writes performed**  
+Targeted revisions to existing Longform package only. No Coach/VIA redesign, new specialist authority, permanent Auditor role, mandatory audit gate or Portfolio activation.
+
+**Next validation criterion**  
+Publication Master package-level verification, followed by the already authorized Coach + Longform Installation Validation chain.
 
 **Status**  
-Documentation Updated / Package Verification Pending
-
-**Validation**  
-Not started.
+Targeted Stabilization Written / Package Verification Pending.
