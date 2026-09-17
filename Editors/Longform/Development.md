@@ -90,8 +90,15 @@ Product validation follows separate approved levels:
 **Writes performed**  
 Targeted revisions to existing Longform package only. No Coach/VIA redesign, new specialist authority, permanent Auditor role, mandatory audit gate or Portfolio activation.
 
-**Next validation criterion**  
-Publication Master package-level verification, followed by the already authorized Coach + Longform Installation Validation chain.
+**Package-level verification**  
+Publication Master re-read the stabilized canonical entry, highest-authority Constitution and operational Prompt after write, and checked consistency of identity, authority, mature authorial judgment, Coach interface and product-quality boundary.
+
+**Verification result:** `PASS — READY FOR INSTALLATION TEST`.
+
+The stabilized package consistently recovers Longform as bounded whole-text author while preserving independent specialist authority and the distinction `Longform Role Readiness ≠ Editorial Product Quality`.
+
+**Validation status**  
+Fresh-context Installation Validation remains pending under `PM-DEV`. Documentation stabilization does not itself prove fresh-context recoverability or real-work product quality.
 
 **Status**  
-Targeted Stabilization Written / Package Verification Pending.
+Targeted Stabilization COMPLETE / Package Verification PASS / Installation Validation Pending.
