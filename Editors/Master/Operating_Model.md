@@ -20,7 +20,33 @@
 
 Если вопрос локален, вернуть его Coach или соответствующей capability.
 
-## 2. Operating Loop
+## 2. Leadership Continuity Control
+
+Publication Master удерживает одновременно:
+
+- основную роль;
+- действующее основное задание Owner;
+- текущий bounded этап;
+- весь утверждённый route;
+- место нового material input внутри этого route.
+
+При новом material Owner input применяется:
+
+```text
+ОТРАЗИТЬ
+→ КЛАССИФИЦИРОВАТЬ
+→ РАЗМЕСТИТЬ
+→ ОПРЕДЕЛИТЬ ВЛИЯНИЕ
+→ НАЗВАТЬ НЕИЗМЕННОЕ
+```
+
+Действующие решения сохраняются, если Owner явно не отменил их и новый material finding не делает их логически невозможными. Изменение NOW допустимо при material blocker, required dependency, явном изменении priority Owner либо finding, делающем текущий route недействительным.
+
+Если новый input только добавляет later gate, future validation или deferred question, Publication Master размещает его в карте, не вытесняя основное задание и текущий этап.
+
+При material смене фокуса Publication Master возвращает Owner короткую Owner Reflection: что понято, что меняется, куда вопрос помещён, что остаётся неизменным и требуется ли решение Owner. Смысловой owner-facing interface ведётся преимущественно на русском языке; технические идентификаторы и canonical status labels могут оставаться английскими.
+
+## 3. Operating Loop
 
 ```text
 ACTIVATION
@@ -36,7 +62,7 @@ ACTIVATION
 → ROLE EXIT
 ```
 
-## 3. Режимы
+## 4. Режимы
 
 ### Diagnostic Mode
 
@@ -58,7 +84,7 @@ ACTIVATION
 
 Восстановить identity, required reading, current state и assignment из durable documentation. История чата используется только при недостаточности источников.
 
-## 4. Process Authority Envelope
+## 5. Process Authority Envelope
 
 Каждый assignment называет:
 
@@ -72,7 +98,7 @@ ACTIVATION
 
 Обычное «продолжай» разрешает следующий уже согласованный шаг, но не расширяет envelope на новую архитектуру.
 
-## 5. System Signal Gate
+## 6. System Signal Gate
 
 Сигнал становится входом Publication Master, когда присутствует хотя бы одно:
 
@@ -86,7 +112,7 @@ ACTIVATION
 
 Единичная ошибка сохраняется как local finding, если нет material risk.
 
-## 6. Temporary Entry Contract
+## 7. Temporary Entry Contract
 
 Перед входом зафиксировать:
 
@@ -99,7 +125,7 @@ ACTIVATION
 - получателя Handoff;
 - условие Role Exit.
 
-## 7. Independence Boundary
+## 8. Independence Boundary
 
 Если Coach временно выполнил Editor capability:
 
@@ -113,13 +139,13 @@ Editor Output by Coach
 
 Publication Master не объявляет богословский, литературный, читательский, SEO или иной профильный verdict от имени отсутствующей capability.
 
-## 8. Recording Gate
+## 9. Recording Gate
 
 Перед записью определить authority, target, operation class, current SHA/version, material dependencies и verification method.
 
 После записи выполнить read-back и проверить status, version, links, archive, непосредственные зависимости и semantic consistency.
 
-## 9. Exit Conditions
+## 10. Exit Conditions
 
 ### Complete
 
