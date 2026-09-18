@@ -5,10 +5,10 @@
 **Run:** `PM-DEV`  
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
-**Current Gate:** `INSTALLATION VALIDATION — Coach then Longform fresh-context recovery`  
-**Current Owner:** Owner for branch handoff  
-**Status:** 🟡 COACH INSTALLATION PASS WITH NON-BLOCKING FINDINGS — MASTER LEADERSHIP CONTINUITY VERIFIED — LONGFORM INSTALLATION TEST RELEASED  
-**Next Decision Owner:** Longform Editor branch through this Run Record; then Publication Master after Longform result  
+**Current Gate:** `PUBLICATION ROLE READINESS FINAL VALIDATION CLOSE — READY FOR OWNER HANDOFF / NOT ACTIVATED`
+**Current Owner:** Owner for Publication Master branch handoff
+**Status:** 🟡 BOTH ROLE-SPECIFIC INSTALLATION TESTS COMPLETE — LONGFORM PASS WITH NON-BLOCKING FINDINGS — FINAL VALIDATION CLOSE PENDING
+**Next Decision Owner:** Publication Master only after Owner handoff through this Run Record
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -22,7 +22,7 @@ This record is the single handoff point for the connected validation sequence. O
 | 3 | Coach Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | stabilized Coach package + Event 006 | package-level verification PASS; Event 008 | Publication Master |
 | 4 | Longform Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | existing Longform durable evidence + minimal durable package formation | bounded Review, package formation and verification PASS; Event 009 | Owner |
 | 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | PASS WITH NON-BLOCKING FINDINGS | Events 007–010 + stabilized Coach package | fresh-context recoverability demonstrated; no material route blocker; Event 011 | Owner |
-| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | ACTIVE — RELEASED FOR EXECUTION | Event 010 bounded assignment + Longform package | result pending | Owner / Publication Master after Longform result |
+| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | PASS WITH NON-BLOCKING FINDINGS | Event 010 bounded assignment + current Longform package | fresh-context recoverability demonstrated; no material route blocker; Event 013 | Owner / Publication Master |
 | 7 | Publication Role Readiness Final Validation Close | Publication Master | NOT STARTED | both role-specific Installation Test results | pending | Owner |
 | 8 | Real-work Validation | Editorial Coach / required Editors | NOT AUTHORIZED | Publication Role Readiness Close | pending | Owner |
 
@@ -1374,3 +1374,36 @@ Verification established that:
 **Publication Master work at this gate:** COMPLETE.  
 **Ownership returned to:** Owner for Longform branch handoff through this Run Record.
 
+## Event 013 — Longform Editor Fresh-context Installation / Recovery Test Result
+
+Longform Installation Test: COMPLETE
+
+**Verdict:** `PASS WITH NON-BLOCKING FINDINGS`
+
+**Recovered identity / scope:** Longform Editor was recovered as the bounded author of one whole assigned longform work inside a concrete VIA / article-specific assignment. The role creates one complete Draft or Revised Draft, exercises mature authorial judgment and discovery inside closed intent, and remains accountable for coherent whole-text authorship, required boundaries, protected ground, material deviation and transferable return. Installation recovery does not establish `Editorial Product Quality` and does not authorize production execution.
+
+**Recovered authority / boundaries:** Longform owns form, composition, sequence, rhythm, degree of explication, relation of human experience to Scripture / theological thought and point of ending inside the bounded assignment. It may preserve emergent strengths and decline optional suggestions that do not improve the whole. It may not reopen Portfolio / Strategy / Owner decisions; take Coach orchestration or Review Integration; issue independent Theology / Reader / Literary verdicts; select Reviews or Re-checks; alter Process Map, VIA Protocol, role architecture or authority; declare Final Text / publication readiness; or self-certify product/system quality. Coach selects and activates the capability, provides the article-specific handoff and integrated boundaries, accepts the result and owns the next route. Independent Review capabilities retain their own verdict authority.
+
+**Draft activation recovery:** Draft may begin only when the canonical VIA / Source is available; Process Map shows `Longform Draft` as active; a current Coach Editorial Brief and closed upstream decisions are present; required boundaries / material risks and protected ground can be established; and expected output / result location is explicit. In the bounded hypothetical Check 1, if Process Map does not show an active Longform step, Longform returns `BLOCKED — Process Map does not authorize Longform Draft`, identifies the absent or contradictory activation, returns ownership to Coach / Owner and produces no Draft.
+
+**Revision activation recovery:** Revision may begin only when the canonical VIA and current Draft are available; Process Map shows `Longform Revision` as active; a current Coach Integrated Review / Revision Assignment is present; required boundaries / underlying material risks, protected ground, optional suggestions and expected output / result location are recoverable. In bounded hypothetical Check 2, required boundaries are mandatory outcomes addressing material risks; protected ground is content or an emergent strength that must be preserved; optional suggestions remain discretionary unless separately made required. Longform resolves required findings causally through whole-text judgment rather than patch accumulation. If two required constraints materially conflict without Coach resolution, Longform stops, returns `BLOCKED` with the exact material deviation and returns the conflict to Coach for Integration or the applicable Owner decision; it does not choose silently or simulate Revision.
+
+**Stop Conditions:** Longform stops when canonical VIA / Source or current text is unavailable; Process Map lacks the active Longform step; handoff is absent or materially contradicts Process Map; closed decisions, required boundaries or protected ground cannot be recovered; Draft and Revision inputs are mixed; the request requires a closed Strategy / theology / authority change or another capability's verdict; material constraints conflict without Coach / Owner resolution; coherent execution would require reopening a closed decision; scope is exceeded; or a transferable result cannot be formed safely. Old chat context is not used to fill any gap.
+
+**Result / Handoff / Role Exit recovered:** The role returns `COMPLETE | BLOCKED` with capability, source / assignment, result, material deviation or unresolved dependency, ownership recipient and next authorized step. A successful production result is one complete `## Longform Editor — Draft` or `## Longform Editor — Revised Draft`, not scattered patches. At `BLOCKED`, the exact blocker and missing input / authority are named. Ownership returns to Coach / Owner; Longform releases temporary operational ownership and never activates the next step itself.
+
+**Material findings, if any:** No material documentation or authority gap was found. Non-blocking Run Record navigation finding: Event 009 records initial Longform package formation at version `0.1`, while the current canonical Longform package is version `0.2`. The durable stabilization basis, Owner decision, package-level verification and unchanged Installation Validation boundary are recoverable from `Editors/Longform/Development.md`, and Event 012 explicitly preserves the released Longform gate. This version/provenance gap in the Run Record did not create conflicting authority or block recovery, but Publication Master should account for the current `0.2` package basis during Final Validation Close.
+
+**Ownership returned to:** Publication Master / Owner
+
+**Next authorized step:** Publication Master Final Validation Close after Owner handoff through this Run Record. That step is ready as the next gate but is not activated or executed by Longform. Portfolio 02, a new VIA, real Draft / Revised Draft, independent Review, Coach Integration and Real-work Validation remain unauthorized.
+
+### Bounded test boundary
+
+No production VIA was created or opened for execution. No Draft, Revised Draft, Portfolio 02 work, independent Review, Coach Integration, package modification or downstream validation was performed. The two required checks remained hypothetical and were used only to test recoverability of activation, stop and return logic.
+
+### Route update
+
+Both role-specific fresh-context Installation / Recovery Tests are now complete without a material route blocker.
+
+Process Map row 7 remains `NOT STARTED`. Owner may hand this same Run Record to a fresh Publication Master branch for the separately activated Final Validation Close. Longform does not activate that stage.
