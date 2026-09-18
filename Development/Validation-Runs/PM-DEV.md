@@ -7,7 +7,7 @@
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
 **Current Gate:** `INSTALLATION VALIDATION — Coach then Longform fresh-context recovery`  
 **Current Owner:** Owner for branch handoff  
-**Status:** 🟡 COACH INSTALLATION PASS WITH NON-BLOCKING FINDINGS — LONGFORM INSTALLATION TEST RELEASED  
+**Status:** 🟡 COACH INSTALLATION PASS WITH NON-BLOCKING FINDINGS — MASTER LEADERSHIP CONTINUITY VERIFIED — LONGFORM INSTALLATION TEST RELEASED  
 **Next Decision Owner:** Longform Editor branch through this Run Record; then Publication Master after Longform result  
 **Canonical record:** this file
 
@@ -1303,3 +1303,74 @@ The release condition for Assignment B is satisfied: Coach Installation Test com
 Owner should now forward only this same Run Record link to a fresh Longform Editor branch.
 
 Publication Master Final Validation Close remains pending until the Longform result is appended. Real-work validation remains not authorized.
+
+## Event 012 — Publication Master Leadership Continuity Targeted Stabilization
+
+### Owner Decision
+
+Owner accepted the verdict:
+
+`MASTER LEADERSHIP CONTINUITY — TARGETED STABILIZATION REQUIRED`
+
+The authorized scope was limited to preservation of the primary role, primary assignment, distinction between the primary assignment and current bounded stage, structured handling of new material Owner input, Owner Reflection, protection against recency-driven priority displacement and a predominantly Russian owner-facing semantic interface.
+
+Universal Brainstorm architecture, a second registry, a new role, a new production gate, cross-project architecture and retrospective restructuring of this Run Record were explicitly excluded.
+
+### Package changes
+
+Smallest justified corrections were made only in:
+
+- `Editors/Master/Prompt.md`;
+- `Editors/Master/Workflow.md`;
+- `Editors/Master/Checklist.md`;
+- `Editors/Master/Operating_Model.md`.
+
+`Editors/Master/Constitution.md` was not changed. Publication Master authority, Publication System boundaries and the current production-readiness route were not expanded or redefined.
+
+The stabilized package now durably requires:
+
+```text
+▶ Основная роль
+▶ Основное задание
+◆ Текущий bounded этап
+↔ Влияние на маршрут
+```
+
+and processes new material Owner input through:
+
+```text
+ОТРАЗИТЬ
+→ КЛАССИФИЦИРОВАТЬ
+→ РАЗМЕСТИТЬ
+→ ОПРЕДЕЛИТЬ ВЛИЯНИЕ
+→ НАЗВАТЬ НЕИЗМЕННОЕ
+```
+
+A material focus change now requires a short Owner Reflection stating what was understood, what changes, where the question belongs in the active route, what remains unchanged and whether an Owner decision is required.
+
+### Fresh-context package verification
+
+Publication Master re-read the current package beginning from `Editors/Master/README.md`, then checked `Constitution.md`, `Prompt.md`, `Workflow.md`, `Checklist.md` and `Operating_Model.md`.
+
+**Leadership Continuity Stabilization:** `VERIFIED`
+
+Verification established that:
+
+- the primary Publication Master identity remains recoverable;
+- the primary Owner assignment is now explicitly protected from latest-task dominance;
+- the current bounded stage is distinguished from the primary assignment;
+- new material Owner input has a durable reflection / classification / placement / impact control;
+- unchanged decisions must be named rather than silently reinterpreted;
+- owner-facing semantic communication is predominantly Russian while stable technical identifiers may remain English;
+- no material contradiction with the unchanged Constitution was created;
+- no authority expansion, production gate or universal Brainstorm architecture was introduced.
+
+### Route impact
+
+**Primary assignment:** `Publication Role Readiness` — unchanged.  
+**Current released gate:** `Longform Fresh-context Installation / Recovery Test` — unchanged.  
+**Product Audit / Corpus Audit:** later validation layers; not activated.  
+**Next authorized executor:** fresh Longform Editor branch under Assignment B in Event 010.  
+**Publication Master work at this gate:** COMPLETE.  
+**Ownership returned to:** Owner for Longform branch handoff through this Run Record.
+
