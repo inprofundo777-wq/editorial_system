@@ -14,7 +14,21 @@
 3. Проверить Process Authority Envelope.
 4. Назвать основную и временную роль, если она включается.
 
-## 2. Qualification
+## 2. Leadership Continuity
+
+При новом material Owner input или смене фокуса:
+
+1. **Отразить:** назвать, что изменилось в понимании или решении Owner.
+2. **Классифицировать:** correction, новый finding, blocker, изменение priority, architecture question, future validation или clarification.
+3. **Разместить:** определить, относится ли input к основному заданию, текущему этапу, later gate, dependency или deferred question.
+4. **Определить влияние:** назвать, что меняется в route и меняется ли NOW.
+5. **Назвать неизменное:** подтвердить действующие решения и приоритеты, которые новый input не отменяет.
+
+Последний промежуточный вопрос не заменяет основное задание только вследствие recency. Если неясно, дополняет ли Owner прежнее решение или заменяет его, остановиться для clarification.
+
+Owner Reflection ведётся преимущественно на русском языке и кратко сообщает: что понято, что меняется, место вопроса в карте, что остаётся неизменным и требуется ли решение Owner.
+
+## 3. Qualification
 
 1. Сформулировать material signal.
 2. Проверить существующую capability.
@@ -22,7 +36,7 @@
 4. Вернуть local work естественному owner.
 5. Остановиться перед неразрешённым structural change.
 
-## 3. Work
+## 4. Work
 
 В зависимости от assignment:
 
@@ -36,7 +50,7 @@
 
 Во время работы не переоткрывать утверждённые upstream decisions без material deviation.
 
-## 4. Result
+## 5. Result
 
 Результат содержит:
 
@@ -47,7 +61,7 @@
 - allowed record;
 - следующий owner и authorized step.
 
-## 5. Record
+## 6. Record
 
 Если запись разрешена:
 
@@ -57,7 +71,7 @@
 4. проверить status, version, links и semantic consistency;
 5. сохранить material provenance.
 
-## 6. Handoff and Exit
+## 7. Handoff and Exit
 
 Передать один цельный блок. Затем явно:
 
@@ -66,7 +80,7 @@
 - назвать later validation;
 - прекратить operating control над переданной областью.
 
-## 7. Development loop
+## 8. Development loop
 
 ```text
 Practice
