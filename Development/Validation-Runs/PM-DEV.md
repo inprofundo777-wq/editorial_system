@@ -5,10 +5,10 @@
 **Run:** `PM-DEV`  
 **System:** Publication System  
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
-**Current Gate:** `PUBLICATION ROLE READINESS FINAL VALIDATION CLOSE — READY FOR OWNER HANDOFF / NOT ACTIVATED`
-**Current Owner:** Owner for Publication Master branch handoff
-**Status:** 🟡 BOTH ROLE-SPECIFIC INSTALLATION TESTS COMPLETE — LONGFORM PASS WITH NON-BLOCKING FINDINGS — FINAL VALIDATION CLOSE PENDING
-**Next Decision Owner:** Publication Master only after Owner handoff through this Run Record
+**Current Gate:** `PUBLICATION ROLE READINESS — PASS WITH VALIDATION DEBT / OWNERSHIP RETURNED TO OWNER`
+**Current Owner:** Owner
+**Status:** 🟢 PUBLICATION ROLE READINESS PASS WITH VALIDATION DEBT — EDITORIAL PRODUCT QUALITY VALIDATION PENDING
+**Next Decision Owner:** Owner — hand off Closed Portfolio 02 to Coach, then authorize the new VIA route
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -23,8 +23,8 @@ This record is the single handoff point for the connected validation sequence. O
 | 4 | Longform Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | existing Longform durable evidence + minimal durable package formation | bounded Review, package formation and verification PASS; Event 009 | Owner |
 | 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | PASS WITH NON-BLOCKING FINDINGS | Events 007–010 + stabilized Coach package | fresh-context recoverability demonstrated; no material route blocker; Event 011 | Owner |
 | 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | PASS WITH NON-BLOCKING FINDINGS | Event 010 bounded assignment + current Longform package | fresh-context recoverability demonstrated; no material route blocker; Event 013 | Owner / Publication Master |
-| 7 | Publication Role Readiness Final Validation Close | Publication Master | NOT STARTED | both role-specific Installation Test results | pending | Owner |
-| 8 | Real-work Validation | Editorial Coach / required Editors | NOT AUTHORIZED | Publication Role Readiness Close | pending | Owner |
+| 7 | Publication Role Readiness Final Validation Close | Publication Master | PASS WITH VALIDATION DEBT | both role-specific Installation Test results + Event 012 Leadership Continuity verification | system can enter the next real Portfolio → VIA cycle without hidden chat dependency or material authority / handoff ambiguity; Event 014 | Owner |
+| 8 | Real-work Validation | Editorial Coach / required Editors | AUTHORIZED AFTER OWNER HANDOFF / CLOSED PORTFOLIO 02 | Publication Role Readiness Close PASS WITH VALIDATION DEBT | next real VIA must generate preserved Draft → Final evidence; product quality remains validation-pending | Owner → Coach |
 
 The map records only verified state. A prepared assignment is not a completed or active role-specific test until the route explicitly releases it.
 
@@ -1407,3 +1407,77 @@ No production VIA was created or opened for execution. No Draft, Revised Draft, 
 Both role-specific fresh-context Installation / Recovery Tests are now complete without a material route blocker.
 
 Process Map row 7 remains `NOT STARTED`. Owner may hand this same Run Record to a fresh Publication Master branch for the separately activated Final Validation Close. Longform does not activate that stage.
+
+## Event 014 — Publication Role Readiness Final Validation Close
+
+### Control
+
+**Primary role:** Publication Master  
+**Primary assignment:** `Publication Role Readiness`  
+**Bounded stage:** Final Validation Close  
+**Route impact:** readiness assignment closes; ownership returns to Owner; no Product Audit, Corpus Audit, Portfolio 02 or VIA is executed in this Event.
+
+This Close does not repeat the completed role Reviews. It checks only whether the verified installation chain now permits entry into the next real `Portfolio → VIA` cycle without hidden dependence on old chat branches and without material ambiguity in authority or handoff.
+
+### Completed evidence chain
+
+- Publication Master fresh-context Installation / Recovery: `PASS`;
+- Coach Documentation Readiness / targeted stabilization: `PASS — READY FOR INSTALLATION TEST`;
+- Longform Documentation Readiness / targeted stabilization: `PASS — READY FOR INSTALLATION TEST`;
+- Coach fresh-context Installation / Recovery: `PASS WITH NON-BLOCKING FINDINGS`;
+- Longform fresh-context Installation / Recovery: `PASS WITH NON-BLOCKING FINDINGS`;
+- Publication Master Leadership Continuity targeted stabilization: `VERIFIED`.
+
+Both Coach and Longform recovered their identities, authority boundaries, minimum production inputs, Stop Conditions, Result Contracts, Handoff and Role Exit from durable documentation. Neither required hidden chat history to reconstruct production authority.
+
+### Limited readiness question
+
+> Can Publication System now enter the next real Portfolio → VIA cycle without hidden dependence on old chat branches and without material ambiguity in authority / handoff?
+
+**Answer:** `YES`.
+
+Coach can accept a closed Portfolio / Source handoff, establish the canonical VIA state, select required capabilities, preserve independent specialist judgment, integrate findings and return ownership. Longform can enter Draft or Revision only through an active Process Map step and sufficient article-specific Coach handoff, exercise whole-text authorial judgment inside closed intent, stop at unresolved material conflict and return one complete transferable result.
+
+No material contradiction remains that prevents entry into real work.
+
+### Final verdict
+
+**Publication Role Readiness:** `PASS WITH VALIDATION DEBT`
+
+The debt is non-blocking:
+
+1. Coach `Prompt.md` / `Checklist.md` retain historical broad system-development wording, but Coach fresh-context recovery followed the higher-authority Constitution and no material ambiguity resulted.
+2. PM-DEV Event 009 records initial Longform package formation at version `0.1`, while the current canonical package is version `0.2`; the approved stabilization and verification provenance remains durable in `Editors/Longform/Development.md`.
+3. Some role-package status labels still describe Installation Validation as pending. This is recordkeeping / normalization debt, not an authority or production blocker under the verified PM-DEV state.
+
+These findings do not authorize or justify a new documentation cycle before real work.
+
+**Editorial Product Quality:** `VALIDATION PENDING`
+
+Role correctness and fresh-context recoverability do not establish that cumulative Editorial System transformation improves Final Text. The next real VIA must preserve the natural Draft → Findings → Integration → Revised Draft → Final Text evidence chain. Product-quality validation occurs only after Final Text and does not delay entry into production.
+
+### Blocking debt
+
+`NONE`
+
+### Non-blocking debt
+
+Only the three items named above. They remain validation / documentation debt and do not open new work now.
+
+### Handoff / Role Exit
+
+**Ownership returned to:** Owner.
+
+**Next authorized route:**
+
+```text
+Closed Portfolio 02
+→ Coach
+→ new VIA
+→ Longform + required Editors
+→ Final Text
+→ later product-quality validation
+```
+
+Publication Master completes and exits the current `Publication Role Readiness` assignment. It does not retain operational ownership of the next production cycle and does not activate Product Audit or Corpus Audit.
+
