@@ -7,8 +7,8 @@
 **Purpose:** controlled validation of Publication Master and connected role interfaces  
 **Current Gate:** `INSTALLATION VALIDATION — Coach then Longform fresh-context recovery`  
 **Current Owner:** Owner for branch handoff  
-**Status:** 🟡 BOTH PACKAGES READY — COACH INSTALLATION TEST RELEASED FIRST  
-**Next Decision Owner:** Editorial Coach branch through this Run Record; then Owner forwards same link to Longform branch after Coach result  
+**Status:** 🟡 COACH INSTALLATION PASS WITH NON-BLOCKING FINDINGS — LONGFORM INSTALLATION TEST RELEASED  
+**Next Decision Owner:** Longform Editor branch through this Run Record; then Publication Master after Longform result  
 **Canonical record:** this file
 
 This record is the single handoff point for the connected validation sequence. Owner should normally transfer only the link to this file. Each assigned role reads the current state and relevant prior events here, then appends its own result.
@@ -21,8 +21,8 @@ This record is the single handoff point for the connected validation sequence. O
 | 2 | `PM-DEV-002` Coach Role Review / Stabilization | Publication Master | COMPLETE — STABILIZED | Coach canonical package + PM-DEV-001 | Review: `STABILIZATION REQUIRED`; Owner approved `TARGETED STABILIZATION`; bounded changes completed and verified in Event 006 | Publication Master |
 | 3 | Coach Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | stabilized Coach package + Event 006 | package-level verification PASS; Event 008 | Publication Master |
 | 4 | Longform Documentation Readiness | Publication Master | PASS — READY FOR INSTALLATION TEST | existing Longform durable evidence + minimal durable package formation | bounded Review, package formation and verification PASS; Event 009 | Owner |
-| 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | ACTIVE — RELEASED FOR EXECUTION | Events 007–010 + stabilized Coach package | result pending | Owner / Publication Master after Coach result |
-| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | PREPARED — NOT YET RELEASED | Event 010 bounded assignment + Longform package | waits for Coach test result before branch handoff | Owner / Publication Master |
+| 5 | Coach fresh-context Installation / Recovery Test | Editorial Coach | PASS WITH NON-BLOCKING FINDINGS | Events 007–010 + stabilized Coach package | fresh-context recoverability demonstrated; no material route blocker; Event 011 | Owner |
+| 6 | Longform fresh-context Installation / Recovery Test | Longform Editor | ACTIVE — RELEASED FOR EXECUTION | Event 010 bounded assignment + Longform package | result pending | Owner / Publication Master after Longform result |
 | 7 | Publication Role Readiness Final Validation Close | Publication Master | NOT STARTED | both role-specific Installation Test results | pending | Owner |
 | 8 | Real-work Validation | Editorial Coach / required Editors | NOT AUTHORIZED | Publication Role Readiness Close | pending | Owner |
 
@@ -1281,3 +1281,25 @@ Owner should now send the Editorial Coach branch only this Run Record link.
 Assignment B remains prepared but not released until Coach returns its result without a material route blocker.
 
 Publication Master does not begin either role-specific test and does not begin real-work validation.
+
+## Event 011 — Editorial Coach Fresh-context Installation / Recovery Test Result
+
+Editorial Coach Installation Test: COMPLETE
+
+**Verdict:** `PASS WITH NON-BLOCKING FINDINGS`  
+**Recovered identity / scope:** Editorial Coach was recovered as the owner of orchestration for one concrete editorial cycle. Coach accepts a closed Strategist / Portfolio handoff, opens or continues the applicable VIA state, selects only the capabilities required by the work, preserves independent specialist judgment, integrates findings, routes Revision and required re-checks, and returns ownership at role exit. Coach does not own Publication System architecture or permanent cross-role authority.  
+**Recovered authority / boundaries:** Strategy remains upstream and closed at Coach entry; specialist Editors retain independent findings; Publication Master receives system-level and cross-role signals; material permanent authority and architecture decisions remain Owner-gated. Coach may observe, classify and route system signals but may not silently redesign the Editorial System.  
+**Minimum real-work input:** a canonical Portfolio / Source handoff containing closed upstream decisions, cycle intent, VIA state (`existing | NEW`), applicable Owner constraints and the expected downstream result. Process Map remains the canonical state authority.  
+**Stop Conditions:** if the canonical Portfolio / Source handoff, closed upstream decisions, active state, governing constraints or expected result cannot be established, Coach stops and returns the missing-input blocker. Coach must not reconstruct Strategy or production authority from memory or old chats. Coach also stops at unresolved material authority conflict, missing specialist input required for a responsible decision, or a system / architecture question outside the cycle mandate.  
+**Result / Handoff / Role Exit recovered:** one-link and bounded specialist handoffs were recovered. Coach returns an integrated cycle result through the canonical VIA / Process Map, identifies required re-checks and next owner, releases temporary orchestration ownership, and does not carry authority into a later stage without activation.  
+**Material findings, if any:** no material blocker. Historical wording remains in `Editors/Coach/Prompt.md` and `Editors/Coach/Checklist.md` that can describe Coach more broadly as developing the Editorial System. In fresh context this did not create material ambiguity because `Editors/Coach/Constitution.md` has higher normative authority and limits Coach to observation, classification and routing of system signals. This is a non-blocking documentation finding and does not justify reopening stabilization before the Longform test.  
+**Ownership returned to:** Publication Master / Owner  
+**Next authorized step:** Longform Installation Test — released under Assignment B in Event 010. No Portfolio 02, new VIA or real-work production is authorized by this result.
+
+### Route update
+
+The release condition for Assignment B is satisfied: Coach Installation Test completed without a material route blocker.
+
+Owner should now forward only this same Run Record link to a fresh Longform Editor branch.
+
+Publication Master Final Validation Close remains pending until the Longform result is appended. Real-work validation remains not authorized.
