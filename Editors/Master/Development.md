@@ -64,7 +64,55 @@
 
 Transfer сохраняет provenance и не означает, что принимающая роль уже закрыла вопрос.
 
-## 6. Completion rule
+## 6. Editor-development evidence
+
+### PM-DEV-004 — Telegram literary modality and recurring editorial movement
+
+**Статус:** `REPEATED LITERARY EVIDENCE / EDITOR DEVELOPMENT`  
+**Disposition:** `TEST / OBSERVE`  
+**Источник:** Owner-submitted review of prepared Telegram weekly package, 24.10.2026  
+**Подтверждённый scope:** Telegram. Перенос на Facebook требует отдельного evidence.
+
+**Finding.** В пакете повторяются две разные функции смягчающей модальности:
+
+- **necessary uncertainty / epistemic humility** — hedge сохраняет реальную неопределённость и не универсализирует состояние читателя;
+- **habitual hedging / rhetorical hesitation** — `наверное`, `пожалуй`, `мне кажется`, `может быть` автоматически ослабляют уже установленную мысль.
+
+Параллельно проявляется повторяемое литературное движение:
+
+```text
+human observation
+→ soft hedge
+→ contrast / negation
+→ deeper question
+→ short distilled thesis
+```
+
+Связанные сигналы: AI-like symmetry; повторяющееся `не X / а Y`; короткие однотипные абзацы; over-explanation после завершённой мысли; excessive editorial smoothness; predictable literary movement; потеря useful roughness; необходимость остановиться после сильной сцены, цитаты или мысли.
+
+**Positive counter-evidence.** Более естественными оказались тексты, которые начинают с конкретной человеческой или библейской реальности, допускают другое литературное движение либо заканчиваются раньше без обязательного explanatory closure.
+
+**Source-choice signal.** Если сразу после библейской цитаты требуется существенный safeguard против очевидного неверного применения, следует проверить не только формулировку оговорки, но и естественность выбора самой цитаты.
+
+**Рабочий judgment, не universal rule:**
+
+> Смягчай там, где неопределённость принадлежит самой мысли. Не добавляй неопределённость только потому, что прямое утверждение звучит слишком уверенно.
+
+Перед hedge проверять:
+
+> Здесь действительно существует неопределённость — или редактор страхует уже сформированную мысль?
+
+**Следующее наблюдение:**
+
+1. уменьшается ли habitual hedging после editor feedback;
+2. сохраняется ли полезная epistemic humility;
+3. увеличивается ли разнообразие literary movement;
+4. не заменяется ли старый шаблон новым механическим правилом;
+5. учится ли Editor оставлять сильную сцену, цитату или мысль без дополнительного объясняющего завершения.
+
+**Authority / route:** постоянное правило, новый обязательный threshold и architecture change не создаются. Операционное развитие остаётся у Coach / Telegram Editor. Publication Master сохраняет повторяемое evidence и возвращается к нему только при новом подтверждении, cross-format effect или отдельном Owner assignment.
+
+## 7. Completion rule
 
 Development item закрывается только после:
 
