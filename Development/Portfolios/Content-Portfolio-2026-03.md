@@ -30,7 +30,7 @@
 | + | Far Horizon Integration | Рабочий контекст Coach | Дальний горизонт предварительно классифицирован |
 | + | Portfolio Close | Рабочий контекст Coach | Provisional close подготовлен, но не считается прежней работой Strategist |
 | + | Strategic Acceptance | Strategist | Bounded review завершён; Portfolio принят с точечными коррекциями |
-| 0 | Portfolio Handoff | Owner → Coach | NEXT готов к запуску |
+| + | Portfolio Handoff | Owner → Coach | NEXT передан в VIA-2026-025 |
 
 ---
 
@@ -1972,13 +1972,13 @@ Reserve не активируется автоматически.
 - `Portfolio Handoff: - → 0`.
 
 **Strategic acceptance:** `ACCEPT WITH TARGETED CORRECTIONS`  
-**Current ownership:** Owner.
+**Current ownership:** Editorial Coach / `VIA-2026-025`.
 
-**Next authorized action:** Owner передаёт каноническую ссылку Editorial Coach для открытия VIA по Portfolio Card 00.
+**Executed action:** каноническая ссылка передана Editorial Coach; открыт [`VIA-2026-025`](https://github.com/inprofundo777-wq/editorial_system/blob/main/VIA/2026/VIA-2026-025.md) по Portfolio Card 00.
 
-`Ownership returned to Owner`
+`Ownership transferred: Owner → Editorial Coach / VIA-2026-025`
 
-`Next authorized handoff: Owner → Coach → VIA Card 00`
+`Next active route: VIA-2026-025 → Longform Draft`
 
 `PORTFOLIO CLOSE: COMPLETE`
 
