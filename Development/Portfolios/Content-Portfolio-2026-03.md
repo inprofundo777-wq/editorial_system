@@ -1922,7 +1922,7 @@ Reserve не активируется автоматически.
 | 00 | Четыре свечи — одно ожидание: что прошлогодний Адвент помог увидеть о Рождестве | Следующая / Portfolio Ready | до 14.12.2026 | VIA-2026-025 / Longform Draft |
 | 01 | Не бойся: страх внутри рождественской истории | Очередь / Portfolio Ready | 14.12.2026 | VIA-2026-026 / Longform Draft |
 | 02 | Бог, Который не остался на расстоянии | Очередь / Portfolio Ready | 21.12.2026 | VIA-2026-027 / Longform Draft |
-| 03 | Мир на земле, которой всё ещё больно | Очередь / Research Gate Required | 28.12.2026 | VIA-2026-028 / Research Gate |
+| 03 | Мир на земле, которой всё ещё больно | Очередь / Research Gate Passed | 28.12.2026 | VIA-2026-028 / Longform Draft |
 | 04 | Когда праздник закончился, а Христос остался | Очередь / Portfolio Ready | 04.01.2027 | VIA-2026-029 / Longform Draft |
 
 Для всех четырёх карточек:
@@ -1978,7 +1978,7 @@ Reserve не активируется автоматически.
 
 `Ownership transferred: Owner → Editorial Coach / VIA-2026-025–029`
 
-`Next active routes: VIA-2026-025, 026, 027, 029 → Longform Draft; VIA-2026-028 → Required Research Gate`
+`Next active routes: VIA-2026-025–029 → Longform Draft`
 
 `PORTFOLIO CLOSE: COMPLETE`
 
