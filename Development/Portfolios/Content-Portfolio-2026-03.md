@@ -6,7 +6,7 @@
 | --- | --- |
 | **Документ** | Предрождественский Content Portfolio |
 | **ID** | `Content-Portfolio-2026-03` |
-| **Тип** | Рабочий Portfolio / Strategy Draft |
+| **Тип** | Closed Content Portfolio |
 | **Основание** | `Content-Portfolio-2026-02` + сезонный запрос Owner |
 | **Владелец Portfolio** | Strategist |
 | **Сезонный горизонт** | Адвент, Рождество и первые недели после Рождества 2026 |
@@ -25,11 +25,11 @@
 | + | Strategy Draft | Strategist | Near и Far Horizons подготовлены |
 | + | Near Horizon — Reader Review | Reader | Человеческие входы, сезонная узнаваемость и эмоциональное движение проверены |
 | + | Near Horizon — SEO Review | SEO | Search intent, сезонность, каннибализация, H1 / SEO title, slug и перелинковка проверены |
-| - | Near Horizon — Strategy Integration | Strategist | Queue, Reserve и Cards закрыты |
+| + | Near Horizon — Strategy Integration | Strategist | Queue, Reserve и Cards закрыты |
 | + | Far Horizon Review | Reader + / CEO + | Человеческая, стратегическая, ресурсная и research‑boundary проверки завершены |
-| - | Far Horizon Integration | Strategist | Дальний горизонт классифицирован |
-| - | Portfolio Close | Strategist | Оба горизонта закрыты |
-| - | Portfolio Handoff | Owner → Coach | Запуск следующего VIA |
+| + | Far Horizon Integration | Strategist | Дальний горизонт классифицирован |
+| + | Portfolio Close | Strategist | Оба горизонта закрыты |
+| 0 | Portfolio Handoff | Owner → Coach | NEXT готов к запуску |
 
 ---
 
@@ -1530,3 +1530,364 @@ Far Horizon целиком не передаётся Research Lab и не ста
 CEO не активировал Strategist Integration, Coach, VIA, Publication Preparation, Research Lab, интервью, внешний research budget или изменение системной архитектуры.
 
 `FAR HORIZON CEO REVIEW: COMPLETE`
+
+---
+
+# 17. Strategy Integration
+
+## Integration verdict
+
+`INTEGRATED — FOUR-POSITION NEAR QUEUE CONFIRMED / FAR HORIZON CLASSIFIED`
+
+Reader, SEO и CEO Reviews приняты без повторного открытия исходного сезонного решения.
+
+## Converged findings
+
+Все три независимые проверки подтвердили:
+
+- четыре Near‑позиции выполняют разные функции;
+- сокращать или переставлять цикл не требуется;
+- «Не бойся: страх внутри рождественской истории» является NEXT;
+- прошлогодний цикл свечей должен быть corpus bridge, а не композиционный шаблон;
+- Candidate 03 требует обязательного biblical / textual research gate;
+- Far Horizon не должен становиться параллельным production plan;
+- после сезона допустимо выбрать не более одного нового дальнего действия.
+
+## Integrated corrections
+
+### Candidate 02 — human bridge
+
+Закреплён один ограниченный human bridge:
+
+> Человеческое тело имеет пределы: оно устаёт, зависит от помощи, стареет и не всегда подчиняется нашей воле. Воплощение открывает не способ полюбить всякое ограничение, а Бога, Который не остался вне человеческой телесности и зависимости.
+
+Мост ведёт к созерцанию Христа и не превращает воплощение в обещание обязательного чувства близости или объяснения боли.
+
+### Candidate 03 — reader position и search promise
+
+Primary reader position:
+
+> Церковный читатель слышит рождественское возвещение «на земле мир», видит продолжающееся насилие и непримирённость и не хочет повторять слова Писания как пустую праздничную формулу.
+
+Материал не говорит от имени непосредственно пострадавшего и не приравнивает войну к бытовому конфликту.
+
+Primary search question заменён:
+
+> Почему после Рождества на земле всё ещё нет мира?
+
+Research gate обязателен до Longform Draft.
+
+### Candidate 04 — reflective promise
+
+How-to вопрос «Как сохранить смысл Рождества?» исключён.
+
+Search-facing question:
+
+> Что остаётся после Рождества, когда праздничное чувство прошло?
+
+Материал не обещает список практик и остаётся самостоятельным относительно «Литургии обычного дня».
+
+## Sequence decision
+
+```text
+01 Не бойся
+→ 02 Бог не остался на расстоянии
+→ 03 Мир на земле, которой всё ещё больно
+→ 04 Когда праздник закончился, а Христос остался
+```
+
+Порядок закрыт. Изменение возможно только при material deviation, невозможности пройти required gate либо отдельном решении Owner.
+
+---
+
+# 18. Far Horizon Integration
+
+## Integrated classification
+
+| Class | Территория | Статус / маршрут |
+| --- | --- | --- |
+| **Primary post-season content asset** | Воплощение, телесность и пределы | Сохранить; после сезона возможен один bounded output с одним человеческим вопросом |
+| **Owner-gated research pilot candidate** | Рождественские рассказы Матфея и Луки | Единственный предварительный pilot candidate; сейчас не активирован |
+| **Dependent development territory** | Мир Христов и непримирённый мир | Возврат только после Candidate 03 и оценки оставшегося reader question |
+| **Map-only historical territory** | Рождение Христа внутри истории власти | Research first; без текущего VIA, срока или commitment |
+| **Map-only pastoral / evidence territory** | Рождество, дом и вынужденное перемещение | Нужны lived voice, ethical gate, pastoral review и отдельное Owner‑решение |
+| **Selective knowledge method** | История рождественского прочтения | Допустим один ограниченный эксперимент; не постоянная программа |
+
+## Post-season gate
+
+После завершения четырёх публикаций Owner может выбрать не более одного направления:
+
+1. bounded content formation — «Воплощение, телесность и пределы»; **или**
+2. bounded Research Lab pilot — Мф. 1–2 и Лк. 1–2.
+
+Ни одно направление сейчас не активировано. Far Horizon не передаётся целиком Research Lab и не становится его backlog.
+
+---
+
+# 19. Closed Content Portfolio
+
+## Status
+
+`CLOSED CONTENT PORTFOLIO`
+
+## Publication Queue
+
+| Position | Working title | Readiness | Ориентировочное окно |
+| --- | --- | --- | --- |
+| 01 | Не бойся: страх внутри рождественской истории | READY FOR VIA FORMATION | 14.12.2026 |
+| 02 | Бог, Который не остался на расстоянии | READY WITH THEOLOGICAL FORMATION | 21.12.2026 |
+| 03 | Мир на земле, которой всё ещё больно | READY WITH REQUIRED RESEARCH GATE | 28.12.2026 |
+| 04 | Когда праздник закончился, а Христос остался | READY FOR VIA FORMATION | 04.01.2027 |
+
+Окна ориентировочные, но сезонное положение каждой позиции является частью закрытого решения.
+
+## Reserve
+
+| Кандидат | Readiness | Условие возвращения в Queue |
+| --- | --- | --- |
+| Родословие Рождества: Бог не начинает историю с чистого листа | RESEARCH-LED FORMATION | завершена biblical formation и закреплён один reader promise |
+| Бегство в Египет: Бог среди вынужденных дорог | RESEARCH + PASTORAL EVIDENCE | подтверждены biblical boundary, lived voice и ethical gate |
+| Рождество под властью империи | FAR / RESEARCH FIRST | проверен исторический контекст и определена самостоятельная corpus function |
+
+Reserve не активируется автоматически.
+
+## Portfolio Card 01 — Не бойся: страх внутри рождественской истории
+
+**Portfolio position:** 01 / NEXT  
+**Readiness:** High  
+**Approximate window:** 14.12.2026
+
+**Central human question:** Почему Божье приближение в рождественских рассказах снова и снова начинается со слов «не бойся»?
+
+**Why this material now:** Открывает новый сезон после VIA‑024 и сразу отличает цикл 2026 от прошлогодней серии свечей.
+
+**Function in the corpus:** Показывает Рождество не как безмятежную декорацию, а как Божье действие, встречающее Захарию, Марию, Иосифа и пастухов внутри разных видов страха.
+
+**Human states:** страх; неизвестность; нарушение привычного порядка; доверие без полного понимания.
+
+**Series / cluster relation:** `Рождество: Бог входит в человеческую жизнь`.
+
+**Published materials nearby:** «АДВЕНТ. Пророческая свеча. (часть I)»; материалы о страхе не являются автоматической перелинковкой.
+
+**Primary search question:** Почему ангелы говорят «не бойся» в рождественской истории?
+
+**Recommended SEO title:** Почему ангелы говорят «не бойся» на Рождество.
+
+**Recommended slug:** `ne-boisya-strah-v-rozhdestvenskoi-istorii`.
+
+**Reader context:** Человек встречает Божье действие не в состоянии праздничной готовности, а внутри испуга, нарушения планов и неизвестности.
+
+**Biblical territory:** Лк. 1:13; Лк. 1:30; Мф. 1:20; Лк. 2:10. Четыре сцены должны сохранять различия.
+
+**Material boundaries / risks:** «Не бойся» не является требованием немедленно прекратить эмоцию; страхи не сводятся к одной психологической причине; доверие не отменяет последствий и неопределённости.
+
+**Internal linking direction:** Одна естественная ссылка к «Пророческой свече. Часть I» как предыдущему входу в ожидание.
+
+**VIA readiness:** `READY`.
+
+## Portfolio Card 02 — Бог, Который не остался на расстоянии
+
+**Portfolio position:** 02  
+**Readiness:** High with theological formation  
+**Approximate window:** 21.12.2026
+
+**Central human question:** Что открывает о Боге то, что Он не только посылает помощь, но Сам становится человеком?
+
+**Why this material now:** Это христологический центр цикла и наиболее сильный evergreen entry после сезонного первого материала.
+
+**Function in the corpus:** Делает Самого Христа непосредственным предметом внимания и раскрывает воплощение как объективное действие Божьей близости.
+
+**Human bridge:** Человеческое тело устаёт, зависит от помощи, стареет и живёт внутри материальных пределов. Бог во Христе не остался вне человеческой телесности и зависимости.
+
+**Human states:** телесность; ограниченность; зависимость; дистанция; потребность быть встреченным в реальности.
+
+**Series / cluster relation:** `Рождество: Бог входит в человеческую жизнь`; начало долгосрочной территории «Воплощение, телесность и пределы».
+
+**Published materials nearby:** «АДВЕНТ. Вифлеемская свеча» — исторический приход и Вифлеем; новый материал раскрывает смысл того, что Слово стало плотью.
+
+**Primary search question:** Почему Бог стал человеком?
+
+**Recommended SEO title:** Почему Бог стал человеком: смысл воплощения и Рождества.
+
+**Recommended slug:** `pochemu-bog-stal-chelovekom`.
+
+**Biblical axis:** Ин. 1:14. Флп. 2:6–8 и Евр. 2:14–18 допустимы только как supporting texts.
+
+**Material boundaries / risks:** Не писать сокращённый учебник христологии; не романтизировать тело, зависимость и пределы; не обещать обязательного чувства Божьей близости; не делать человеческое состояние центром вместо Христа.
+
+**Internal linking direction:** Одна содержательная ссылка к «Вифлеемской свече» как предыдущему историко‑сезонному слою.
+
+**VIA readiness:** `READY WITH THEOLOGICAL FORMATION`.
+
+## Portfolio Card 03 — Мир на земле, которой всё ещё больно
+
+**Portfolio position:** 03  
+**Readiness:** Medium with mandatory research gate  
+**Approximate window:** 28.12.2026
+
+**Central human question:** Что означает рождественское возвещение мира, если насилие и непримирённость продолжаются?
+
+**Why this material now:** После утверждения воплощения цикл должен честно встретить трудный вопрос, возникающий из Лк. 2:14, а не повторить праздничную формулу.
+
+**Function in the corpus:** Различить мир как Божье действие во Христе, уже совершённое примирение и ещё не достигшую полноты историю.
+
+**Primary reader position:** Церковный читатель слышит «на земле мир», видит продолжающееся насилие и не хочет произносить слова Писания как пустую формулу.
+
+**Human states:** разочарование; тревога за мир; усталость от насилия; сопротивление дешёвому утешению.
+
+**Series / cluster relation:** `Рождество: Бог входит в человеческую жизнь`; возможный вход в дальнюю территорию мира Христова.
+
+**Published materials nearby:** «АДВЕНТ. Ангельская свеча» — базовый обзор благовестия Лк. 2:14.
+
+**Primary search question:** Почему после Рождества на земле всё ещё нет мира?
+
+**Recommended SEO title:** Почему после Рождества на земле всё ещё нет мира?
+
+**Recommended slug:** `pochemu-posle-rozhdestva-net-mira`.
+
+**Required research gate:** варианты текста Лк. 2:14; контекст ангельской песни; мессианский мир; `pax Romana`; структура «уже / ещё нет». Gate должен быть ограничен вопросом статьи.
+
+**Material boundaries / risks:** Не говорить от имени непосредственно пострадавшего; не использовать войну как иллюстрацию; не приравнивать войну к бытовому конфликту; не сводить мир к внутреннему спокойствию; не превращать статью в партийную public theology.
+
+**Internal linking direction:** Ссылка к «Ангельской свече» как базовому слою; promises и anchor texts должны различаться.
+
+**VIA readiness:** `READY ONLY WITH REQUIRED RESEARCH GATE`.
+
+## Portfolio Card 04 — Когда праздник закончился, а Христос остался
+
+**Portfolio position:** 04  
+**Readiness:** High  
+**Approximate window:** 04.01.2027
+
+**Central human question:** Что остаётся после Рождества, когда праздничная форма и ожидаемое чувство исчезают?
+
+**Why this material now:** Завершает цикл не новым символом, а возвращением к продолжающейся жизни с воплотившимся Христом.
+
+**Function in the corpus:** Показывает, что событие воплощения и присутствие Христа не заканчиваются вместе с сезоном.
+
+**Human states:** послепраздничный спад; обычность; память; благодарность; отсутствие ожидаемого чувства.
+
+**Series / cluster relation:** завершение `Рождество: Бог входит в человеческую жизнь`.
+
+**Published materials nearby:** «Литургия обычного дня»; Candidate 02 после публикации.
+
+**Primary search question:** Что остаётся после Рождества, когда праздничное чувство прошло?
+
+**Recommended SEO title:** Что остаётся после Рождества, когда праздник закончился.
+
+**Recommended slug:** `kogda-prazdnik-zakonchilsya-hristos-ostalsya`.
+
+**Biblical territory:** Лк. 2:19–20, 39–40. Не объединять все послерождественские сцены в один синтетический сюжет без необходимости.
+
+**Material boundaries / risks:** Не обещать how-to; не давать список практик сохранения чувства; не повторять общий тезис «Литургии обычного дня»; не обесценивать праздник и традицию.
+
+**Internal linking direction:** Центральная связь — Candidate 02; ссылка к «Литургии обычного дня» допустима ближе к завершению.
+
+**VIA readiness:** `READY`.
+
+---
+
+# 20. Portfolio → Coach Handoff
+
+**Canonical Portfolio:** `Development/Portfolios/Content-Portfolio-2026-03.md`  
+**NEXT item:** Portfolio Card 01 — «Не бойся: страх внутри рождественской истории»  
+**Activation condition:** Portfolio закрыт; Owner может передать эту каноническую ссылку Coach  
+**VIA readiness:** `READY`
+
+**Why NEXT:** Материал имеет самый ясный сезонный и человеческий вход, не повторяет цикл свечей и открывает новую дугу через внимательное чтение повторяющегося «не бойся».
+
+**Closed strategic decisions:**
+
+- Near Queue содержит четыре позиции и не сокращается;
+- порядок 01–04 закрыт;
+- новый цикл не повторяет структуру свечей Адвента;
+- Candidate 01 исследует четыре различимые сцены, а не общий совет против тревоги;
+- Candidate 02 сохраняет Ин. 1:14 и прямое внимание ко Христу;
+- Candidate 03 не открывается без required research gate;
+- Candidate 04 является послепраздничным завершением и не превращается в how-to;
+- Reserve и Far Horizon не активируются автоматически.
+
+**Questions Coach must not reopen after Strategy Close:**
+
+- выбор NEXT;
+- порядок четырёх материалов;
+- необходимость нового цикла вместо повторения свечей;
+- перенос Reserve в Near Queue без material deviation;
+- замена Candidate 03 общим объяснением Лк. 2:14;
+- превращение Candidate 04 в список способов сохранить рождественское настроение.
+
+**Material risks to preserve:**
+
+- психологизация «не бойся»;
+- абстрактная или чрезмерно широкая христология;
+- эксплуатация войны, миграции и чужой боли;
+- смешение рождественского мира с внутренним комфортом;
+- повторение «Литургии обычного дня»;
+- исследовательский scope, превышающий функцию конкретной статьи.
+
+**Condition for moving to item 02:** VIA по позиции 01 открыт и проходит обычный production cycle; новый Strategy Review не требуется при отсутствии material deviation.
+
+---
+
+# 21. Notion Update Package
+
+Создать или обновить четыре карточки:
+
+| Position | Название | Статус | Окно | VIA |
+| --- | --- | --- | --- | --- |
+| 01 | Не бойся: страх внутри рождественской истории | Следующая / Portfolio Ready | 14.12.2026 | открыть после Owner handoff |
+| 02 | Бог, Который не остался на расстоянии | Очередь / Portfolio Ready | 21.12.2026 | не открыт |
+| 03 | Мир на земле, которой всё ещё больно | Очередь / Research Gate Required | 28.12.2026 | не открыт |
+| 04 | Когда праздник закончился, а Христос остался | Очередь / Portfolio Ready | 04.01.2027 | не открыт |
+
+Для всех четырёх карточек:
+
+- cluster: `Рождество: Бог входит в человеческую жизнь`;
+- source: `Content-Portfolio-2026-03`;
+- publication status не ставить как Draft или Scheduled до фактического перехода;
+- Reserve и Far Horizon не переносить в production‑статусы;
+- исследовательские территории не считать обещанными публикациями.
+
+---
+
+# 22. Portfolio Close
+
+## Close verdict
+
+`CONTENT PORTFOLIO 2026-03: CLOSED`
+
+Закрыты:
+
+- Near Publication Queue;
+- Reserve;
+- Near Strategy Integration;
+- Far Horizon classification;
+- Far Horizon Integration;
+- Portfolio Cards;
+- NEXT;
+- Portfolio → Coach Handoff;
+- Notion Update Package.
+
+Не активированы:
+
+- VIA;
+- Coach;
+- Research Lab;
+- Far territory;
+- интервью или lived‑voice project;
+- обновление опубликованных статей 2025;
+- Publication Preparation.
+
+## Status transitions
+
+- `Near Horizon — Strategy Integration: - → +`;
+- `Far Horizon Integration: - → +`;
+- `Portfolio Close: - → +`;
+- `Portfolio Handoff: - → 0`.
+
+**Current ownership:** Owner.
+
+**Next authorized action:** Owner передаёт каноническую ссылку Editorial Coach для открытия VIA по Portfolio Card 01.
+
+`PORTFOLIO CLOSE: COMPLETE`
+
