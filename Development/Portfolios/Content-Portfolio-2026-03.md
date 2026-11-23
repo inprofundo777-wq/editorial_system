@@ -21,15 +21,35 @@
 
 | Статус | Этап | Роль | Результат |
 | --- | --- | --- | --- |
-| + | Предварительный анализ | Strategist | Сезон, предыдущий корпус и стратегическая граница проанализированы |
-| + | Strategy Draft | Strategist | Near и Far Horizons подготовлены |
+| + | Предварительный анализ | Рабочий контекст Coach | Сезон, предыдущий корпус и стратегическая граница предварительно проанализированы |
+| + | Strategy Draft | Рабочий контекст Coach | Near и Far Horizons подготовлены для последующей стратегической проверки |
 | + | Near Horizon — Reader Review | Reader | Человеческие входы, сезонная узнаваемость и эмоциональное движение проверены |
 | + | Near Horizon — SEO Review | SEO | Search intent, сезонность, каннибализация, H1 / SEO title, slug и перелинковка проверены |
-| + | Near Horizon — Strategy Integration | Strategist | Queue, Reserve и Cards закрыты |
+| + | Near Horizon — Strategy Integration | Рабочий контекст Coach | Queue, Reserve и Cards подготовлены как предложение к Strategic Acceptance |
 | + | Far Horizon Review | Reader + / CEO + | Человеческая, стратегическая, ресурсная и research‑boundary проверки завершены |
-| + | Far Horizon Integration | Strategist | Дальний горизонт классифицирован |
-| + | Portfolio Close | Strategist | Оба горизонта закрыты |
+| + | Far Horizon Integration | Рабочий контекст Coach | Дальний горизонт предварительно классифицирован |
+| + | Portfolio Close | Рабочий контекст Coach | Provisional close подготовлен, но не считается прежней работой Strategist |
+| + | Strategic Acceptance | Strategist | Bounded review завершён; Portfolio принят с точечными коррекциями |
 | 0 | Portfolio Handoff | Owner → Coach | NEXT готов к запуску |
+
+---
+
+## Strategic Acceptance Record
+
+**Verdict:** `STRATEGIC ACCEPTANCE — ACCEPT WITH TARGETED CORRECTIONS`
+
+Портфель был подготовлен в рабочем контексте Coach и прошёл последующую стратегическую проверку и принятие Strategist.
+
+Strategist подтвердил:
+
+- самостоятельность направления `Рождество: Бог входит в человеческую жизнь`;
+- состав четырёх Near‑позиций и Candidate 01 как `NEXT`;
+- различимость функций четырёх материалов;
+- интеграцию Reader, SEO и CEO findings;
+- Reserve и классификацию Far Horizon;
+- отсутствие текущей активации Research Lab или нового development cycle.
+
+Точечная коррекция относится только к производственной жёсткости: четыре позиции сохраняются как стратегический сезонный цикл, но ориентировочные окна не отменяют theological и research gates. Непройденный gate запрещает форсировать Draft или публикацию ради сохранения недельного ритма.
 
 ---
 
@@ -1641,6 +1661,16 @@ Search-facing question:
 
 Окна ориентировочные, но сезонное положение каждой позиции является частью закрытого решения.
 
+### Production realism boundary
+
+Четыре позиции подтверждены как целостный стратегический цикл, а не как безусловное обещание четырёх публикаций независимо от готовности.
+
+- Card 02 открывается только с достаточной theological formation.
+- Card 03 не переходит к Longform Draft до завершения mandatory research gate.
+- Непройденный gate является основанием отложить соответствующую позицию, а не ускорять работу и не заменять её кандидатом из Reserve.
+- Если Card 03 не проходит gate в сезонное окно, Card 04 может сохранить послерождественскую функцию и выйти после Card 02; это ограниченное исключение не открывает новый Candidate Selection.
+- Любое иное сокращение, перестановка или замена требует решения Owner как material production deviation.
+
 ## Reserve
 
 | Кандидат | Readiness | Условие возвращения в Queue |
@@ -1798,8 +1828,8 @@ Reserve не активируется автоматически.
 
 **Closed strategic decisions:**
 
-- Near Queue содержит четыре позиции и не сокращается;
-- порядок 01–04 закрыт;
+- Near Queue содержит четыре стратегические позиции; их нельзя автоматически заменять Reserve-кандидатами;
+- порядок 01–04 закрыт при прохождении required gates; при непрохождении gate Card 03 может быть отложена, а Card 04 сохранить послерождественское окно;
 - новый цикл не повторяет структуру свечей Адвента;
 - Candidate 01 исследует четыре различимые сцены, а не общий совет против тревоги;
 - Candidate 02 сохраняет Ин. 1:14 и прямое внимание ко Христу;
@@ -1810,7 +1840,7 @@ Reserve не активируется автоматически.
 **Questions Coach must not reopen after Strategy Close:**
 
 - выбор NEXT;
-- порядок четырёх материалов;
+- порядок четырёх материалов вне специально зафиксированного исключения при непрохождении gate Card 03;
 - необходимость нового цикла вместо повторения свечей;
 - перенос Reserve в Near Queue без material deviation;
 - замена Candidate 03 общим объяснением Лк. 2:14;
@@ -1883,11 +1913,17 @@ Reserve не активируется автоматически.
 - `Near Horizon — Strategy Integration: - → +`;
 - `Far Horizon Integration: - → +`;
 - `Portfolio Close: - → +`;
+- `Strategic Acceptance: 0 → +`;
 - `Portfolio Handoff: - → 0`.
 
+**Strategic acceptance:** `ACCEPT WITH TARGETED CORRECTIONS`  
 **Current ownership:** Owner.
 
 **Next authorized action:** Owner передаёт каноническую ссылку Editorial Coach для открытия VIA по Portfolio Card 01.
+
+`Ownership returned to Owner`
+
+`Next authorized handoff: Owner → Coach → VIA Card 01`
 
 `PORTFOLIO CLOSE: COMPLETE`
 
