@@ -1920,10 +1920,10 @@ Reserve не активируется автоматически.
 | Position | Название | Статус | Окно | VIA |
 | --- | --- | --- | --- | --- |
 | 00 | Четыре свечи — одно ожидание: что прошлогодний Адвент помог увидеть о Рождестве | Следующая / Portfolio Ready | до 14.12.2026 | открыть после Owner handoff |
-| 01 | Не бойся: страх внутри рождественской истории | Очередь / Portfolio Ready | 14.12.2026 | не открыт |
-| 02 | Бог, Который не остался на расстоянии | Очередь / Portfolio Ready | 21.12.2026 | не открыт |
-| 03 | Мир на земле, которой всё ещё больно | Очередь / Research Gate Required | 28.12.2026 | не открыт |
-| 04 | Когда праздник закончился, а Христос остался | Очередь / Portfolio Ready | 04.01.2027 | не открыт |
+| 01 | Не бойся: страх внутри рождественской истории | Очередь / Portfolio Ready | 14.12.2026 | VIA-2026-026 / Longform Draft |
+| 02 | Бог, Который не остался на расстоянии | Очередь / Portfolio Ready | 21.12.2026 | VIA-2026-027 / Longform Draft |
+| 03 | Мир на земле, которой всё ещё больно | Очередь / Research Gate Required | 28.12.2026 | VIA-2026-028 / Research Gate |
+| 04 | Когда праздник закончился, а Христос остался | Очередь / Portfolio Ready | 04.01.2027 | VIA-2026-029 / Longform Draft |
 
 Для всех четырёх карточек:
 
@@ -1972,13 +1972,13 @@ Reserve не активируется автоматически.
 - `Portfolio Handoff: 0 → +`.
 
 **Strategic acceptance:** `ACCEPT WITH TARGETED CORRECTIONS`  
-**Current ownership:** Editorial Coach / `VIA-2026-025`.
+**Current ownership:** Editorial Coach / package `VIA-2026-025–029`.
 
-**Executed action:** каноническая ссылка передана Editorial Coach; открыт [`VIA-2026-025`](https://github.com/inprofundo777-wq/editorial_system/blob/main/VIA/2026/VIA-2026-025.md) по Portfolio Card 00.
+**Executed action:** каноническая ссылка передана Editorial Coach; открыты [`VIA-2026-025–029`](https://github.com/inprofundo777-wq/editorial_system/tree/main/VIA/2026) по Portfolio Cards 00–04. Cards 00, 01, 02 и 04 переданы в Longform Draft; Card 03 сохраняет обязательный research gate перед Draft.
 
-`Ownership transferred: Owner → Editorial Coach / VIA-2026-025`
+`Ownership transferred: Owner → Editorial Coach / VIA-2026-025–029`
 
-`Next active route: VIA-2026-025 → Longform Draft`
+`Next active routes: VIA-2026-025, 026, 027, 029 → Longform Draft; VIA-2026-028 → Required Research Gate`
 
 `PORTFOLIO CLOSE: COMPLETE`
 
