@@ -1969,7 +1969,7 @@ Reserve не активируется автоматически.
 - `Far Horizon Integration: - → +`;
 - `Portfolio Close: - → +`;
 - `Strategic Acceptance: 0 → +`;
-- `Portfolio Handoff: - → 0`.
+- `Portfolio Handoff: 0 → +`.
 
 **Strategic acceptance:** `ACCEPT WITH TARGETED CORRECTIONS`  
 **Current ownership:** Editorial Coach / `VIA-2026-025`.
